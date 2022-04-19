@@ -46,7 +46,7 @@ You can find the detailed list in ./docs/raw_data.txt
 ```bash
 $ git clone git@github.com:yanglinshu/covid.git
 $ cd covid
-
+$ docker-compose up -d
 ```
 
 
