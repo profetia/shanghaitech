@@ -1,0 +1,1097 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ShanghaiTech Covid Dashboard Main Page">
+  <meta name="keywords" content="COVID-19, Dashboard, ShanghaiTech">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% load static %}
+  <link rel="icon" href={% static "favicon.ico" %} type="image/x-icon">
+  <style id="frameset">
+
+    .clearfix {
+        display: block;
+        *zoom: 1;
+    }
+
+    .clearfix:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      height: 100%;
+    }
+
+    html, body {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+      font-size: 13px;
+      font-family: "gentona", Tahoma, sans-serif, -apple-system, 'Lucida Sans';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    div {
+      padding: 0;
+      margin: 0;
+      display: block;
+    }
+
+    a {
+      color: #3b3b3b;
+      text-decoration: none;
+      transition: all 0.4s ease-in-out;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .wrapper {
+      height: 100%;
+      width: 100%;
+    }
+
+    .wrapper::-webkit-scrollbar {
+      display: none;
+    }
+
+  </style>
+  <style id="headerset">
+
+    .header {
+      width: 100%;
+      z-index: 100;
+      margin: 0;
+      background-color: #a30b19; 
+    }
+
+    .header .inner {
+      width: 1600px;
+      height: 110px;
+      padding-top: 20px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .header .inner {
+          width: 98%;
+      }
+    }
+
+    .header .inner .main-menu {
+      display: block;
+    }
+
+    .header .inner .main-menu .sitelogo {
+      float:left
+    }
+
+    .header .inner .main-menu .sitelogo img {
+      width: 300px;
+      height: 100px;
+      margin-top: -8px;
+    }
+
+    .header .inner .main-menu .site-meta {
+      float: right;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav {
+      vertical-align: middle;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav ul {
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 40px;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav ul .item {
+      float: left;
+      margin-left: 42px;
+      position: relative;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav ul a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.39em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav ul a:hover {
+      color: #f1c400;
+    }
+    
+    .header .inner .main-menu .site-meta .main-nav ul #academics a:hover {
+      color: #fff;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav .sub-menu {
+      visibility: hidden;
+      opacity: 0;
+      padding: 30px 0;
+      position: absolute;
+      top: 100%;
+      left: -30px;
+      z-index: 99;
+      background: rgba(0,0,0,.7);
+    }
+
+    .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item {
+      line-height: 1.1;
+      padding: 0 30px;
+      margin-top: 15px;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item:first-child {
+      margin-top: 0px;
+    }
+
+    .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item a {
+      line-height: 1.1;
+      padding: 0;
+      font-size: 1.05em;
+      white-space: nowrap;
+      color: #fff;
+      display: inline-block;
+      font-weight: normal;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav {
+      padding-top: 10px;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav ul {
+      float: right;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav ul .item {
+      float: left;
+      padding: 0px 21px;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav ul .item a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.231em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav ul .item a:hover {
+      color: #f1c400;
+    }
+
+    .header .inner .main-menu .site-meta .sub-nav ul .item:last-child {
+      padding-right: 0;
+    }
+
+  </style>
+  <style id="mainset">
+
+    .main {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .main .inner {
+      margin: 0 auto;
+    }
+
+    .main .inner .title {
+      width: 90%;
+    }
+
+    .main .inner .title p {
+      margin: 0 auto;
+      color: #b82e3b;
+      text-align: center;
+    }
+
+    .main .inner .title .main-title {
+      width: 50%;
+      line-height: 60px;
+      border-bottom: solid #b82e3b 2px;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .title .main-title {
+        line-height: calc(100vh / 1331 * 60);
+        font-size: calc(100vh / 1331 * 3 * 13);
+      }
+    }
+
+    .main .inner .title .sub-title {
+      width: 50%;
+      padding-top: .2%;
+      margin: 0 auto;
+    }
+
+    .main .inner .title .sub-title p {
+      width: 50%;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .title .sub-title p {
+        font-size: calc(100vh / 1331 * 1.5 * 13);
+      }
+    }
+
+    .main .inner .home .info {
+      float: left;
+    }
+
+    .main .inner .home .name {
+      color: #b82e3b;
+      line-height: 36px;
+      font-size: 24px;
+      font-family: "Roboto Regular";
+      text-align: center;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .name {
+        line-height: calc(100vh / 1331 * 36);
+        font-size: calc(100vh / 1331 * 24);
+      }
+    }
+
+    .main .inner .home .info .statics {
+      width: 100%;
+    }
+
+    .main .inner .home .info .statics table {
+      width: 100%;
+      line-height: 30px;
+      color: #3b3b3b;
+      font-size: 16px;
+      font-family: "Avenir Next";
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .info .statics table {
+        line-height: calc(100vh / 1331 * 30);
+        font-size: calc(100vh / 1331 * 16);
+      }
+    }
+
+    .main .inner .home .info .statics table th {
+      width: 25%;
+    }
+
+    .main .inner .home .info .statics table td {
+      width: 25%;
+      text-align: center;
+    }
+
+    .main .inner .home .info embed {
+      height: 248px;
+      width: 650px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .info embed {
+        height: calc(100vh / 1331 * 248);
+        width: calc(100vw / 2560 * 650);
+      }
+    }
+
+    .main .inner .home .info .graph p {
+      margin: auto;
+    }
+
+    .main .inner .home .pop {
+      float: left;
+    }
+
+    .main .inner .home .pop .graph .col {
+      float: left;
+      position: relative;
+      height: 640px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .graph .col {
+        height: calc(100vh / 1331 * 640);
+      }
+    }
+
+    .main .inner .home .pop .graph .col .bar {
+      height: 492px;
+      width: 221.4px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .graph .col .bar {
+        height: calc(100vh / 1331 * 492);
+        width: calc(100vw / 2560 * 221.4);
+      }
+    }
+
+    .main .inner .home .pop .graph .col .legend {
+      display: block;
+      width: 120px;
+      right: 0;
+      position: absolute;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .graph .col .legend {
+        width: calc(100vw / 2560 * 120);
+      }
+    }
+
+    .main .inner .home .pop .detail {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      color: #3b3b3b;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .detail {
+        margin-top: calc(100vh / 1331 * 30);
+      }
+    }
+
+    .main .inner .home .pop .detail .col:first-child {
+      margin-left: 120px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .detail .col:first-child {
+        margin-left: calc(100vw / 2560 * 120);
+      }
+    }
+
+    .main .inner .home .pop .detail embed {
+      height: 100px;
+      width: 100px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .detail embed  {
+        height: calc(100vh / 1331 * 100);
+        width: calc(100vw / 2560 * 100);
+      }
+    }
+
+    .main .inner .home .pop .detail p {
+      margin: 0;
+      text-align: center;
+      font-family: "Avenir Next";
+    }
+
+    .main .inner .home .pop .detail .val {
+      margin-top: 3px; 
+      line-height: 30px;
+      font-size: 2em;  
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .pop .detail .val  {
+        line-height: calc(100vh / 1331 * 30);
+        font-size: calc(100vh / 1331 * 26);  
+      }
+    }
+
+    .main .inner .home .health {
+      float: left;
+    }
+
+    .main .inner .home .health .vac {
+      display: flex;
+      justify-content: center;
+      margin-top: -20px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .vac  {
+        margin-top: calc(100vh / 1331 * (-20)); 
+      }
+    }
+
+    .main .inner .home .health .ins embed {
+      height: 648px;
+      width: 518.4px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .ins embed {
+        height: calc(100vh / 1331 * 648);
+        width: calc(100vw / 2560 * 518.4); 
+      }
+    }
+
+    .main .inner .home .health .vac embed {
+      height: 200px;
+      width: 200px;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .vac embed {
+        height: calc(100vh / 1331 * 200);
+        width: calc(100vw / 2560 * 200); 
+      }
+    }
+
+    .main .inner .home .health .vac .pie {
+      position: relative;
+    }
+
+    .main .inner .home .health .vac .ratio {
+      margin: 0;
+      position: absolute;
+      top: 87px;
+      left: 78px;
+      font-size: 24px;
+      color: #3b3b3b;
+      font-family: "Avenir Next";
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .vac .ratio {
+        top: calc(100vh / 1331 * 87);
+        left: calc(100vw / 2560 *78);
+        font-size: calc(100vh / 1331 * 24);
+      }
+    }
+
+    .main .inner .home .health .vac .rmk {
+      margin: -28px 0 0 0;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .vac .rmk {
+        margin-top: calc(100vh / 1331 * (-28));
+      }
+    }
+
+    .main .inner .home .health .legend {
+      margin-top: 5px;
+      position: relative;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .legend {
+        margin-top: calc(100vh / 1331 * 5);
+      }
+    }
+
+    .main .inner .home .health .legend embed {
+      width: 330px;
+      right: 56px;
+      position: absolute;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .main .inner .home .health .legend embed {
+        width: calc(100vh / 1331 * 330);
+        right: calc(100vw / 2560 * 56);
+      }
+    }
+
+  </style>
+  <style id="footerset">
+
+    .footer {
+      width: 100%;
+      margin-top: 8px;
+      padding: 16px;
+      background-color: #a30b19;
+      box-shadow: 0 2px #3b3b3b;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .footer {
+        margin-top: 0;
+      }
+    }
+
+    .footer .inner {
+      width: 1600px;
+      padding: 15px auto;
+      margin: auto;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .footer .inner {
+        width: 98%;
+      }
+    }
+
+    .footer .inner .foot-left {
+      height: 109.2px;
+      float: left;
+    }
+
+    .footer .inner .foot-left .sitelogo {
+      display: block;
+    }
+
+    .footer .inner .foot-left .sitelogo img {
+      width: 232px;
+      height: 62.2px;
+    }
+
+    .footer .inner .foot-left .share {
+      width: 100%;
+      padding-top: 12px;
+    }
+
+    @media screen and (max-width: 1920px) {
+
+      .footer .inner .foot-left .sitelogo {
+        margin-top: 9px;
+      }
+
+      .footer .inner .foot-left .sitelogo img {
+        width: 220.4px;
+        height: 59.09px;
+      }
+
+      .footer .inner .foot-left .share {
+        padding-top: 7.5px;
+      }
+
+    }
+
+    .footer .inner .foot-left .share ul {
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .footer .inner .foot-left .share ul .item {
+      list-style: none;
+    }
+
+    .footer .inner .foot-left .share ul .item {
+      float: left;
+      margin-left: 8px;
+      position: relative;
+    }
+
+    .footer .inner .foot-left .share ul .item:first-child {
+      margin-left: 0;
+    }
+
+    .footer .inner .foot-left .share ul .item a {
+      opacity: .8;
+    }
+
+    .footer .inner .foot-left .share ul .item a:hover {
+      opacity: 1;
+    }
+
+    .footer .inner .foot-left .share ul .item a .icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    .footer .inner .foot-left .share ul .item .con {
+      display: none;
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      z-index: 100;
+      margin-left: -40px;
+    }
+
+    .footer .inner .foot-left .share ul .item .con img {
+      width: 80px;
+      height: auto;
+    }
+
+    .footer .inner .foot-navi {
+      height: 109.8px;
+      float: right;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .footer .inner .foot-navi {
+        height: 100px;
+      }
+    }
+
+    .footer .inner .foot-navi .row {
+      height: 50%;
+      width: 600px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .footer .inner .foot-navi .row {
+        justify-content: right;
+      }
+    }
+
+    .footer .inner .foot-navi .row ul {
+      margin: 0;
+      list-style: none;
+    }
+
+    .footer .inner .foot-navi .row ul .item {
+      float: left;
+      margin-left: 42px;
+    }
+
+    .footer .inner .foot-navi .row ul .item a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.39em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .footer .inner .foot-navi .row ul .item a:hover {
+      color: #f1c400;
+    }
+
+  </style>
+<title>ShanghaiTech Covid Dashboard</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+        <div class="inner">
+          <div class="main-menu clearfix">
+            <div class="sitelogo">
+              <a href="https://www.shanghaitech.edu.cn/eng/#" target="_self">
+                <img src={% static "logo_white.svg" %} alt="ShanghaiTech University">
+              </a>
+            </div>
+            <div class="site-meta">
+              <div class="main-nav clearfix">
+                <ul>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/997/main.htm" target="_self">About</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1001/list.htm" target="_self">News</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/Admission/list.htm" target="_self">Admission</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1000/main.htm" target="_self">Faculty</a>
+                  </li>
+                  <li class="item" id="academics">
+                    <a href="#" target="_self" id="academics-text">Academics</a>
+                    <ul class="sub-menu" style="visibility: hidden; opacity: 0;" id="sub-menu">
+                      <li class="sub-item">
+                        <a href="http://spst.shanghaitech.edu.cn/spst_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Physical Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://slst.shanghaitech.edu.cn/english/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Life Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sist.shanghaitech.edu.cn/sist_en" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Information Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sem.shanghaitech.edu.cn/sem_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Entrepreneurship and Management
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sca.shanghaitech.edu.cn/sca_en" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Creativity and Art
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://siais.shanghaitech.edu.cn/siais_eng/main.htm" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Shanghai Institute for Advanced Immunochemical Studies
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://ihuman.shanghaitech.edu.cn/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            iHuman Institute
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://ims.shanghaitech.edu.cn/ims_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Institute of Mathematical Sciences
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="#" target="_self" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Institute of Humanities
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/global/main.htm" target="_self">Global</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1002/list.htm" target="_self">Campus Life</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sub-nav clearfix">
+                <ul>
+                  <li class="item">
+                    <a href="http://egate.shanghaitech.edu.cn/" target="_blank">Egate</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://mail.shanghaitech.edu.cn/" target="_blank">Email</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1024/list.htm" target="_self">Calendar</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://library.shanghaitech.edu.cn/lib_en/" target="_blank">Library</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://jobs.shanghaitech.edu.cn/Jobs_english/list.htm" target="_blank">Career</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1003/list.htm" target="_self">Contact</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://www.shanghaitech.edu.cn/eng/1005/list.htm" target="_self">Events</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/Notice/list.htm" target="_self">Notice</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="main">
+      <div class="inner">
+        <div class="title">
+          <p class="main-title">
+            COVID-19 STATUS REPORT
+          </p>
+          <div class="sub-title">
+            <p>
+              {{full_name|safe}}
+            </p>
+          </div>
+        </div>
+        <div class="home clearfix">
+          <div class="info">
+            <div class="name">
+              <p>POLICIE AND CASES</p>
+            </div>
+            <div class="history">
+              <embed src={% static "county_general.svg" %} type="image/svg+xml" class="general">
+            </div>
+            <div class="statics">
+              <table>
+                <th>Confirmed</th>
+                <th>Deaths</th>
+                <th>New Cases</th>
+                <th>Fatality Rate</th>
+                <tr>
+                  <td>{{cases|safe}}</td>
+                  <td>{{deaths|safe}}</td>
+                  <td>{{new_cases|safe}}</td>
+                  <td>{{death_rate|safe}}</td>
+                </tr>
+              </table>
+            </div>
+            <div class="graph" style="margin-top: 3%;">
+              <p>NEW CASES IN 14 DAYS</p>
+              <embed src={% static "county_cases.svg" %} type="image/svg+xml">
+            </div>
+            <div class="graph">
+              <p>NEW DEATHS IN 14 DAYS</p>
+              <embed src={% static "county_deaths.svg" %} type="image/svg+xml">
+            </div>
+          </div>
+          <div class="pop">
+            <div class="name">
+              <p>DEMOGRAPHICS</p>
+            </div>
+            <div class="graph clearfix">
+              <div class="col">
+                <embed src={% static "county_pop_race.svg" %} type="image/svg+xml" class="bar">
+                <embed src={% static "race_legend.svg" %} type="image/svg+xml" class="legend">
+              </div>
+              <div class="col">
+                <embed src={% static "county_pop_anc.svg" %} type="image/svg+xml" class="bar">
+                <embed src={% static "anc_legend.svg" %} type="image/svg+xml" class="legend">
+              </div>
+              <div class="col">
+                <embed src={% static "county_pop_age.svg" %} type="image/svg+xml" class="bar">
+                <embed src={% static "age_legend.svg" %} type="image/svg+xml" class="legend">
+              </div>
+            </div>
+            <div class="detail">
+              <div class="col">
+                <div style="display: flex; justify-content: center;">
+                  <embed src={% static "pop.svg" %} type="image/svg+xml">
+                </div>
+                <p class="val">{{pop_all|safe}}</p>
+                <p class="dsp">Total Population</p>
+                <p class="acs">(ACS)</p>
+              </div>
+              <div class="col" style="margin: 0 30px;">
+                <div style="display: flex; justify-content: center;">
+                  <embed src={% static "old.svg" %} type="image/svg+xml">
+                </div>
+                <p class="val">{{gt65|safe}}</p>
+                <p class="dsp">Population Aged 65+</p>
+                <p class="acs">(ACS)</p>
+              </div>
+              <div class="col">
+                <div style="display: flex; justify-content: center;">
+                  <embed src={% static "pov.svg" %} type="image/svg+xml">
+                </div>
+                <p class="val">{{pov|safe}}</p>
+                <p class="dsp">People in Poverty</p>
+                <p class="acs">(ACS)</p>
+              </div>
+            </div>
+          </div>
+          <div class="health">
+            <div class="name">
+              <p>HEALTH FACTS</p>
+            </div>
+            <div class="ins">
+              <embed src={% static "county_ins.svg" %} type="image/svg+xml">
+            </div>
+            <div class="vac">
+              <div class="pie" style="margin-left: 60px;">
+                <embed src={% static "county_full_vac.svg" %} type="image/svg+xml">
+                <p class="ratio">{{full_vac_rate|safe}}</p>
+                <p class="rmk">Fully Vaccined Pop</p>
+              </div>
+              <div class="pie">
+                <embed src={% static "county_d1_vac.svg" %} type="image/svg+xml">
+                <p class="ratio">{{d1_vac_rate|safe}}</p>
+                <p class="rmk">One Dose Vaccined Pop</p>
+              </div>
+            </div>
+            <div class="legend">
+              <embed src={% static "vac_legend.svg" %} type="image/svg+xml">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="inner clearfix">
+          <div class="foot-left">
+            <div class="sitelogo">
+              <img src={% static "logo_white.svg" %} alt="ShanghaiTech University">
+            </div>
+            <div class="share">
+              <ul class="clearfix">
+                <li class="item">
+                  <a href="https://www.instagram.com/shanghaitechuniversity/" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -8px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="https://twitter.com/ShanghaiTechUni" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -50px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="https://www.linkedin.com/company/9372195" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -91px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="http://www.facebook.com/shanghaitech" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -128px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item" id="weixin">
+                  <div class="con" id="con">
+                    <img src={% static "wx.png" %} alt="QR Code" style="width: 100; height: 100;">
+                  </div>
+                  <a href="javascript:;" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -168px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="http://www.facebook.com/shanghaitech" target="_blank">
+                    <div class="icon" style="background: url({% static "share_icon.png" %}); 
+                    background-position: -204px -5px;"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="foot-navi">
+            <div class="row clearfix">
+              <ul>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1005/list.htm" target="_self">Events</a>
+                </li>
+                <li class="item">
+                  <a href="https://jobs.shanghaitech.edu.cn/main.psp" target="_self">Career</a>
+                </li>
+                <li class="item">
+                  <a href="https://www.shanghaitech.edu.cn/eng/1000/main.htm" target="_self">Faculty</a>
+                </li>
+                <li class="item">
+                  <a href="https://www.shanghaitech.edu.cn/eng/administrative/list.htm" target="_self">Organizations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="row clearfix">
+              <ul>
+                <li class="item">
+                  <a href="http://egate.shanghaitech.edu.cn/" target="_self">Egate</a>
+                </li>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1024/list.htm" target="_blank">Calendar</a>
+                </li>
+                <li class="item">
+                  <a href="https://map.shanghaitech.edu.cn/" target="_blank">Campus Map</a>
+                </li>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1059/list.htm" target="_blank">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script>
+    
+    function getMousePos(event) {
+      var e = event || window.event;
+      var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+      var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+      var x = e.pageX || e.clientX + scrollX;
+      var y = e.pageY || e.clientY + scrollY;
+      return {"left": x, "top": y};
+    }
+
+    function getElementPos(elementId) {
+      var element = document.getElementById(elementId);
+      var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+      var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+      var x = element.getBoundingClientRect().left + scrollX;
+      var y = element.getBoundingClientRect().top + scrollY;
+      return {"left": x, "top": y, "height": element.clientHeight, "width": element.clientWidth};
+    }
+
+    function academicsOn(event) {
+      sub_menu = document.getElementById("sub-menu");
+      academics_text = document.getElementById("academics-text");
+      children = sub_menu.children;
+      if (sub_menu.style.visibility != "visible") {
+        sub_menu.style.visibility = "visible";
+        sub_menu.style.opacity = "1";
+        academics_text.style.color = "#f1c400";
+        for (i = 0; i < children.length; i++) {
+          children[i].children[0].style.transform = "matrix(1, 0, 0, 1, 0, 0)";
+          children[i].children[0].style.opacity = "1";
+        }
+      }
+    }
+
+    function inElement(mouse_pos, element_pos) {
+      inX = ((element_pos['left'] <= mouse_pos['left']) && (mouse_pos['left'] <= element_pos['left'] + element_pos['width']));
+      inY = ((element_pos['top'] <= mouse_pos['top']) && (mouse_pos['top'] <= element_pos['top'] + element_pos['height']));
+      return inX && inY;
+    }
+
+    function turnOff() {
+      sub_menu = document.getElementById("sub-menu");
+      academics_text = document.getElementById("academics-text");
+      children = sub_menu.children;
+      sub_menu.style.visibility = "hidden";
+      sub_menu.style.opacity = "0";
+      academics_text.style.color = "#fff";
+      for (i = 0; i < children.length; i++) {
+        children[i].children[0].style.transform = "matrix(1, 0, 0, 1, 0, 20)";
+        children[i].children[0].style.opacity = "0";
+      }
+    }
+
+    function academicsOff(event) {
+      menu_pos = getElementPos("academics");
+      sub_menu_pos = getElementPos("sub-menu");
+      mouse_pos = getMousePos(event);
+      rect = {};
+      rect['top'] = menu_pos['top'] + menu_pos['height'];
+      rect['left'] = sub_menu_pos['left'];
+      rect['height'] = 13 + sub_menu_pos['height'];
+      rect['width'] = sub_menu_pos['width'];
+      if (!(inElement(mouse_pos, rect))) {
+        turnOff();
+      }
+    }
+
+    function subMenuOff(event) {
+      menu_pos = getElementPos("academics");
+      sub_menu_pos = getElementPos("sub-menu");
+      mouse_pos = getMousePos(event);
+      if (!(inElement(mouse_pos, menu_pos) && inElement(mouse_pos, sub_menu_pos))) {
+        turnOff();
+      }
+    }
+
+    var academics = document.getElementById("academics");
+    academics.addEventListener("mouseover", academicsOn);
+    academics.addEventListener("mouseout", academicsOff)
+    var sub_menu = document.getElementById("sub-menu");
+    sub_menu.addEventListener("mouseout", subMenuOff);
+
+    var share_wx = document.getElementById("weixin");
+    share_wx.addEventListener("mouseover", function(event) {
+      document.getElementById("con").style.display = "block";});
+    share_wx.addEventListener("mouseout", function(event) {
+      document.getElementById("con").style.display = "none";});
+
+  </script>
+</body>
+</html>
