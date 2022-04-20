@@ -48,12 +48,13 @@ $ git clone git@github.com:yanglinshu/covid.git
 $ cd covid
 $ docker-compose up -d
 ```
+And the website will runs at localhost:12345.
 
 
 
 ## Contribution
 
-The website is mainly finished by yanglinshu, and the prediction model is provided by zyhduludulu.
+The website is mainly finished by yanglinshu, and the prediction model is provided by zyhDuludulu.
 
 
 
@@ -62,3 +63,4 @@ The website is mainly finished by yanglinshu, and the prediction model is provid
 Licensed under the [MIT License] (./LICENSE).
 
 All rights reserved by yanglinshu.
+
