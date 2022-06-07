@@ -4,7 +4,7 @@ The ShanghaiTech COVID Dashboard is a website built as the bonus project of SI10
 
 The website backend is written in Python as is required in SI100b, and the frontend is written in vanilla JavaScript and HTML as an application of MVC model.
 
-
+[![Python](https://img.shields.io/badge/python-3.8.0-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-362/) [![Django](https://img.shields.io/badge/django-3.2.9-blue.svg?style=flat-square)](https://www.djangoproject.com/) [![Build Status](https://travis-ci.org/QingdaoU/OnlineJudge.svg?branch=master)](https://travis-ci.org/QingdaoU/OnlineJudge) [![license](https://img.shields.io/github/license/liangliangyy/djangoblog.svg)]()
 
 ## Features
 
@@ -22,11 +22,13 @@ The website backend is written in Python as is required in SI100b, and the front
 
 - Uniformed UI design with the ShanghaiTech official website.
 
-  ![](images/index1-16503761787441.png)
+  ![](static/index1.png)
+
+  ![index2](static/index2.png)
 
   
-
-  ![](docs/subpage.png)
+  
+  ![](static/subpage.png)
 
 
 
@@ -60,7 +62,7 @@ The website is mainly finished by yanglinshu, and the prediction model is provid
 
 ## License
 
-Licensed under the [MIT License] (./LICENSE).
+Licensed under the [MIT License](./LICENSE).
 
 All rights reserved by yanglinshu.
 
