@@ -36,7 +36,7 @@ The website backend is written in Python as is required in SI100b, and the front
 
 Our data mainly comes from Johns Hopkins University, New York Times and Center of Disease Control. Some extra data about age structure and others are provided by ACS5. 
 
-You can find the detailed list in ./docs/raw_data.txt
+You can find the detailed list in [raw_data.txt](./static/raw_data.txt)
 
 
 
