@@ -1,8 +1,8 @@
 # ShanghaiTech COVID Dashboard
 
-The ShanghaiTech COVID Dashboard is a website built as the bonus project of SI100b Introduction to Information Science and might also be used in the final project of SL1007 The Challenges of global health.  
+The ShanghaiTech COVID Dashboard is a website built as the bonus project of SI100B Introduction to Information Science and might also be used in the final project of SL1007 The Challenges of Global Health.  
 
-The website backend is written in Python as is required in SI100b, and the frontend is written in vanilla JavaScript and HTML as an application of MVC model.
+The website backend is written in Python as is required in SI100B, and the frontend is written in vanilla JavaScript and HTML as an application of MVC model.
 
 [![Python](https://img.shields.io/badge/python-3.8.0-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-362/) [![Django](https://img.shields.io/badge/django-3.2.9-blue.svg?style=flat-square)](https://www.djangoproject.com/) [![Build Status](https://travis-ci.org/QingdaoU/OnlineJudge.svg?branch=master)](https://travis-ci.org/QingdaoU/OnlineJudge) [![license](https://img.shields.io/github/license/liangliangyy/djangoblog.svg)]()
 
