@@ -26,5 +26,3 @@ target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC include)
 
 enable_testing()
 add_subdirectory(tests)
-
-add_subdirectory(benches)
