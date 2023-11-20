@@ -61,6 +61,7 @@ Checks: >
   portability-*,
   readability-*,
   -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-avoid-c-arrays,
   -google-readability-braces-around-statements,
   -google-readability-namespace-comments,
   -google-runtime-references,
