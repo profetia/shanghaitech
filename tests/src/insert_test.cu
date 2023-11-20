@@ -10,11 +10,12 @@
 template <std::size_t T, std::size_t C, std::size_t U, std::size_t S>
 void insert_test() {
   auto source = cuckoohash_test::random::random_vector(1 << S);
+  auto source_device = cuckoohash_test::benchmark::to_device(source);
   auto cuckoo = cuckoohash::set::Set<T, 1 << C, U << 2>();
   try {
     auto benchmark = cuckoohash_test::benchmark::benchmark([&]() {
       cuckoo.clear();
-      cuckoo.insert(source);
+      cuckoo.insert(source_device);
     });
     std::cout << "[PASSED] - " << __FUNCTION__ << "<" << T << ", " << C << ", " << U << ", " << S
               << ">" << std::endl;

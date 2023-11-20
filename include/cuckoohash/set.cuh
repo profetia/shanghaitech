@@ -67,17 +67,16 @@ __global__ void lookup(slot::SlotView<T, C> slot, std::uint32_t rehash, bool* re
 template <const std::size_t T, const std::size_t C, const std::size_t U>
 class Set {
  public:
-  void insert(std::vector<std::uint32_t>& keys) {
-    auto keys_device = thrust::device_vector<std::uint32_t>(keys.begin(), keys.end());
+  void insert(thrust::device_vector<std::uint32_t>& keys) {
     auto view = slot::SlotView<T, C>(slot_);
     for (std::size_t i = 0; i < builtin::kRehashLimit; ++i) {
       std::uint32_t* colide;
       cudaMalloc(&colide, sizeof(std::uint32_t));
       cudaMemset(colide, 0, sizeof(std::uint32_t));
       detail::insert<T, C, U>
-          <<<(keys_device.size() + builtin::kBlockSize - 1) / builtin::kBlockSize,
-             builtin::kBlockSize>>>(view, rehash_ + static_cast<std::uint32_t>(i), colide,
-                                    keys_device.data().get(), keys_device.size());
+          <<<(keys.size() + builtin::kBlockSize - 1) / builtin::kBlockSize, builtin::kBlockSize>>>(
+              view, rehash_ + static_cast<std::uint32_t>(i), colide, keys.data().get(),
+              keys.size());
       std::uint32_t colide_host;
       cudaMemcpy(&colide_host, colide, sizeof(std::uint32_t), cudaMemcpyDeviceToHost);
       cudaFree(colide);
@@ -89,15 +88,12 @@ class Set {
     throw std::runtime_error("rehash limit exceeded");
   }
 
-  std::vector<bool> lookup(std::vector<std::uint32_t>& keys) {
-    auto keys_device = thrust::device_vector<std::uint32_t>(keys.begin(), keys.end());
-    auto result = std::vector<bool>(keys.size());
-    auto result_device = thrust::device_vector<bool>(keys.size());
+  thrust::device_vector<bool> lookup(thrust::device_vector<std::uint32_t>& keys) {
+    auto result = thrust::device_vector<bool>(keys.size());
     auto view = slot::SlotView<T, C>(slot_);
-    detail::lookup<T, C><<<(keys_device.size() + builtin::kBlockSize - 1) / builtin::kBlockSize,
-                           builtin::kBlockSize>>>(view, rehash_, result_device.data().get(),
-                                                  keys_device.data().get(), keys_device.size());
-    thrust::copy(result_device.begin(), result_device.end(), result.begin());
+    detail::lookup<T, C>
+        <<<(keys.size() + builtin::kBlockSize - 1) / builtin::kBlockSize, builtin::kBlockSize>>>(
+            view, rehash_, result.data().get(), keys.data().get(), keys.size());
     return result;
   }
 

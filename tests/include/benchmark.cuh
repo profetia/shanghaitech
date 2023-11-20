@@ -2,6 +2,7 @@
 #define CUCKOOHASH_TEST_BENCHMARK_H_
 
 #include <cuda_runtime.h>
+#include <thrust/device_vector.h>
 
 #include <iomanip>
 #include <numeric>
@@ -71,6 +72,20 @@ std::string report(const std::tuple<double, double>& benchmark, std::size_t ops)
          << "avg: " << avg << " ms, "
          << "stddev: " << stddev << " ms)";
   return report.str();
+}
+
+template <typename T>
+thrust::device_vector<T> to_device(const std::vector<T>& host) {
+  auto device = thrust::device_vector<T>(host.size());
+  thrust::copy(host.begin(), host.end(), device.begin());
+  return device;
+}
+
+template <typename T>
+std::vector<T> to_host(const thrust::device_vector<T>& device) {
+  auto host = std::vector<T>(device.size());
+  thrust::copy(device.begin(), device.end(), host.begin());
+  return host;
 }
 
 }  // namespace cuckoohash_test::benchmark

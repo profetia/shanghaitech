@@ -45,3 +45,6 @@ build/
 # Editor directories and files
 .idea
 .vscode
+
+# Profiling files
+.nsight

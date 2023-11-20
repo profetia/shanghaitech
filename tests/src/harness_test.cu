@@ -6,6 +6,7 @@
 #include <unordered_set>
 #include <vector>
 
+#include "benchmark.cuh"
 #include "cuckoohash/set.cuh"
 #include "random.cuh"
 
@@ -18,13 +19,16 @@ void harness_test() {
   auto cuckoo = cuckoohash::set::Set<T, 1 << C, U << 2>();
   auto set = std::unordered_set<std::uint32_t>();
 
-  cuckoo.insert(source);
-  set.insert(source.begin(), source.end());
+  auto source_device = cuckoohash_test::benchmark::to_device(source);
+  auto lookup_device = cuckoohash_test::benchmark::to_device(lookup);
+  cuckoo.insert(source_device);
+  auto result_device = cuckoo.lookup(lookup_device);
+  auto result = cuckoohash_test::benchmark::to_host(result_device);
 
-  auto cuckoo_result = cuckoo.lookup(lookup);
+  set.insert(source.begin(), source.end());
   for (auto i = 0; i < 1 << S; ++i) {
     auto expected = set.find(lookup[i]) != set.end();
-    auto actual = cuckoo_result[i];
+    auto actual = result[i];
     if (expected != actual) {
       std::cout << "expected: " << expected << ", actual: " << actual << std::endl;
     }
