@@ -3,6 +3,9 @@
 
 #include <cuda_runtime.h>
 
+#include <iomanip>
+#include <numeric>
+#include <sstream>
 #include <string>
 #include <tuple>
 
@@ -24,6 +27,7 @@ class Instant {
   }
 
   float elapsed() {
+    cudaEventRecord(stop_);
     cudaEventSynchronize(stop_);
     float elapsed = 0.0F;
     cudaEventElapsedTime(&elapsed, start_, stop_);
@@ -60,10 +64,10 @@ std::tuple<double, double> benchmark(F&& f, Args&&... args) {
 
 std::string report(const std::tuple<double, double>& benchmark, std::size_t ops) {
   auto [avg, stddev] = benchmark;
-  auto mops = ops / 1e6 / avg;
+  auto mops = ops / 1e6 / avg * 1000;
 
   auto report = std::ostringstream{};
-  report << set_precision(6) << mops << " Mops/s ("
+  report << std::setprecision(6) << mops << " Mops/s ("
          << "avg: " << avg << " ms, "
          << "stddev: " << stddev << " ms)";
   return report.str();

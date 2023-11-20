@@ -11,18 +11,18 @@
 
 template <std::size_t T, std::size_t C, std::size_t U, std::size_t S>
 void harness_test() {
-  auto source = cuckoohash_test::random::random_vector(S);
+  auto source = cuckoohash_test::random::random_vector(1 << S);
   auto lookup = cuckoohash_test::random::shuffle(source);
   lookup = cuckoohash_test::random::blend(lookup, 0.4);
 
-  auto cuckoo = cuckoohash::set::Set<T, C, U>();
+  auto cuckoo = cuckoohash::set::Set<T, 1 << C, U << 2>();
   auto set = std::unordered_set<std::uint32_t>();
 
   cuckoo.insert(source);
   set.insert(source.begin(), source.end());
 
   auto cuckoo_result = cuckoo.lookup(lookup);
-  for (auto i = 0; i < S; ++i) {
+  for (auto i = 0; i < 1 << S; ++i) {
     auto expected = set.find(lookup[i]) != set.end();
     auto actual = cuckoo_result[i];
     if (expected != actual) {
@@ -36,10 +36,10 @@ void harness_test() {
 }
 
 int main() {
-  harness_test<2, 1 << 5, 4 * 4, 1 << 4>();
-  harness_test<2, 1 << 10, 4 * 9, 1 << 9>();
-  harness_test<2, 1 << 15, 4 * 14, 1 << 14>();
-  harness_test<2, 1 << 20, 4 * 19, 1 << 19>();
-  harness_test<2, 1 << 25, 4 * 24, 1 << 24>();
+  harness_test<2, 5, 4, 4>();
+  harness_test<2, 10, 9, 9>();
+  harness_test<2, 15, 14, 14>();
+  harness_test<2, 20, 19, 19>();
+  harness_test<2, 25, 24, 24>();
   return 0;
 }

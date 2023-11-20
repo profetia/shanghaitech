@@ -7,7 +7,7 @@ namespace cuckoohash::builtin {
 
 constexpr std::size_t kBlockSize = 256;
 
-constexpr std::size_t kRehashLimit = 10;
+constexpr std::size_t kRehashLimit = 32;
 
 }  // namespace cuckoohash::builtin
 
