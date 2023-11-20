@@ -101,6 +101,11 @@ class Set {
     return result;
   }
 
+  void clear() {
+    slot_.clear();
+    rehash_ = 0;
+  }
+
  private:
   slot::Slot<T, C> slot_;
   std::uint32_t rehash_ = 0;

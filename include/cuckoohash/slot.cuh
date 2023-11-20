@@ -19,6 +19,12 @@ struct Slot {
       keys[i] = thrust::device_vector<std::int32_t>(C, kEmpty);
     }
   }
+
+  void clear() {
+    for (std::size_t i = 0; i < T; ++i) {
+      thrust::fill(keys[i].begin(), keys[i].end(), kEmpty);
+    }
+  }
 };
 
 template <const std::size_t T, const std::size_t C>
