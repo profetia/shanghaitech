@@ -8,7 +8,7 @@
 #include <random>
 #include <vector>
 
-namespace cuckoohash_test {
+namespace cuckoohash_test::random {
 
 std::vector<std::uint32_t> random_vector(const std::size_t size) {
   auto vec = std::vector<std::uint32_t>(size);
@@ -47,6 +47,6 @@ std::vector<std::uint32_t> blend(std::vector<std::uint32_t>& vec, double ratio) 
   return blended;
 }
 
-}  // namespace cuckoohash_test
+}  // namespace cuckoohash_test::random
 
 #endif  // CUCKOOHASH_TEST_RANDOM_H_
