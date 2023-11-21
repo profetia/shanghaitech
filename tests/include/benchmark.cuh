@@ -49,11 +49,31 @@ float record(F&& f, Args&&... args) {
   return timer.elapsed();
 }
 
+template <typename F>
+float snapshot(F&& f) {
+  auto timer = detail::Instant{};
+  return f(timer);
+}
+
 template <typename F, typename... Args>
 std::tuple<double, double> benchmark(F&& f, Args&&... args) {
   auto elapseds = std::vector<float>{};
   for (auto i = 0; i < 5; ++i) {
     elapseds.push_back(record(std::forward<F>(f), std::forward<Args>(args)...));
+  }
+  auto avg = std::accumulate(elapseds.begin(), elapseds.end(), 0.0F) / elapseds.size();
+  auto stddev = std::sqrt(
+      std::accumulate(elapseds.begin(), elapseds.end(), 0.0F,
+                      [avg](auto acc, auto elapsed) { return acc + std::pow(elapsed - avg, 2); }) /
+      elapseds.size());
+  return {avg, stddev};
+}
+
+template <typename F>
+std::tuple<double, double> profile(F&& f) {
+  auto elapseds = std::vector<float>{};
+  for (auto i = 0; i < 5; ++i) {
+    elapseds.push_back(snapshot(std::forward<F>(f)));
   }
   auto avg = std::accumulate(elapseds.begin(), elapseds.end(), 0.0F) / elapseds.size();
   auto stddev = std::sqrt(

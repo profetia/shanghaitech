@@ -13,9 +13,11 @@ void insert_test() {
   auto source_device = cuckoohash_test::benchmark::to_device(source);
   auto cuckoo = cuckoohash::set::Set<T, 1 << C, U << 2>();
   try {
-    auto benchmark = cuckoohash_test::benchmark::benchmark([&]() {
-      cuckoo.clear();
+    auto benchmark = cuckoohash_test::benchmark::profile([&](auto&& timer) {
       cuckoo.insert(source_device);
+      auto elapsed = timer.elapsed();
+      cuckoo.clear();
+      return elapsed;
     });
     std::cout << "[PASSED] - " << __FUNCTION__ << "<" << T << ", " << C << ", " << U << ", " << S
               << ">" << std::endl;
