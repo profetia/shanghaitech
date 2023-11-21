@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="389.2625pt" height="274.955625pt" viewBox="0 0 389.2625 274.955625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2023-11-22T00:18:26.382314</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 274.955625 
+L 389.2625 274.955625 
+L 389.2625 0 
+L 0 0 
+L 0 274.955625 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 47.2625 239.218125 
+L 382.0625 239.218125 
+L 382.0625 21.778125 
+L 47.2625 21.778125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 62.480682 239.218125 
+L 62.480682 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="me6958f22a2" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me6958f22a2" x="62.480682" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 10 -->
+      <g transform="translate(57.480682 253.366562)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-31" d="M 1825 4450 
+L 1825 650 
+Q 1825 450 1950 350 
+Q 2075 250 2300 250 
+L 2550 250 
+L 2550 100 
+L 725 100 
+L 725 250 
+L 950 250 
+Q 1200 250 1312 350 
+Q 1425 450 1425 650 
+L 1425 3675 
+Q 1425 3775 1362 3837 
+Q 1300 3900 1175 3900 
+L 725 3900 
+L 725 4050 
+L 950 4050 
+Q 1250 4050 1437 4150 
+Q 1625 4250 1725 4450 
+L 1825 4450 
+z
+" transform="scale(0.015625)"/>
+        <path id="YouYuan-30" d="M 1600 4225 
+Q 1250 4225 1012 3687 
+Q 775 3150 775 2250 
+Q 775 1300 1012 775 
+Q 1250 250 1600 250 
+Q 1975 250 2187 775 
+Q 2400 1300 2400 2250 
+Q 2400 3150 2200 3687 
+Q 2000 4225 1600 4225 
+z
+M 1600 50 
+Q 1050 50 675 625 
+Q 300 1200 300 2250 
+Q 300 3225 662 3825 
+Q 1025 4425 1600 4425 
+Q 2150 4425 2512 3850 
+Q 2875 3275 2875 2250 
+Q 2875 1225 2512 637 
+Q 2150 50 1600 50 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-30" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 105.961201 239.218125 
+L 105.961201 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me6958f22a2" x="105.961201" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 12 -->
+      <g transform="translate(100.961201 253.366562)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-32" d="M 2325 3325 
+Q 2325 3775 2125 4012 
+Q 1925 4250 1525 4250 
+Q 1225 4250 1012 4087 
+Q 800 3925 800 3675 
+Q 800 3525 887 3425 
+Q 975 3325 975 3225 
+Q 975 3100 912 3037 
+Q 850 2975 725 2975 
+Q 575 2975 487 3062 
+Q 400 3150 400 3350 
+Q 400 3875 775 4150 
+Q 1150 4425 1575 4425 
+Q 2175 4425 2462 4125 
+Q 2750 3825 2750 3375 
+Q 2750 3075 2612 2775 
+Q 2475 2475 2175 2200 
+Q 1450 1500 1062 1062 
+Q 675 625 600 475 
+L 2075 475 
+Q 2300 475 2450 650 
+Q 2600 825 2650 1175 
+L 2800 1175 
+L 2650 100 
+L 325 100 
+L 325 425 
+Q 450 650 737 1000 
+Q 1025 1350 1500 1825 
+Q 1925 2250 2125 2625 
+Q 2325 3000 2325 3325 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-32" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 149.441721 239.218125 
+L 149.441721 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#me6958f22a2" x="149.441721" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 14 -->
+      <g transform="translate(144.441721 253.366562)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-34" d="M 2300 575 
+Q 2300 400 2400 325 
+Q 2500 250 2675 250 
+L 2900 250 
+L 2900 100 
+L 1250 100 
+L 1250 250 
+L 1525 250 
+Q 1725 250 1812 325 
+Q 1900 400 1900 575 
+L 1900 1400 
+L 225 1400 
+L 225 1525 
+L 2050 4425 
+L 2300 4425 
+L 2300 1550 
+L 2975 1550 
+L 2975 1400 
+L 2300 1400 
+L 2300 575 
+z
+M 1875 3800 
+L 450 1550 
+L 1900 1550 
+L 1900 3800 
+L 1875 3800 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-34" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 192.92224 239.218125 
+L 192.92224 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#me6958f22a2" x="192.92224" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 16 -->
+      <g transform="translate(187.92224 253.366562)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-36" d="M 775 1800 
+Q 775 1050 1037 637 
+Q 1300 225 1675 225 
+Q 2050 225 2250 500 
+Q 2450 775 2450 1525 
+Q 2450 2025 2237 2300 
+Q 2025 2575 1725 2575 
+Q 1450 2575 1212 2412 
+Q 975 2250 775 1800 
+z
+M 1750 2825 
+Q 2350 2825 2612 2425 
+Q 2875 2025 2875 1525 
+Q 2875 775 2512 412 
+Q 2150 50 1675 50 
+Q 1000 50 650 562 
+Q 300 1075 300 2050 
+Q 300 3200 725 3812 
+Q 1150 4425 1875 4425 
+Q 2225 4425 2437 4225 
+Q 2650 4025 2650 3875 
+Q 2650 3725 2587 3650 
+Q 2525 3575 2375 3575 
+Q 2250 3575 2187 3637 
+Q 2125 3700 2125 3825 
+Q 2125 3875 2137 3925 
+Q 2150 3975 2150 4025 
+Q 2150 4125 2075 4187 
+Q 2000 4250 1800 4250 
+Q 1375 4250 1075 3862 
+Q 775 3475 775 2175 
+Q 925 2500 1187 2662 
+Q 1450 2825 1750 2825 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-36" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 236.40276 239.218125 
+L 236.40276 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#me6958f22a2" x="236.40276" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 18 -->
+      <g transform="translate(231.40276 253.366562)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-38" d="M 625 1125 
+Q 625 725 887 475 
+Q 1150 225 1550 225 
+Q 2025 225 2237 475 
+Q 2450 725 2450 1100 
+Q 2450 1425 2150 1725 
+Q 1850 2025 1250 2275 
+Q 950 2075 787 1775 
+Q 625 1475 625 1125 
+z
+M 2825 1175 
+Q 2825 700 2475 375 
+Q 2125 50 1550 50 
+Q 1025 50 650 375 
+Q 275 700 275 1125 
+Q 275 1550 487 1850 
+Q 700 2150 1100 2375 
+Q 750 2550 562 2812 
+Q 375 3075 375 3400 
+Q 375 3825 700 4125 
+Q 1025 4425 1600 4425 
+Q 2125 4425 2450 4125 
+Q 2775 3825 2775 3400 
+Q 2775 3100 2587 2837 
+Q 2400 2575 2000 2375 
+Q 2425 2125 2625 1825 
+Q 2825 1525 2825 1175 
+z
+M 2425 3375 
+Q 2425 3725 2225 3987 
+Q 2025 4250 1600 4250 
+Q 1125 4250 925 4000 
+Q 725 3750 725 3475 
+Q 725 3200 1012 2937 
+Q 1300 2675 1825 2475 
+Q 2125 2625 2275 2850 
+Q 2425 3075 2425 3375 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-38" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 279.883279 239.218125 
+L 279.883279 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#me6958f22a2" x="279.883279" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 20 -->
+      <g transform="translate(274.883279 253.366562)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-32"/>
+       <use xlink:href="#YouYuan-30" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 323.363799 239.218125 
+L 323.363799 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#me6958f22a2" x="323.363799" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 22 -->
+      <g transform="translate(318.363799 253.366562)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-32"/>
+       <use xlink:href="#YouYuan-32" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 366.844318 239.218125 
+L 366.844318 21.778125 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#me6958f22a2" x="366.844318" y="239.218125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 24 -->
+      <g transform="translate(361.844318 253.366562)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-32"/>
+       <use xlink:href="#YouYuan-34" x="50"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_9">
+     <!-- Insert Size: $2^{S}$ -->
+     <g transform="translate(176.5625 266.466563)scale(0.1 -0.1)">
+      <defs>
+       <path id="YouYuan-49" d="M 600 4225 
+L 600 4375 
+L 2600 4375 
+L 2600 4225 
+L 2025 4225 
+Q 1925 4225 1862 4175 
+Q 1800 4125 1800 4025 
+L 1800 450 
+Q 1800 350 1862 300 
+Q 1925 250 2025 250 
+L 2600 250 
+L 2600 100 
+L 600 100 
+L 600 250 
+L 1175 250 
+Q 1300 250 1350 300 
+Q 1400 350 1400 450 
+L 1400 4025 
+Q 1400 4125 1350 4175 
+Q 1300 4225 1175 4225 
+L 600 4225 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-6e" d="M 200 100 
+L 200 250 
+L 325 250 
+Q 450 250 500 300 
+Q 550 350 550 450 
+L 550 2600 
+Q 550 2675 525 2712 
+Q 500 2750 425 2750 
+L 225 2750 
+L 225 2900 
+L 400 2900 
+Q 525 2900 637 2925 
+Q 750 2950 850 3025 
+L 900 3025 
+L 900 2450 
+Q 1125 2700 1350 2825 
+Q 1575 2950 1825 2950 
+Q 2250 2950 2450 2725 
+Q 2650 2500 2650 2050 
+L 2650 450 
+Q 2650 350 2712 300 
+Q 2775 250 2875 250 
+L 3000 250 
+L 3000 100 
+L 1950 100 
+L 1950 250 
+L 2075 250 
+Q 2200 250 2250 300 
+Q 2300 350 2300 450 
+L 2300 2125 
+Q 2300 2425 2175 2587 
+Q 2050 2750 1800 2750 
+Q 1575 2750 1337 2600 
+Q 1100 2450 900 2175 
+L 900 450 
+Q 900 350 962 300 
+Q 1025 250 1125 250 
+L 1250 250 
+L 1250 100 
+L 200 100 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-73" d="M 625 2175 
+Q 625 2550 912 2750 
+Q 1200 2950 1600 2950 
+Q 1825 2950 2025 2887 
+Q 2225 2825 2300 2825 
+Q 2375 2825 2425 2850 
+Q 2475 2875 2550 2950 
+L 2650 2125 
+L 2500 2100 
+Q 2400 2425 2162 2612 
+Q 1925 2800 1625 2800 
+Q 1300 2800 1112 2675 
+Q 925 2550 925 2325 
+Q 925 2125 1012 2012 
+Q 1100 1900 1325 1850 
+Q 1500 1775 1762 1687 
+Q 2025 1600 2250 1500 
+Q 2450 1400 2587 1237 
+Q 2725 1075 2725 875 
+Q 2725 500 2462 287 
+Q 2200 75 1700 75 
+Q 1375 75 1212 137 
+Q 1050 200 950 200 
+Q 875 200 787 162 
+Q 700 125 600 75 
+L 525 1000 
+L 675 1025 
+Q 750 625 1000 425 
+Q 1250 225 1700 225 
+Q 2050 225 2237 350 
+Q 2425 475 2425 725 
+Q 2425 900 2325 1012 
+Q 2225 1125 2125 1175 
+Q 1875 1275 1575 1387 
+Q 1275 1500 1050 1600 
+Q 825 1700 725 1850 
+Q 625 2000 625 2175 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-65" d="M 2400 1650 
+Q 2425 2200 2212 2487 
+Q 2000 2775 1650 2775 
+Q 1275 2775 1037 2475 
+Q 800 2175 800 1650 
+L 2400 1650 
+z
+M 800 1500 
+Q 800 825 1062 537 
+Q 1325 250 1750 250 
+Q 2075 250 2300 437 
+Q 2525 625 2625 900 
+L 2750 850 
+Q 2675 575 2412 312 
+Q 2150 50 1700 50 
+Q 1125 50 762 425 
+Q 400 800 400 1500 
+Q 400 2125 762 2537 
+Q 1125 2950 1650 2950 
+Q 2125 2950 2475 2625 
+Q 2825 2300 2825 1500 
+L 800 1500 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-72" d="M 1275 2125 
+Q 1525 2525 1812 2737 
+Q 2100 2950 2400 2950 
+Q 2650 2950 2787 2837 
+Q 2925 2725 2925 2575 
+Q 2925 2450 2862 2375 
+Q 2800 2300 2675 2300 
+Q 2550 2300 2487 2375 
+Q 2425 2450 2450 2575 
+Q 2450 2650 2425 2700 
+Q 2400 2750 2275 2750 
+Q 2075 2750 1787 2500 
+Q 1500 2250 1275 1800 
+L 1275 450 
+Q 1275 350 1337 300 
+Q 1400 250 1500 250 
+L 2050 250 
+L 2050 100 
+L 200 100 
+L 200 250 
+L 700 250 
+Q 825 250 875 300 
+Q 925 350 925 450 
+L 925 2525 
+Q 925 2625 875 2687 
+Q 825 2750 700 2750 
+L 225 2750 
+L 225 2900 
+L 425 2900 
+Q 600 2900 837 2937 
+Q 1075 2975 1200 3025 
+L 1275 3025 
+L 1275 2125 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-74" d="M 1500 900 
+Q 1500 550 1625 425 
+Q 1750 300 2000 300 
+Q 2250 300 2400 462 
+Q 2550 625 2600 925 
+L 2725 875 
+Q 2675 525 2462 300 
+Q 2250 75 1900 75 
+Q 1525 75 1337 300 
+Q 1150 525 1150 1000 
+L 1150 2750 
+L 400 2750 
+L 400 2900 
+L 600 2900 
+Q 900 2900 1087 3087 
+Q 1275 3275 1325 3675 
+L 1350 3875 
+L 1500 3875 
+L 1500 2900 
+L 2500 2900 
+L 2500 2750 
+L 1500 2750 
+L 1500 900 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-20" transform="scale(0.015625)"/>
+       <path id="YouYuan-53" d="M 1500 2150 
+Q 825 2450 575 2675 
+Q 325 2900 325 3375 
+Q 325 3750 637 4087 
+Q 950 4425 1525 4425 
+Q 1775 4425 2000 4337 
+Q 2225 4250 2325 4250 
+Q 2400 4250 2462 4287 
+Q 2525 4325 2575 4425 
+L 2675 3400 
+L 2550 3350 
+Q 2325 3875 2087 4062 
+Q 1850 4250 1475 4250 
+Q 1000 4250 825 3987 
+Q 650 3725 650 3425 
+Q 650 3150 812 2987 
+Q 975 2825 1700 2500 
+Q 2300 2250 2562 1937 
+Q 2825 1625 2825 1200 
+Q 2825 750 2512 400 
+Q 2200 50 1600 50 
+Q 1350 50 1137 137 
+Q 925 225 800 225 
+Q 725 225 650 175 
+Q 575 125 475 50 
+L 275 1275 
+L 425 1325 
+Q 600 700 912 462 
+Q 1225 225 1625 225 
+Q 2050 225 2262 475 
+Q 2475 725 2475 1200 
+Q 2475 1450 2237 1687 
+Q 2000 1925 1500 2150 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-69" d="M 1425 2525 
+Q 1425 2625 1375 2687 
+Q 1325 2750 1200 2750 
+L 675 2750 
+L 675 2900 
+L 925 2900 
+Q 1150 2900 1350 2937 
+Q 1550 2975 1725 3075 
+L 1775 3075 
+L 1775 450 
+Q 1775 350 1837 300 
+Q 1900 250 2000 250 
+L 2525 250 
+L 2525 100 
+L 675 100 
+L 675 250 
+L 1200 250 
+Q 1325 250 1375 300 
+Q 1425 350 1425 450 
+L 1425 2525 
+z
+M 1625 4425 
+Q 1750 4425 1850 4337 
+Q 1950 4250 1950 4125 
+Q 1950 4000 1850 3900 
+Q 1750 3800 1625 3800 
+Q 1500 3800 1400 3900 
+Q 1300 4000 1300 4125 
+Q 1300 4250 1400 4337 
+Q 1500 4425 1625 4425 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-7a" d="M 2750 1075 
+L 2575 100 
+L 425 100 
+L 425 225 
+L 2150 2750 
+L 1225 2750 
+Q 1000 2750 850 2587 
+Q 700 2425 600 2025 
+L 450 2050 
+L 550 2900 
+L 2600 2900 
+L 2600 2825 
+L 850 250 
+L 1800 250 
+Q 2125 250 2312 450 
+Q 2500 650 2600 1100 
+L 2750 1075 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-3a" d="M 1900 2725 
+Q 1900 2575 1800 2475 
+Q 1700 2375 1550 2375 
+Q 1400 2375 1300 2475 
+Q 1200 2575 1200 2725 
+Q 1200 2875 1300 2975 
+Q 1400 3075 1550 3075 
+Q 1700 3075 1800 2975 
+Q 1900 2875 1900 2725 
+z
+M 1900 375 
+Q 1900 225 1800 125 
+Q 1700 25 1550 25 
+Q 1400 25 1300 125 
+Q 1200 225 1200 375 
+Q 1200 525 1300 625 
+Q 1400 725 1550 725 
+Q 1700 725 1800 625 
+Q 1900 525 1900 375 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-32" d="M 1228 531 
+L 3431 531 
+L 3431 0 
+L 469 0 
+L 469 531 
+Q 828 903 1448 1529 
+Q 2069 2156 2228 2338 
+Q 2531 2678 2651 2914 
+Q 2772 3150 2772 3378 
+Q 2772 3750 2511 3984 
+Q 2250 4219 1831 4219 
+Q 1534 4219 1204 4116 
+Q 875 4013 500 3803 
+L 500 4441 
+Q 881 4594 1212 4672 
+Q 1544 4750 1819 4750 
+Q 2544 4750 2975 4387 
+Q 3406 4025 3406 3419 
+Q 3406 3131 3298 2873 
+Q 3191 2616 2906 2266 
+Q 2828 2175 2409 1742 
+Q 1991 1309 1228 531 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-Oblique-53" d="M 3859 4513 
+L 3738 3897 
+Q 3422 4066 3111 4152 
+Q 2800 4238 2509 4238 
+Q 1944 4238 1609 3991 
+Q 1275 3744 1275 3334 
+Q 1275 3109 1398 2989 
+Q 1522 2869 2034 2731 
+L 2413 2638 
+Q 3053 2472 3303 2217 
+Q 3553 1963 3553 1503 
+Q 3553 797 2998 353 
+Q 2444 -91 1538 -91 
+Q 1166 -91 791 -17 
+Q 416 56 38 206 
+L 166 856 
+Q 513 641 861 531 
+Q 1209 422 1556 422 
+Q 2147 422 2503 684 
+Q 2859 947 2859 1369 
+Q 2859 1650 2717 1795 
+Q 2575 1941 2106 2059 
+L 1728 2156 
+Q 1081 2325 845 2545 
+Q 609 2766 609 3163 
+Q 609 3859 1145 4304 
+Q 1681 4750 2541 4750 
+Q 2875 4750 3203 4690 
+Q 3531 4631 3859 4513 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#YouYuan-49" transform="translate(0 0.765625)"/>
+      <use xlink:href="#YouYuan-6e" transform="translate(50 0.765625)"/>
+      <use xlink:href="#YouYuan-73" transform="translate(100 0.765625)"/>
+      <use xlink:href="#YouYuan-65" transform="translate(150 0.765625)"/>
+      <use xlink:href="#YouYuan-72" transform="translate(200 0.765625)"/>
+      <use xlink:href="#YouYuan-74" transform="translate(250 0.765625)"/>
+      <use xlink:href="#YouYuan-20" transform="translate(300 0.765625)"/>
+      <use xlink:href="#YouYuan-53" transform="translate(350 0.765625)"/>
+      <use xlink:href="#YouYuan-69" transform="translate(400 0.765625)"/>
+      <use xlink:href="#YouYuan-7a" transform="translate(450 0.765625)"/>
+      <use xlink:href="#YouYuan-65" transform="translate(500 0.765625)"/>
+      <use xlink:href="#YouYuan-3a" transform="translate(550 0.765625)"/>
+      <use xlink:href="#YouYuan-20" transform="translate(600 0.765625)"/>
+      <use xlink:href="#DejaVuSans-32" transform="translate(650 0.765625)"/>
+      <use xlink:href="#DejaVuSans-Oblique-53" transform="translate(714.580078 39.046875)scale(0.7)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_17">
+      <path d="M 47.2625 230.45094 
+L 382.0625 230.45094 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <defs>
+       <path id="m77b283a22b" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="230.45094" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 0 -->
+      <g transform="translate(35.2625 234.025158)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-30"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_19">
+      <path d="M 47.2625 201.074328 
+L 382.0625 201.074328 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="201.074328" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 250 -->
+      <g transform="translate(25.2625 204.648547)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-35" d="M 1725 2850 
+Q 2200 2850 2500 2487 
+Q 2800 2125 2800 1525 
+Q 2800 850 2487 450 
+Q 2175 50 1525 50 
+Q 1075 50 725 312 
+Q 375 575 375 950 
+Q 375 1100 462 1212 
+Q 550 1325 700 1325 
+Q 850 1325 900 1225 
+Q 950 1125 950 1050 
+Q 950 900 875 812 
+Q 800 725 800 625 
+Q 800 425 1037 325 
+Q 1275 225 1550 225 
+Q 1950 225 2162 550 
+Q 2375 875 2375 1475 
+Q 2375 1975 2187 2287 
+Q 2000 2600 1625 2600 
+Q 1350 2600 1150 2500 
+Q 950 2400 775 2075 
+L 550 2100 
+L 675 4375 
+L 2725 4375 
+L 2650 4000 
+L 850 4000 
+L 750 2350 
+Q 1000 2700 1237 2775 
+Q 1475 2850 1725 2850 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-32"/>
+       <use xlink:href="#YouYuan-35" x="50"/>
+       <use xlink:href="#YouYuan-30" x="100"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_21">
+      <path d="M 47.2625 171.697717 
+L 382.0625 171.697717 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="171.697717" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 500 -->
+      <g transform="translate(25.2625 175.271936)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-35"/>
+       <use xlink:href="#YouYuan-30" x="50"/>
+       <use xlink:href="#YouYuan-30" x="100"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_23">
+      <path d="M 47.2625 142.321106 
+L 382.0625 142.321106 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="142.321106" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 750 -->
+      <g transform="translate(25.2625 145.895325)scale(0.1 -0.1)">
+       <defs>
+        <path id="YouYuan-37" d="M 2825 4200 
+Q 2300 3350 1987 2537 
+Q 1675 1725 1675 1125 
+Q 1675 1025 1687 837 
+Q 1700 650 1700 400 
+Q 1700 200 1637 125 
+Q 1575 50 1425 50 
+Q 1300 50 1212 137 
+Q 1125 225 1125 450 
+Q 1125 925 1337 1625 
+Q 1550 2325 2475 4000 
+L 1225 4000 
+Q 950 4000 787 3825 
+Q 625 3650 550 3300 
+L 400 3325 
+L 575 4375 
+L 2825 4375 
+L 2825 4200 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#YouYuan-37"/>
+       <use xlink:href="#YouYuan-35" x="50"/>
+       <use xlink:href="#YouYuan-30" x="100"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_25">
+      <path d="M 47.2625 112.944495 
+L 382.0625 112.944495 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="112.944495" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 1000 -->
+      <g transform="translate(20.2625 116.518713)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-30" x="50"/>
+       <use xlink:href="#YouYuan-30" x="100"/>
+       <use xlink:href="#YouYuan-30" x="150"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_27">
+      <path d="M 47.2625 83.567883 
+L 382.0625 83.567883 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="83.567883" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 1250 -->
+      <g transform="translate(20.2625 87.142102)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-32" x="50"/>
+       <use xlink:href="#YouYuan-35" x="100"/>
+       <use xlink:href="#YouYuan-30" x="150"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_29">
+      <path d="M 47.2625 54.191272 
+L 382.0625 54.191272 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="54.191272" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 1500 -->
+      <g transform="translate(20.2625 57.765491)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-35" x="50"/>
+       <use xlink:href="#YouYuan-30" x="100"/>
+       <use xlink:href="#YouYuan-30" x="150"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_31">
+      <path d="M 47.2625 24.814661 
+L 382.0625 24.814661 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m77b283a22b" x="47.2625" y="24.814661" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 1750 -->
+      <g transform="translate(20.2625 28.38888)scale(0.1 -0.1)">
+       <use xlink:href="#YouYuan-31"/>
+       <use xlink:href="#YouYuan-37" x="50"/>
+       <use xlink:href="#YouYuan-35" x="100"/>
+       <use xlink:href="#YouYuan-30" x="150"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_18">
+     <!-- Mops/s -->
+     <g transform="translate(14.973438 145.498125)rotate(-90)scale(0.1 -0.1)">
+      <defs>
+       <path id="YouYuan-4d" d="M 2800 450 
+Q 2800 350 2862 300 
+Q 2925 250 3025 250 
+L 3125 250 
+L 3125 100 
+L 2050 100 
+L 2050 250 
+L 2175 250 
+Q 2300 250 2350 300 
+Q 2400 350 2400 450 
+L 2400 3725 
+L 2350 3725 
+L 1500 100 
+L 1350 100 
+L 1350 100 
+L 575 3650 
+L 525 3650 
+L 525 450 
+Q 525 350 587 300 
+Q 650 250 750 250 
+L 825 250 
+L 825 100 
+L 75 100 
+L 75 250 
+L 150 250 
+Q 275 250 325 300 
+Q 375 350 375 450 
+L 375 4025 
+Q 375 4125 325 4175 
+Q 275 4225 150 4225 
+L 50 4225 
+L 50 4375 
+L 775 4375 
+L 1500 1025 
+L 1550 1025 
+L 2325 4375 
+L 3125 4375 
+L 3125 4225 
+L 3025 4225 
+Q 2925 4225 2862 4175 
+Q 2800 4125 2800 4025 
+L 2800 450 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-6f" d="M 2900 1500 
+Q 2900 875 2525 462 
+Q 2150 50 1600 50 
+Q 1025 50 662 475 
+Q 300 900 300 1500 
+Q 300 2050 662 2500 
+Q 1025 2950 1600 2950 
+Q 2200 2950 2550 2500 
+Q 2900 2050 2900 1500 
+z
+M 700 1475 
+Q 700 825 962 512 
+Q 1225 200 1600 200 
+Q 2025 200 2262 537 
+Q 2500 875 2500 1475 
+Q 2500 2125 2237 2462 
+Q 1975 2800 1600 2800 
+Q 1250 2800 975 2462 
+Q 700 2125 700 1475 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-70" d="M 1150 -675 
+L 1325 -675 
+L 1325 -825 
+L 175 -825 
+L 175 -675 
+L 325 -675 
+Q 450 -675 500 -625 
+Q 550 -575 550 -450 
+L 550 2500 
+Q 550 2600 500 2662 
+Q 450 2725 325 2725 
+L 175 2725 
+L 175 2875 
+L 400 2875 
+Q 525 2875 637 2900 
+Q 750 2925 850 3000 
+L 900 3000 
+L 900 2425 
+Q 1075 2675 1287 2800 
+Q 1500 2925 1750 2925 
+Q 2250 2925 2575 2587 
+Q 2900 2250 2900 1525 
+Q 2900 825 2550 450 
+Q 2200 75 1725 75 
+Q 1450 75 1262 162 
+Q 1075 250 900 425 
+L 900 -450 
+Q 900 -575 975 -625 
+Q 1050 -675 1150 -675 
+z
+M 900 750 
+Q 1025 500 1212 375 
+Q 1400 250 1650 250 
+Q 2000 250 2250 562 
+Q 2500 875 2500 1525 
+Q 2500 2125 2312 2425 
+Q 2125 2725 1750 2725 
+Q 1525 2725 1300 2587 
+Q 1075 2450 900 2150 
+L 900 750 
+z
+" transform="scale(0.015625)"/>
+       <path id="YouYuan-2f" d="M 400 -475 
+L 225 -375 
+L 2775 4975 
+L 2950 4875 
+L 400 -475 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#YouYuan-4d"/>
+      <use xlink:href="#YouYuan-6f" x="50"/>
+      <use xlink:href="#YouYuan-70" x="100"/>
+      <use xlink:href="#YouYuan-73" x="150"/>
+      <use xlink:href="#YouYuan-2f" x="200"/>
+      <use xlink:href="#YouYuan-73" x="250"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_33">
+    <path d="M 62.480682 229.334489 
+L 84.220942 227.57484 
+L 105.961201 228.116498 
+L 127.701461 224.635816 
+L 149.441721 214.952897 
+L 171.181981 204.943933 
+L 192.92224 174.84454 
+L 214.6625 158.15886 
+L 236.40276 98.945952 
+L 258.143019 104.400601 
+L 279.883279 94.319723 
+L 301.623539 66.905469 
+L 323.363799 36.136407 
+L 345.104058 34.020116 
+L 366.844318 48.201969 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke-dasharray: 4,6.6; stroke-dashoffset: 0; stroke: #e51a1c; stroke-width: 4"/>
+    <defs>
+     <path id="ma778a8315a" d="M -3 3 
+L 3 3 
+L 3 -3 
+L -3 -3 
+z
+" style="stroke: #e51a1c; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#pf428d675a6)">
+     <use xlink:href="#ma778a8315a" x="62.480682" y="229.334489" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="84.220942" y="227.57484" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="105.961201" y="228.116498" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="127.701461" y="224.635816" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="149.441721" y="214.952897" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="171.181981" y="204.943933" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="192.92224" y="174.84454" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="214.6625" y="158.15886" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="236.40276" y="98.945952" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="258.143019" y="104.400601" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="279.883279" y="94.319723" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="301.623539" y="66.905469" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="323.363799" y="36.136407" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="345.104058" y="34.020116" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     <use xlink:href="#ma778a8315a" x="366.844318" y="48.201969" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_34">
+    <path d="M 62.480682 228.916658 
+L 84.220942 227.831862 
+L 105.961201 224.555818 
+L 127.701461 225.30632 
+L 149.441721 215.36793 
+L 171.181981 198.737595 
+L 192.92224 170.592922 
+L 214.6625 145.248896 
+L 236.40276 105.214921 
+L 258.143019 113.697006 
+L 279.883279 87.79694 
+L 301.623539 49.525091 
+L 323.363799 34.688727 
+L 345.104058 31.661761 
+L 366.844318 46.280738 
+" clip-path="url(#pf428d675a6)" style="fill: none; stroke-dasharray: 4,6.6; stroke-dashoffset: 0; stroke: #367eb9; stroke-width: 4"/>
+    <defs>
+     <path id="m1d117b290d" d="M 0 -3 
+L -3 3 
+L 3 3 
+z
+" style="stroke: #367eb9; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#pf428d675a6)">
+     <use xlink:href="#m1d117b290d" x="62.480682" y="228.916658" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="84.220942" y="227.831862" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="105.961201" y="224.555818" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="127.701461" y="225.30632" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="149.441721" y="215.36793" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="171.181981" y="198.737595" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="192.92224" y="170.592922" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="214.6625" y="145.248896" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="236.40276" y="105.214921" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="258.143019" y="113.697006" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="279.883279" y="87.79694" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="301.623539" y="49.525091" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="323.363799" y="34.688727" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="345.104058" y="31.661761" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     <use xlink:href="#m1d117b290d" x="366.844318" y="46.280738" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 47.2625 239.218125 
+L 47.2625 21.778125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 382.0625 239.218125 
+L 382.0625 21.778125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 47.2625 239.218125 
+L 382.0625 239.218125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 47.2625 21.778125 
+L 382.0625 21.778125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <!-- Insertion Performance -->
+    <g transform="translate(151.6625 15.778125)scale(0.12 -0.12)">
+     <defs>
+      <path id="YouYuan-50" d="M 950 2100 
+L 950 450 
+Q 950 350 1012 300 
+Q 1075 250 1175 250 
+L 1350 250 
+L 1350 100 
+L 150 100 
+L 150 250 
+L 325 250 
+Q 450 250 500 300 
+Q 550 350 550 450 
+L 550 4025 
+Q 550 4125 500 4175 
+Q 450 4225 325 4225 
+L 175 4225 
+L 175 4375 
+L 1650 4375 
+Q 2275 4375 2612 4062 
+Q 2950 3750 2950 3275 
+Q 2950 2700 2587 2400 
+Q 2225 2100 1725 2100 
+L 950 2100 
+z
+M 1575 2250 
+Q 1950 2250 2237 2475 
+Q 2525 2700 2525 3250 
+Q 2525 3750 2287 3987 
+Q 2050 4225 1525 4225 
+L 1175 4225 
+Q 1075 4225 1012 4175 
+Q 950 4125 950 4025 
+L 950 2250 
+L 1575 2250 
+z
+" transform="scale(0.015625)"/>
+      <path id="YouYuan-66" d="M 1125 3325 
+Q 1125 3850 1450 4112 
+Q 1775 4375 2175 4375 
+Q 2600 4375 2812 4225 
+Q 3025 4075 3025 3875 
+Q 3025 3775 2975 3700 
+Q 2925 3625 2775 3625 
+Q 2675 3625 2612 3675 
+Q 2550 3725 2550 3850 
+Q 2550 3875 2562 3925 
+Q 2575 3975 2575 4000 
+Q 2575 4100 2500 4162 
+Q 2425 4225 2150 4225 
+Q 1850 4225 1662 4037 
+Q 1475 3850 1475 3400 
+L 1475 2900 
+L 2525 2900 
+L 2525 2750 
+L 1475 2750 
+L 1475 450 
+Q 1475 350 1537 300 
+Q 1600 250 1700 250 
+L 2300 250 
+L 2300 100 
+L 475 100 
+L 475 250 
+L 900 250 
+Q 1025 250 1075 300 
+Q 1125 350 1125 450 
+L 1125 2750 
+L 350 2750 
+L 350 2900 
+L 1125 2900 
+L 1125 3325 
+z
+" transform="scale(0.015625)"/>
+      <path id="YouYuan-6d" d="M 175 2900 
+Q 300 2900 425 2925 
+Q 550 2950 625 3000 
+L 675 3000 
+L 675 2575 
+Q 800 2775 950 2862 
+Q 1100 2950 1275 2950 
+Q 1500 2950 1625 2862 
+Q 1750 2775 1775 2575 
+Q 1900 2775 2062 2862 
+Q 2225 2950 2400 2950 
+Q 2700 2950 2812 2775 
+Q 2925 2600 2925 2325 
+L 2925 425 
+Q 2925 325 2975 287 
+Q 3025 250 3125 250 
+L 3175 250 
+L 3175 100 
+L 2325 100 
+L 2325 250 
+L 2375 250 
+Q 2475 250 2525 287 
+Q 2575 325 2575 425 
+L 2575 2300 
+Q 2575 2575 2512 2662 
+Q 2450 2750 2325 2750 
+Q 2150 2750 2012 2625 
+Q 1875 2500 1800 2275 
+L 1800 425 
+Q 1800 325 1850 287 
+Q 1900 250 2000 250 
+L 2050 250 
+L 2050 100 
+L 1200 100 
+L 1200 250 
+L 1250 250 
+Q 1350 250 1400 287 
+Q 1450 325 1450 425 
+L 1450 2300 
+Q 1450 2525 1400 2637 
+Q 1350 2750 1200 2750 
+Q 1025 2750 887 2625 
+Q 750 2500 675 2250 
+L 675 425 
+Q 675 325 725 287 
+Q 775 250 875 250 
+L 925 250 
+L 925 100 
+L 75 100 
+L 75 250 
+L 125 250 
+Q 225 250 275 287 
+Q 325 325 325 425 
+L 325 2600 
+Q 325 2675 300 2712 
+Q 275 2750 200 2750 
+L 100 2750 
+L 100 2900 
+L 175 2900 
+z
+" transform="scale(0.015625)"/>
+      <path id="YouYuan-61" d="M 1225 75 
+Q 775 75 525 287 
+Q 275 500 275 775 
+Q 275 1225 662 1512 
+Q 1050 1800 2200 1925 
+L 2200 2225 
+Q 2200 2475 2087 2637 
+Q 1975 2800 1575 2800 
+Q 1150 2800 975 2662 
+Q 800 2525 850 2375 
+Q 900 2275 850 2175 
+Q 800 2075 650 2075 
+Q 550 2075 487 2137 
+Q 425 2200 425 2325 
+Q 425 2550 750 2750 
+Q 1075 2950 1550 2950 
+Q 2050 2950 2300 2762 
+Q 2550 2575 2550 2225 
+L 2550 575 
+Q 2550 375 2587 337 
+Q 2625 300 2725 300 
+Q 2850 300 2900 412 
+Q 2950 525 2950 725 
+L 3075 725 
+Q 3075 375 2950 237 
+Q 2825 100 2625 100 
+Q 2450 100 2350 175 
+Q 2250 250 2200 425 
+Q 1950 250 1737 162 
+Q 1525 75 1225 75 
+z
+M 700 850 
+Q 700 625 837 437 
+Q 975 250 1275 250 
+Q 1500 250 1725 337 
+Q 1950 425 2200 600 
+L 2200 1775 
+Q 1350 1675 1025 1437 
+Q 700 1200 700 850 
+z
+" transform="scale(0.015625)"/>
+      <path id="YouYuan-63" d="M 2150 2225 
+Q 2150 2300 2162 2325 
+Q 2175 2350 2200 2425 
+Q 2225 2525 2100 2662 
+Q 1975 2800 1675 2800 
+Q 1300 2800 1037 2437 
+Q 775 2075 775 1475 
+Q 775 925 1000 587 
+Q 1225 250 1750 250 
+Q 2100 250 2337 475 
+Q 2575 700 2675 1000 
+L 2800 950 
+Q 2700 575 2425 312 
+Q 2150 50 1675 50 
+Q 1075 50 725 425 
+Q 375 800 375 1500 
+Q 375 2125 750 2537 
+Q 1125 2950 1725 2950 
+Q 2150 2950 2387 2725 
+Q 2625 2500 2625 2275 
+Q 2625 2125 2562 2062 
+Q 2500 2000 2375 2000 
+Q 2275 2000 2212 2062 
+Q 2150 2125 2150 2225 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#YouYuan-49"/>
+     <use xlink:href="#YouYuan-6e" x="50"/>
+     <use xlink:href="#YouYuan-73" x="100"/>
+     <use xlink:href="#YouYuan-65" x="150"/>
+     <use xlink:href="#YouYuan-72" x="200"/>
+     <use xlink:href="#YouYuan-74" x="250"/>
+     <use xlink:href="#YouYuan-69" x="300"/>
+     <use xlink:href="#YouYuan-6f" x="350"/>
+     <use xlink:href="#YouYuan-6e" x="400"/>
+     <use xlink:href="#YouYuan-20" x="450"/>
+     <use xlink:href="#YouYuan-50" x="500"/>
+     <use xlink:href="#YouYuan-65" x="550"/>
+     <use xlink:href="#YouYuan-72" x="600"/>
+     <use xlink:href="#YouYuan-66" x="650"/>
+     <use xlink:href="#YouYuan-6f" x="700"/>
+     <use xlink:href="#YouYuan-72" x="750"/>
+     <use xlink:href="#YouYuan-6d" x="800"/>
+     <use xlink:href="#YouYuan-61" x="850"/>
+     <use xlink:href="#YouYuan-6e" x="900"/>
+     <use xlink:href="#YouYuan-63" x="950"/>
+     <use xlink:href="#YouYuan-65" x="1000"/>
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 54.2625 56.653125 
+L 101.2625 56.653125 
+Q 103.2625 56.653125 103.2625 54.653125 
+L 103.2625 28.778125 
+Q 103.2625 26.778125 101.2625 26.778125 
+L 54.2625 26.778125 
+Q 52.2625 26.778125 52.2625 28.778125 
+L 52.2625 54.653125 
+Q 52.2625 56.653125 54.2625 56.653125 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="line2d_35">
+     <path d="M 56.2625 34.426562 
+L 66.2625 34.426562 
+L 76.2625 34.426562 
+" style="fill: none; stroke-dasharray: 4,6.6; stroke-dashoffset: 0; stroke: #e51a1c; stroke-width: 4"/>
+     <g>
+      <use xlink:href="#ma778a8315a" x="66.2625" y="34.426562" style="fill: #ffffff; stroke: #e51a1c; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_20">
+     <!-- t=2 -->
+     <g transform="translate(84.2625 37.926562)scale(0.1 -0.1)">
+      <defs>
+       <path id="YouYuan-3d" d="M 200 2825 
+L 200 3050 
+L 2975 3050 
+L 2975 2825 
+L 200 2825 
+z
+M 200 1550 
+L 200 1775 
+L 2975 1775 
+L 2975 1550 
+L 200 1550 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#YouYuan-74"/>
+      <use xlink:href="#YouYuan-3d" x="50"/>
+      <use xlink:href="#YouYuan-32" x="100"/>
+     </g>
+    </g>
+    <g id="line2d_36">
+     <path d="M 56.2625 47.864062 
+L 66.2625 47.864062 
+L 76.2625 47.864062 
+" style="fill: none; stroke-dasharray: 4,6.6; stroke-dashoffset: 0; stroke: #367eb9; stroke-width: 4"/>
+     <g>
+      <use xlink:href="#m1d117b290d" x="66.2625" y="47.864062" style="fill: #ffffff; stroke: #367eb9; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <!-- t=3 -->
+     <g transform="translate(84.2625 51.364062)scale(0.1 -0.1)">
+      <defs>
+       <path id="YouYuan-33" d="M 2800 1250 
+Q 2800 775 2450 412 
+Q 2100 50 1475 50 
+Q 1025 50 700 300 
+Q 375 550 375 875 
+Q 375 1025 475 1137 
+Q 575 1250 675 1250 
+Q 825 1250 887 1137 
+Q 950 1025 950 950 
+Q 950 825 900 737 
+Q 850 650 850 575 
+Q 850 425 1037 325 
+Q 1225 225 1450 225 
+Q 1900 225 2125 487 
+Q 2350 750 2350 1300 
+Q 2350 1750 2112 2025 
+Q 1875 2300 1225 2300 
+L 1225 2475 
+Q 1725 2475 1962 2712 
+Q 2200 2950 2200 3375 
+Q 2200 3725 2012 3987 
+Q 1825 4250 1425 4250 
+Q 1250 4250 1050 4162 
+Q 850 4075 850 3875 
+Q 850 3675 900 3625 
+Q 950 3575 950 3500 
+Q 950 3375 900 3300 
+Q 850 3225 725 3225 
+Q 625 3225 537 3300 
+Q 450 3375 450 3575 
+Q 450 3950 775 4187 
+Q 1100 4425 1525 4425 
+Q 2025 4425 2325 4112 
+Q 2625 3800 2625 3450 
+Q 2625 3075 2437 2812 
+Q 2250 2550 1850 2425 
+Q 2400 2225 2600 1900 
+Q 2800 1575 2800 1250 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#YouYuan-74"/>
+      <use xlink:href="#YouYuan-3d" x="50"/>
+      <use xlink:href="#YouYuan-33" x="100"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf428d675a6">
+   <rect x="47.2625" y="21.778125" width="334.8" height="217.44"/>
+  </clipPath>
+ </defs>
+</svg>
