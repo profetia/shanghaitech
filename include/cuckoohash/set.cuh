@@ -67,6 +67,11 @@ __global__ void lookup(slot::SlotView<T, C> slot, std::uint32_t rehash, bool* re
 template <const std::size_t T, const std::size_t C, const std::size_t U>
 class Set {
  public:
+  void insert(std::vector<std::uint32_t>& keys) {
+    auto keys_device = thrust::device_vector<std::uint32_t>(keys.begin(), keys.end());
+    insert(keys_device);
+  }
+
   void insert(thrust::device_vector<std::uint32_t>& keys) {
     auto view = slot::SlotView<T, C>(slot_);
     for (std::size_t i = 0; i < builtin::kRehashLimit; ++i) {
@@ -86,6 +91,11 @@ class Set {
       }
     }
     throw std::runtime_error("rehash limit exceeded");
+  }
+
+  thrust::device_vector<bool> lookup(std::vector<std::uint32_t>& keys) {
+    auto keys_device = thrust::device_vector<std::uint32_t>(keys.begin(), keys.end());
+    return lookup(keys_device);
   }
 
   thrust::device_vector<bool> lookup(thrust::device_vector<std::uint32_t>& keys) {
