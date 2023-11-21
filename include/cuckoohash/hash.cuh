@@ -43,8 +43,8 @@ class Hash {
     __host__ __device__ constexpr std::uint32_t operator()(const std::uint32_t key) const {
       std::uint32_t hash = seed + detail::kPrime5 + 4;
 
-      hash += key * detail::kPrime3;
-      hash = detail::rotate_left(hash, 17) * detail::kPrime4;
+      // hash += key * detail::kPrime3;
+      // hash = detail::rotate_left(hash, 17) * detail::kPrime4;
 
       const auto *bytes = static_cast<const std::uint8_t *>(static_cast<const void *>(&key));
       for (std::size_t i = 0; i < 4; ++i) {

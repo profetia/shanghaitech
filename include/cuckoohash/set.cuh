@@ -27,7 +27,7 @@ struct InsertImpl : public thrust::unary_function<std::uint32_t, bool> {
   __device__ bool operator()(std::uint32_t key) const {
     std::size_t reloc = 0;
     while (reloc < U) {
-      auto hash = hash::Hash(rehash_ + reloc % T)(key);
+      auto hash = hash::Hash(rehash_ * T + reloc % T)(key);
       auto old = atomicExch(&slot_.keys[reloc % T][hash % C], static_cast<int32_t>(key));
       if (old == slot::kEmpty || old == key) {
         return true;
@@ -49,7 +49,7 @@ struct LookupImpl : public thrust::unary_function<std::uint32_t, bool> {
 
   __device__ bool operator()(std::uint32_t key) const {
     for (std::size_t i = 0; i < T; ++i) {
-      auto hash = hash::Hash(rehash_ + i)(key);
+      auto hash = hash::Hash(rehash_ * T + i)(key);
       if (slot_.keys[i][hash % C] == key) {
         return true;
       }
@@ -79,7 +79,7 @@ class Set {
           detail::InsertImpl<T, C, U>(view, rehash_ + static_cast<std::uint32_t>(i)), true,
           thrust::logical_and<bool>());
       if (success) {
-        rehash_ += i;
+        rehash_ += static_cast<std::uint32_t>(i);
         return;
       }
     }
