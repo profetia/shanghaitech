@@ -29,34 +29,34 @@ void insert_test() {
 
 int main() {
   insert_test<2, 25, 10, 10>();
-  insert_test<3, 25, 10, 10>();
   insert_test<2, 25, 11, 11>();
-  insert_test<3, 25, 11, 11>();
   insert_test<2, 25, 12, 12>();
-  insert_test<3, 25, 12, 12>();
   insert_test<2, 25, 13, 13>();
-  insert_test<3, 25, 13, 13>();
   insert_test<2, 25, 14, 14>();
-  insert_test<3, 25, 14, 14>();
   insert_test<2, 25, 15, 15>();
-  insert_test<3, 25, 15, 15>();
   insert_test<2, 25, 16, 16>();
-  insert_test<3, 25, 16, 16>();
   insert_test<2, 25, 17, 17>();
-  insert_test<3, 25, 17, 17>();
   insert_test<2, 25, 18, 18>();
-  insert_test<3, 25, 18, 18>();
   insert_test<2, 25, 19, 19>();
-  insert_test<3, 25, 19, 19>();
   insert_test<2, 25, 20, 20>();
-  insert_test<3, 25, 20, 20>();
   insert_test<2, 25, 21, 21>();
-  insert_test<3, 25, 21, 21>();
   insert_test<2, 25, 22, 22>();
-  insert_test<3, 25, 22, 22>();
   insert_test<2, 25, 23, 23>();
-  insert_test<3, 25, 23, 23>();
   insert_test<2, 25, 24, 24>();
+  insert_test<3, 25, 10, 10>();
+  insert_test<3, 25, 11, 11>();
+  insert_test<3, 25, 12, 12>();
+  insert_test<3, 25, 13, 13>();
+  insert_test<3, 25, 14, 14>();
+  insert_test<3, 25, 15, 15>();
+  insert_test<3, 25, 16, 16>();
+  insert_test<3, 25, 17, 17>();
+  insert_test<3, 25, 18, 18>();
+  insert_test<3, 25, 19, 19>();
+  insert_test<3, 25, 20, 20>();
+  insert_test<3, 25, 21, 21>();
+  insert_test<3, 25, 22, 22>();
+  insert_test<3, 25, 23, 23>();
   insert_test<3, 25, 24, 24>();
   return 0;
 }
