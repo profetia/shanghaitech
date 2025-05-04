@@ -1,0 +1,10 @@
+/.vscode
+/docs
+/media
+README.md
+/static/example
+.eslintrc.json
+.gitignore
+.prettierrc
+jsconfig.json
+LICENSE

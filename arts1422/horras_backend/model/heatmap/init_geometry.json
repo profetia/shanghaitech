@@ -1,0 +1,8794 @@
+[
+    {
+        "lat": 19.96,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 363,
+        "dest_num": 412
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.33,
+        "id": 46010606,
+        "start_num": 2,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.58,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 292,
+        "dest_num": 407
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 209,
+        "dest_num": 353
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.61,
+        "id": 46010801,
+        "start_num": 28,
+        "dest_num": 49
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.6,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.26,
+        "id": 46010500,
+        "start_num": 18,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.38,
+        "id": 46010605,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 38,
+        "dest_num": 87
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.66,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.41,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.43,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.31,
+        "id": 46010505,
+        "start_num": 131,
+        "dest_num": 40
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 24,
+        "dest_num": 216
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 1577,
+        "dest_num": 372
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.45,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 33,
+        "dest_num": 264
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 9527,
+        "dest_num": 7711
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 2801,
+        "dest_num": 3974
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 0,
+        "dest_num": 45
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.14,
+        "id": 46010501,
+        "start_num": 0,
+        "dest_num": 359
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 3,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.38,
+        "id": 46010709,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 2,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 5,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 1071,
+        "dest_num": 1545
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 0,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.34,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 1599,
+        "dest_num": 1571
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.33,
+        "id": 46010603,
+        "start_num": 4,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 24595,
+        "dest_num": 22019
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 12,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.52,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.26,
+        "id": 46010500,
+        "start_num": 7,
+        "dest_num": 78
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 342,
+        "dest_num": 25
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 11
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 509,
+        "dest_num": 465
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.35,
+        "id": 46010600,
+        "start_num": 11999,
+        "dest_num": 16413
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.38,
+        "id": 46010709,
+        "start_num": 18903,
+        "dest_num": 25491
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 8,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.3,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.55,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.28,
+        "id": 46010606,
+        "start_num": 7,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 27,
+        "dest_num": 121
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.47,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.34,
+        "id": 46010604,
+        "start_num": 42,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 5,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 15,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 12,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 5,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.32,
+        "id": 46010600,
+        "start_num": 4501,
+        "dest_num": 8991
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.48,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.26,
+        "id": 46010606,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 10,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 264,
+        "dest_num": 324
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 194,
+        "dest_num": 92
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 2378,
+        "dest_num": 2843
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 16,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.25,
+        "id": 46010606,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 12,
+        "dest_num": 17
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 4158,
+        "dest_num": 4624
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 50,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.48,
+        "id": 46010809,
+        "start_num": 6129,
+        "dest_num": 9154
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.29,
+        "id": 46010609,
+        "start_num": 24658,
+        "dest_num": 15776
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 7,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.32,
+        "id": 46010606,
+        "start_num": 4,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.57,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.6,
+        "id": 46010801,
+        "start_num": 25,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.68,
+        "lng": 110.37,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.25,
+        "id": 46010500,
+        "start_num": 1,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 360,
+        "dest_num": 100
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 5,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.52,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 93,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.55,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.44,
+        "id": 46010702,
+        "start_num": 8,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 245,
+        "dest_num": 1978
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 11,
+        "dest_num": 42
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 1185,
+        "dest_num": 1205
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 584,
+        "dest_num": 121
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.13,
+        "id": 46010501,
+        "start_num": 0,
+        "dest_num": 99
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.47,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.5,
+        "id": 46010705,
+        "start_num": 6,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.26,
+        "id": 46010507,
+        "start_num": 19309,
+        "dest_num": 17366
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.51,
+        "id": 46010809,
+        "start_num": 31,
+        "dest_num": 337
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.62,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.15,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.65,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.32,
+        "id": 46010600,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.57,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 28,
+        "dest_num": 43
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 94
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.29,
+        "id": 46010609,
+        "start_num": 1298,
+        "dest_num": 2728
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.35,
+        "id": 46010604,
+        "start_num": 138,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.32,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.57,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 1045,
+        "dest_num": 251
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.47,
+        "id": 46010810,
+        "start_num": 12071,
+        "dest_num": 3990
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.5,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.4,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.52,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.26,
+        "id": 46010500,
+        "start_num": 5736,
+        "dest_num": 6134
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.51,
+        "id": 46010809,
+        "start_num": 206,
+        "dest_num": 96
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.25,
+        "id": 46010500,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 408,
+        "dest_num": 153
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.36,
+        "id": 46010709,
+        "start_num": 95078,
+        "dest_num": 68188
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.34,
+        "id": 46010812,
+        "start_num": 12475,
+        "dest_num": 6234
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.37,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 46
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.48,
+        "id": 46010705,
+        "start_num": 3,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.26,
+        "id": 46010502,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 6,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.46,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 44,
+        "dest_num": 103
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 160,
+        "dest_num": 455
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.32,
+        "id": 46010600,
+        "start_num": 7,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.57,
+        "id": 46010801,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.47,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 22,
+        "dest_num": 29
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 10414,
+        "dest_num": 9557
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.32,
+        "id": 46010600,
+        "start_num": 214,
+        "dest_num": 630
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 1878,
+        "dest_num": 928
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.57,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 64,
+        "dest_num": 151
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 392,
+        "dest_num": 563
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 10128,
+        "dest_num": 10341
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.28,
+        "id": 46010502,
+        "start_num": 146,
+        "dest_num": 183
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.49,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 43,
+        "dest_num": 106
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 8832,
+        "dest_num": 9424
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 10,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 512,
+        "dest_num": 2303
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.31,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.65,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.31,
+        "id": 46010807,
+        "start_num": 3931,
+        "dest_num": 1936
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.44,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.27,
+        "id": 46010606,
+        "start_num": 9,
+        "dest_num": 50
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 20518,
+        "dest_num": 13540
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.17,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.42,
+        "id": 46010700,
+        "start_num": 29,
+        "dest_num": 227
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.47,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 340,
+        "dest_num": 2492
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 1899,
+        "dest_num": 1256
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.26,
+        "id": 46010502,
+        "start_num": 766,
+        "dest_num": 70
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 3,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.49,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.25,
+        "id": 46010507,
+        "start_num": 11401,
+        "dest_num": 10640
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 148,
+        "dest_num": 732
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.5,
+        "id": 46010809,
+        "start_num": 23,
+        "dest_num": 23
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.61,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.39,
+        "id": 46010706,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.62,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 7,
+        "dest_num": 45
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.65,
+        "id": 46010801,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 1759,
+        "dest_num": 2620
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.48,
+        "id": 46010809,
+        "start_num": 7,
+        "dest_num": 52
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.28,
+        "id": 46010502,
+        "start_num": 48,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.53,
+        "id": 46010809,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.32,
+        "id": 46010603,
+        "start_num": 13,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 23,
+        "dest_num": 162
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 4,
+        "dest_num": 23
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 194,
+        "dest_num": 1165
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.46,
+        "id": 46010810,
+        "start_num": 148649,
+        "dest_num": 292202
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.39,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.25,
+        "id": 46010500,
+        "start_num": 1203,
+        "dest_num": 2253
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.5,
+        "id": 46010809,
+        "start_num": 8,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.42,
+        "id": 46010703,
+        "start_num": 25,
+        "dest_num": 131
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.67,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.35,
+        "id": 46010709,
+        "start_num": 28370,
+        "dest_num": 21464
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.61,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.57,
+        "lng": 110.58,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.34,
+        "id": 46010603,
+        "start_num": 19,
+        "dest_num": 20
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 17,
+        "dest_num": 21
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.26,
+        "id": 46010502,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 368,
+        "dest_num": 583
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 88,
+        "dest_num": 651
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 37,
+        "dest_num": 611
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 14,
+        "dest_num": 131
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 9,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 648,
+        "dest_num": 287
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.49,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.22,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.64,
+        "id": 46010801,
+        "start_num": 3,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 93,
+        "dest_num": 76
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 2666,
+        "dest_num": 2133
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.27,
+        "id": 46010502,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.17,
+        "id": 46010506,
+        "start_num": 10,
+        "dest_num": 86
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 21,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 5,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 270,
+        "dest_num": 239
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.64,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.38,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.31,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.59,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 21,
+        "dest_num": 124
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.64,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.58,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.48,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 11,
+        "dest_num": 20
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 65,
+        "dest_num": 262
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.21,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.41,
+        "id": 46010700,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 1127,
+        "dest_num": 302
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 47,
+        "dest_num": 123
+    },
+    {
+        "lat": 19.59,
+        "lng": 110.6,
+        "id": 46010704,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.25,
+        "id": 46010503,
+        "start_num": 83,
+        "dest_num": 31
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 3,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.61,
+        "id": 46010801,
+        "start_num": 15,
+        "dest_num": 594
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.59,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.24,
+        "id": 46010507,
+        "start_num": 798,
+        "dest_num": 1823
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.4,
+        "id": 46010709,
+        "start_num": 19,
+        "dest_num": 252
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.49,
+        "id": 46010809,
+        "start_num": 306,
+        "dest_num": 564
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.64,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 18,
+        "dest_num": 30
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.61,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.28,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 3,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 18,
+        "dest_num": 27
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.29,
+        "id": 46010604,
+        "start_num": 45958,
+        "dest_num": 36419
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 21,
+        "dest_num": 50
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.46,
+        "id": 46010810,
+        "start_num": 570,
+        "dest_num": 2181
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.4,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 43,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.49,
+        "id": 46010809,
+        "start_num": 6,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 8,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.41,
+        "id": 46010703,
+        "start_num": 13,
+        "dest_num": 38
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.46,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 4,
+        "dest_num": 7
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 7290,
+        "dest_num": 9095
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.33,
+        "id": 46010603,
+        "start_num": 4,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 13,
+        "dest_num": 56
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 575,
+        "dest_num": 3104
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 6,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.5,
+        "id": 46010707,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 2,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.62,
+        "id": 46010801,
+        "start_num": 4,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 60,
+        "dest_num": 30
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 12,
+        "dest_num": 623
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.25,
+        "id": 46010503,
+        "start_num": 10,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 18,
+        "dest_num": 30
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 122,
+        "dest_num": 349
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 3,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.38,
+        "id": 46010700,
+        "start_num": 1,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 642,
+        "dest_num": 1054
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 2428,
+        "dest_num": 2769
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 74,
+        "dest_num": 149
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 17,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.64,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 94,
+        "dest_num": 400
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 58,
+        "dest_num": 64
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.38,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.63,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.29,
+        "id": 46010604,
+        "start_num": 5894,
+        "dest_num": 12779
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 12,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 4,
+        "dest_num": 34
+    },
+    {
+        "lat": 19.64,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 13,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.22,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.47,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 215,
+        "dest_num": 1066
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 1242,
+        "dest_num": 2144
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 4,
+        "dest_num": 46
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.61,
+        "id": 46010801,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 8712,
+        "dest_num": 6615
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.6,
+        "id": 46010801,
+        "start_num": 28,
+        "dest_num": 67
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.33,
+        "id": 46010605,
+        "start_num": 5,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.58,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.39,
+        "id": 46010709,
+        "start_num": 25,
+        "dest_num": 83
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.38,
+        "id": 46010600,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 176,
+        "dest_num": 374
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.61,
+        "id": 46010801,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 5,
+        "dest_num": 8232
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 76,
+        "dest_num": 460
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 16,
+        "dest_num": 38
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.38,
+        "id": 46010600,
+        "start_num": 7,
+        "dest_num": 33
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 14,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.28,
+        "id": 46010604,
+        "start_num": 3160,
+        "dest_num": 4016
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 5
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.34,
+        "id": 46010806,
+        "start_num": 22953,
+        "dest_num": 21976
+    },
+    {
+        "lat": 19.68,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.68,
+        "id": 46010811,
+        "start_num": 6,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.29,
+        "id": 46010604,
+        "start_num": 2589,
+        "dest_num": 2582
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 4,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 19,
+        "dest_num": 57
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.37,
+        "id": 46010804,
+        "start_num": 21,
+        "dest_num": 277
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.37,
+        "id": 46010809,
+        "start_num": 1305,
+        "dest_num": 1224
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 13,
+        "dest_num": 13
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 8541,
+        "dest_num": 4422
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.32,
+        "id": 46010603,
+        "start_num": 4,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 8,
+        "dest_num": 104
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 153,
+        "dest_num": 357
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.35,
+        "id": 46010600,
+        "start_num": 56,
+        "dest_num": 34
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.58,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.19,
+        "id": 46010501,
+        "start_num": 2,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 25,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 213,
+        "dest_num": 239
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 4,
+        "dest_num": 37
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 16598,
+        "dest_num": 29609
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.27,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.26,
+        "id": 46010500,
+        "start_num": 936,
+        "dest_num": 1538
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.51,
+        "id": 46010809,
+        "start_num": 5431,
+        "dest_num": 8418
+    },
+    {
+        "lat": 20.1,
+        "lng": 110.34,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.31,
+        "id": 46010607,
+        "start_num": 110165,
+        "dest_num": 93157
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.34,
+        "id": 46010812,
+        "start_num": 60816,
+        "dest_num": 58442
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.34,
+        "id": 46010805,
+        "start_num": 85,
+        "dest_num": 1262
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 1195,
+        "dest_num": 3064
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 538,
+        "dest_num": 494
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.38,
+        "id": 46010700,
+        "start_num": 3,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.63,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.68,
+        "lng": 110.4,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.28,
+        "id": 46010604,
+        "start_num": 91,
+        "dest_num": 96
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 48,
+        "dest_num": 167
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 833,
+        "dest_num": 1057
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.3,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.57,
+        "id": 46010704,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.45,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.7,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.31,
+        "id": 46010604,
+        "start_num": 26143,
+        "dest_num": 21181
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 8249,
+        "dest_num": 6416
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 15,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 3,
+        "dest_num": 63
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.49,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 343,
+        "dest_num": 2372
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 800,
+        "dest_num": 703
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 172,
+        "dest_num": 931
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.42,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.28,
+        "id": 46010606,
+        "start_num": 9,
+        "dest_num": 39
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.29,
+        "id": 46010607,
+        "start_num": 62181,
+        "dest_num": 28958
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.65,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.42,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 4,
+        "dest_num": 5
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.31,
+        "id": 46010807,
+        "start_num": 13,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.6,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.26,
+        "id": 46010507,
+        "start_num": 26652,
+        "dest_num": 24586
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.51,
+        "id": 46010809,
+        "start_num": 20,
+        "dest_num": 73
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.57,
+        "id": 46010811,
+        "start_num": 10,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.32,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.38,
+        "id": 46010709,
+        "start_num": 23,
+        "dest_num": 144
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.63,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 6,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.6,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.25,
+        "id": 46010506,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 22,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 6198,
+        "dest_num": 7521
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.28,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.53,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 8,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 8,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 7,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.27,
+        "id": 46010500,
+        "start_num": 5890,
+        "dest_num": 4030
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 1531,
+        "dest_num": 10291
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.68,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.33,
+        "id": 46010806,
+        "start_num": 522,
+        "dest_num": 801
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.29,
+        "id": 46010604,
+        "start_num": 2225,
+        "dest_num": 2337
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 6,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 54,
+        "dest_num": 63
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.28,
+        "id": 46010604,
+        "start_num": 231,
+        "dest_num": 115
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.36,
+        "id": 46010804,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 13,
+        "dest_num": 20
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.37,
+        "id": 46010804,
+        "start_num": 120,
+        "dest_num": 470
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.4,
+        "id": 46010706,
+        "start_num": 9,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.36,
+        "id": 46010812,
+        "start_num": 281,
+        "dest_num": 409
+    },
+    {
+        "lat": 19.57,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.32,
+        "id": 46010603,
+        "start_num": 14,
+        "dest_num": 34
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.35,
+        "id": 46010600,
+        "start_num": 93,
+        "dest_num": 40
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.32,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.49,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.28,
+        "id": 46010606,
+        "start_num": 19,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.35,
+        "id": 46010600,
+        "start_num": 14,
+        "dest_num": 42
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 62,
+        "dest_num": 74
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.47,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.25,
+        "id": 46010500,
+        "start_num": 399,
+        "dest_num": 571
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 274,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.31,
+        "id": 46010609,
+        "start_num": 105405,
+        "dest_num": 95386
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.42,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.4,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.59,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.3,
+        "id": 46010607,
+        "start_num": 86766,
+        "dest_num": 63015
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.34,
+        "id": 46010804,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 12,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.68,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.33,
+        "id": 46010812,
+        "start_num": 4440,
+        "dest_num": 3262
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.67,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 11,
+        "dest_num": 54
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.34,
+        "id": 46010812,
+        "start_num": 126704,
+        "dest_num": 137931
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.33,
+        "id": 46010610,
+        "start_num": 16217,
+        "dest_num": 11170
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 4,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.27,
+        "id": 46010604,
+        "start_num": 816,
+        "dest_num": 3006
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 64,
+        "dest_num": 46
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.3,
+        "id": 46010604,
+        "start_num": 26116,
+        "dest_num": 36046
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 8,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.28,
+        "id": 46010507,
+        "start_num": 85170,
+        "dest_num": 83848
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.64,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 13,
+        "dest_num": 95
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 59,
+        "dest_num": 38
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.17,
+        "id": 46010506,
+        "start_num": 4,
+        "dest_num": 26
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.42,
+        "id": 46010700,
+        "start_num": 21,
+        "dest_num": 87
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.31,
+        "id": 46010807,
+        "start_num": 1020,
+        "dest_num": 1110
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.67,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.4,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.65,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.3,
+        "id": 46010609,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.56,
+        "id": 46010707,
+        "start_num": 66,
+        "dest_num": 466
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.26,
+        "id": 46010502,
+        "start_num": 20841,
+        "dest_num": 20333
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.51,
+        "id": 46010809,
+        "start_num": 20,
+        "dest_num": 84
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.31,
+        "id": 46010609,
+        "start_num": 3567,
+        "dest_num": 5306
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 3958,
+        "dest_num": 3825
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.27,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.67,
+        "id": 46010811,
+        "start_num": 5,
+        "dest_num": 8
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.32,
+        "id": 46010609,
+        "start_num": 353882,
+        "dest_num": 450598
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.28,
+        "id": 46010500,
+        "start_num": 55153,
+        "dest_num": 36616
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 33,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.47,
+        "id": 46010810,
+        "start_num": 214,
+        "dest_num": 148
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 3,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.27,
+        "id": 46010500,
+        "start_num": 23,
+        "dest_num": 4148
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 1412,
+        "dest_num": 851
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.46,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.35,
+        "id": 46010804,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 11,
+        "dest_num": 171
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.36,
+        "id": 46010804,
+        "start_num": 2329,
+        "dest_num": 5949
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.39,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 3,
+        "dest_num": 27
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.64,
+        "lng": 110.63,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.55,
+        "lng": 110.6,
+        "id": 46010704,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.39,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.63,
+        "id": 46010704,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 10,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.48,
+        "id": 46010809,
+        "start_num": 396,
+        "dest_num": 1342
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 27,
+        "dest_num": 509
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.49,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 17,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 31,
+        "dest_num": 65
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.49,
+        "id": 46010707,
+        "start_num": 3,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.42,
+        "id": 46010703,
+        "start_num": 3,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 221,
+        "dest_num": 662
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 25,
+        "dest_num": 56
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 10
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.3,
+        "id": 46010609,
+        "start_num": 68836,
+        "dest_num": 51125
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.41,
+        "id": 46010703,
+        "start_num": 5,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.39,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 13,
+        "dest_num": 20
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 262,
+        "dest_num": 299
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.33,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 10,
+        "dest_num": 18
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.42,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.32,
+        "id": 46010807,
+        "start_num": 48690,
+        "dest_num": 45017
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.66,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 14
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.33,
+        "id": 46010812,
+        "start_num": 901,
+        "dest_num": 1693
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.31,
+        "id": 46010600,
+        "start_num": 51,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.32,
+        "id": 46010609,
+        "start_num": 493,
+        "dest_num": 638
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.59,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.34,
+        "id": 46010709,
+        "start_num": 159994,
+        "dest_num": 19736
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 7,
+        "dest_num": 109
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 18,
+        "dest_num": 25
+    },
+    {
+        "lat": 19.68,
+        "lng": 110.38,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 12
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 6232,
+        "dest_num": 5555
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.29,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.18,
+        "id": 46010503,
+        "start_num": 2,
+        "dest_num": 8
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 1,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.39,
+        "id": 46010700,
+        "start_num": 20,
+        "dest_num": 32
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.27,
+        "id": 46010507,
+        "start_num": 28388,
+        "dest_num": 22161
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.63,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.52,
+        "id": 46010809,
+        "start_num": 37,
+        "dest_num": 106
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.17,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 16,
+        "dest_num": 27
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.56,
+        "id": 46010707,
+        "start_num": 26,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.42,
+        "id": 46010700,
+        "start_num": 8,
+        "dest_num": 53
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.25,
+        "id": 46010502,
+        "start_num": 19166,
+        "dest_num": 17663
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.5,
+        "id": 46010809,
+        "start_num": 256,
+        "dest_num": 613
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 3,
+        "dest_num": 64
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.34,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.3,
+        "id": 46010609,
+        "start_num": 14,
+        "dest_num": 5
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.37,
+        "id": 46010809,
+        "start_num": 16987,
+        "dest_num": 12831
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 4,
+        "dest_num": 55
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 9917,
+        "dest_num": 14562
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 128,
+        "dest_num": 1570
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 2739,
+        "dest_num": 2679
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.27,
+        "id": 46010500,
+        "start_num": 9237,
+        "dest_num": 9025
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 52,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.46,
+        "id": 46010810,
+        "start_num": 2807,
+        "dest_num": 2228
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 43,
+        "dest_num": 227
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.34,
+        "id": 46010604,
+        "start_num": 14896,
+        "dest_num": 17605
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 9
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.35,
+        "id": 46010812,
+        "start_num": 66,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.38,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.36,
+        "id": 46010605,
+        "start_num": 5,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 40700,
+        "dest_num": 34266
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.28,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 443,
+        "dest_num": 268
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 12,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.56,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.37,
+        "id": 46010804,
+        "start_num": 6,
+        "dest_num": 1366
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.41,
+        "id": 46010700,
+        "start_num": 1,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.66,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 12,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 6220,
+        "dest_num": 5581
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.24,
+        "id": 46010500,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 2584,
+        "dest_num": 4254
+    },
+    {
+        "lat": 20.09,
+        "lng": 110.32,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.33,
+        "id": 46010812,
+        "start_num": 569,
+        "dest_num": 152
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.31,
+        "id": 46010600,
+        "start_num": 15,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.61,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.32,
+        "id": 46010807,
+        "start_num": 78913,
+        "dest_num": 65681
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 48,
+        "dest_num": 38
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.51,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 80922,
+        "dest_num": 73980
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 27,
+        "dest_num": 72
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 29
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 3116,
+        "dest_num": 3944
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 11,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.34,
+        "id": 46010709,
+        "start_num": 28237,
+        "dest_num": 38416
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 12,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.51,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.5,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.45,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.38,
+        "id": 46010700,
+        "start_num": 2,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 25
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.41,
+        "id": 46010700,
+        "start_num": 524,
+        "dest_num": 1631
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.31,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.63,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 7,
+        "dest_num": 28
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.34,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.59,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.41,
+        "id": 46010700,
+        "start_num": 2,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.66,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.24,
+        "id": 46010503,
+        "start_num": 1561,
+        "dest_num": 623
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.49,
+        "id": 46010809,
+        "start_num": 82,
+        "dest_num": 504
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 4,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.33,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.56,
+        "id": 46010707,
+        "start_num": 109,
+        "dest_num": 111
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.57,
+        "id": 46010704,
+        "start_num": 1,
+        "dest_num": 66
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.31,
+        "id": 46010604,
+        "start_num": 11381,
+        "dest_num": 9487
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 13,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.68,
+        "lng": 110.6,
+        "id": 46010707,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.37,
+        "id": 46010802,
+        "start_num": 11,
+        "dest_num": 101138
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.23,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.36,
+        "id": 46010710,
+        "start_num": 94994,
+        "dest_num": 105307
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 313,
+        "dest_num": 441
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 114,
+        "dest_num": 73
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 72,
+        "dest_num": 514
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 5,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 11,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 226,
+        "dest_num": 411
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.14,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 21,
+        "dest_num": 55
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 217,
+        "dest_num": 198
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 6,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.38,
+        "id": 46010600,
+        "start_num": 3,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.36,
+        "id": 46010709,
+        "start_num": 141676,
+        "dest_num": 119643
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 97,
+        "dest_num": 9
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.47,
+        "id": 46010809,
+        "start_num": 1,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 4057,
+        "dest_num": 4010
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 4,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.47,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.58,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 7
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.34,
+        "id": 46010710,
+        "start_num": 95263,
+        "dest_num": 85078
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 3,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.47,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.37,
+        "id": 46010809,
+        "start_num": 90,
+        "dest_num": 146
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 5,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.36,
+        "id": 46010812,
+        "start_num": 6196,
+        "dest_num": 19480
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.37,
+        "id": 46010802,
+        "start_num": 37192,
+        "dest_num": 26700
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.31,
+        "id": 46010604,
+        "start_num": 28,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 8,
+        "dest_num": 14
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.32,
+        "id": 46010807,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 58,
+        "dest_num": 151
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.6,
+        "id": 46010811,
+        "start_num": 10,
+        "dest_num": 86
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 16,
+        "dest_num": 39
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.32,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 6,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.48,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.34,
+        "id": 46010709,
+        "start_num": 74279,
+        "dest_num": 72046
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.28,
+        "id": 46010604,
+        "start_num": 11,
+        "dest_num": 71
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 11,
+        "dest_num": 30
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 3988,
+        "dest_num": 3598
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.27,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 143
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.5,
+        "id": 46010703,
+        "start_num": 12,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.45,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.44,
+        "id": 46010706,
+        "start_num": 4,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.34,
+        "id": 46010812,
+        "start_num": 111622,
+        "dest_num": 103650
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 24,
+        "dest_num": 75
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.29,
+        "id": 46010607,
+        "start_num": 34427,
+        "dest_num": 18481
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 84
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 117,
+        "dest_num": 443
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 16,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.23,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.3,
+        "id": 46010604,
+        "start_num": 49980,
+        "dest_num": 47575
+    },
+    {
+        "lat": 20.1,
+        "lng": 110.38,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 442,
+        "dest_num": 2465
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.36,
+        "id": 46010808,
+        "start_num": 34580,
+        "dest_num": 32759
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.45,
+        "id": 46010702,
+        "start_num": 3,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.26,
+        "id": 46010506,
+        "start_num": 14,
+        "dest_num": 22
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.35,
+        "id": 46010710,
+        "start_num": 31701,
+        "dest_num": 20396
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.51,
+        "id": 46010810,
+        "start_num": 43,
+        "dest_num": 28
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.31,
+        "id": 46010604,
+        "start_num": 477,
+        "dest_num": 170
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.25,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 491,
+        "dest_num": 1065
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.23,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 17,
+        "dest_num": 19
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 658,
+        "dest_num": 3053
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 9,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.68,
+        "id": 46010811,
+        "start_num": 14,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.5,
+        "id": 46010703,
+        "start_num": 15,
+        "dest_num": 24
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 288,
+        "dest_num": 814
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 244,
+        "dest_num": 123
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 5,
+        "dest_num": 292
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.4,
+        "id": 46010709,
+        "start_num": 2,
+        "dest_num": 4046
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 102,
+        "dest_num": 190
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 6,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.49,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.35,
+        "id": 46010709,
+        "start_num": 159179,
+        "dest_num": 125685
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.27,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.52,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.21,
+        "id": 46010503,
+        "start_num": 1476,
+        "dest_num": 1481
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.46,
+        "id": 46010809,
+        "start_num": 5,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.1,
+        "lng": 110.36,
+        "id": 46010804,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 21
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.32,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 3,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.33,
+        "id": 46010710,
+        "start_num": 521,
+        "dest_num": 588
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 97,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.59,
+        "id": 46010707,
+        "start_num": 6,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.48,
+        "id": 46010810,
+        "start_num": 18,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.36,
+        "id": 46010804,
+        "start_num": 22075,
+        "dest_num": 22831
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 28,
+        "dest_num": 37
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.35,
+        "id": 46010812,
+        "start_num": 137114,
+        "dest_num": 103054
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.23,
+        "id": 46010506,
+        "start_num": 10,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 5,
+        "dest_num": 23
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.31,
+        "id": 46010609,
+        "start_num": 60683,
+        "dest_num": 74435
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.4,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.36,
+        "id": 46010808,
+        "start_num": 5398,
+        "dest_num": 2944
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.64,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.18,
+        "id": 46010503,
+        "start_num": 4,
+        "dest_num": 13
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 191,
+        "dest_num": 281
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.3,
+        "id": 46010604,
+        "start_num": 1661,
+        "dest_num": 1823
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 6,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.74,
+        "lng": 110.32,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.24,
+        "id": 46010505,
+        "start_num": 41,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 92141,
+        "dest_num": 101515
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 4,
+        "dest_num": 13
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 6529,
+        "dest_num": 8442
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 4,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.4,
+        "id": 46010709,
+        "start_num": 1180,
+        "dest_num": 1305
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.55,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.3,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.2,
+        "id": 46010506,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 21,
+        "dest_num": 77
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 33,
+        "dest_num": 811
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 53,
+        "dest_num": 60
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.33,
+        "id": 46010807,
+        "start_num": 23383,
+        "dest_num": 14380
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.36,
+        "id": 46010605,
+        "start_num": 5,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.61,
+        "id": 46010811,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.29,
+        "id": 46010609,
+        "start_num": 63128,
+        "dest_num": 47611
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.28,
+        "id": 46010507,
+        "start_num": 58936,
+        "dest_num": 38864
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 42,
+        "dest_num": 296
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 57,
+        "dest_num": 427
+    },
+    {
+        "lat": 19.66,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 21
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.4,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.32,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 4878,
+        "dest_num": 5573
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 25,
+        "dest_num": 179
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 5,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.35,
+        "id": 46010808,
+        "start_num": 54871,
+        "dest_num": 43685
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.69,
+        "id": 46010811,
+        "start_num": 41,
+        "dest_num": 458
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.25,
+        "id": 46010506,
+        "start_num": 25,
+        "dest_num": 23
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.5,
+        "id": 46010810,
+        "start_num": 19,
+        "dest_num": 29
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.3,
+        "id": 46010604,
+        "start_num": 11580,
+        "dest_num": 14191
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 82,
+        "dest_num": 66
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 124,
+        "dest_num": 244
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.67,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.24,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 10
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 266,
+        "dest_num": 489
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.29,
+        "id": 46010606,
+        "start_num": 6,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.4,
+        "id": 46010709,
+        "start_num": 8980,
+        "dest_num": 10523
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.59,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.58,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.56,
+        "lng": 110.61,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 15,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 23,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.19,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 30
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.36,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 10
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.32,
+        "id": 46010607,
+        "start_num": 1582,
+        "dest_num": 11352
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 4519,
+        "dest_num": 4039
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.47,
+        "id": 46010810,
+        "start_num": 63,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.35,
+        "id": 46010812,
+        "start_num": 32664,
+        "dest_num": 27961
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 18,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 14,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 5,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 12
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.3,
+        "id": 46010609,
+        "start_num": 100710,
+        "dest_num": 95440
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 601,
+        "dest_num": 438
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.59,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.35,
+        "id": 46010808,
+        "start_num": 63954,
+        "dest_num": 59095
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.37,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.63,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 61267,
+        "dest_num": 46355
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 105,
+        "dest_num": 444
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 10,
+        "dest_num": 97
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 127,
+        "dest_num": 111
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 309,
+        "dest_num": 671
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.29,
+        "id": 46010606,
+        "start_num": 5,
+        "dest_num": 22
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 4,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 93567,
+        "dest_num": 88730
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.24,
+        "id": 46010505,
+        "start_num": 6,
+        "dest_num": 28
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.39,
+        "id": 46010709,
+        "start_num": 238,
+        "dest_num": 545
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 6,
+        "dest_num": 23
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 134,
+        "dest_num": 311
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 14108,
+        "dest_num": 17397
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.32,
+        "id": 46010807,
+        "start_num": 2097,
+        "dest_num": 7691
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.35,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 10
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.28,
+        "id": 46010507,
+        "start_num": 1468,
+        "dest_num": 960
+    },
+    {
+        "lat": 19.6,
+        "lng": 110.5,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.62,
+        "id": 46010811,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.27,
+        "id": 46010507,
+        "start_num": 22437,
+        "dest_num": 14394
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.52,
+        "id": 46010809,
+        "start_num": 6,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.36,
+        "id": 46010605,
+        "start_num": 5,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.39,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 15,
+        "dest_num": 31
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 3554,
+        "dest_num": 5305
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.54,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.54,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 14
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 1578,
+        "dest_num": 1084
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 596,
+        "dest_num": 1784
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 230,
+        "dest_num": 433
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.44,
+        "id": 46010702,
+        "start_num": 5,
+        "dest_num": 14
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 657,
+        "dest_num": 422
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 12,
+        "dest_num": 98
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.49,
+        "id": 46010810,
+        "start_num": 28,
+        "dest_num": 19
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 308,
+        "dest_num": 187
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 13,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.38,
+        "id": 46010605,
+        "start_num": 2,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 16,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.38,
+        "id": 46010804,
+        "start_num": 4,
+        "dest_num": 18
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 5,
+        "dest_num": 65
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.31,
+        "id": 46010600,
+        "start_num": 3,
+        "dest_num": 36
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.29,
+        "id": 46010606,
+        "start_num": 2,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 40,
+        "dest_num": 216
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 2764,
+        "dest_num": 3224
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.39,
+        "id": 46010709,
+        "start_num": 6041,
+        "dest_num": 4842
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.33,
+        "id": 46010605,
+        "start_num": 1,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.58,
+        "id": 46010811,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.6,
+        "lng": 110.48,
+        "id": 46010706,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.69,
+        "lng": 110.55,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.25,
+        "id": 46010507,
+        "start_num": 1688,
+        "dest_num": 2026
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.62,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.53,
+        "id": 46010707,
+        "start_num": 3,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.51,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.5,
+        "id": 46010706,
+        "start_num": 4,
+        "dest_num": 33
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 225,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 138,
+        "dest_num": 62
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.6,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.46,
+        "id": 46010810,
+        "start_num": 38,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 114,
+        "dest_num": 30
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 12
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.35,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 170,
+        "dest_num": 363
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.35,
+        "id": 46010812,
+        "start_num": 127338,
+        "dest_num": 107920
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 10648,
+        "dest_num": 9750
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.63,
+        "id": 46010811,
+        "start_num": 4,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 3,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.36,
+        "id": 46010709,
+        "start_num": 39102,
+        "dest_num": 23621
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 295,
+        "dest_num": 760
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.53,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 46,
+        "dest_num": 115
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.26,
+        "id": 46010606,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 2,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 17
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 35,
+        "dest_num": 169
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 323,
+        "dest_num": 360
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 2734,
+        "dest_num": 4855
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.31,
+        "id": 46010604,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 2,
+        "dest_num": 7
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.19,
+        "id": 46010501,
+        "start_num": 5,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.56,
+        "lng": 110.58,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 10551,
+        "dest_num": 12744
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.31,
+        "id": 46010600,
+        "start_num": 8,
+        "dest_num": 81
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.51,
+        "id": 46010707,
+        "start_num": 5,
+        "dest_num": 50
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.26,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.38,
+        "id": 46010709,
+        "start_num": 457,
+        "dest_num": 488
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 7,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 4228,
+        "dest_num": 4830
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.58,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.57,
+        "id": 46010707,
+        "start_num": 10,
+        "dest_num": 11
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.27,
+        "id": 46010502,
+        "start_num": 4,
+        "dest_num": 11725
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.52,
+        "id": 46010809,
+        "start_num": 16,
+        "dest_num": 50
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.61,
+        "id": 46010811,
+        "start_num": 20,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.35,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.6,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.1,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.26,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.14,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.5,
+        "id": 46010705,
+        "start_num": 6,
+        "dest_num": 13
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 26,
+        "dest_num": 41
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 38
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.53,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 38,
+        "dest_num": 401
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.4,
+        "id": 46010706,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 3,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 14,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 11
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 3343,
+        "dest_num": 1567
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 1162,
+        "dest_num": 582
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 3,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.54,
+        "id": 46010801,
+        "start_num": 2,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.37,
+        "id": 46010806,
+        "start_num": 28544,
+        "dest_num": 19156
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 190,
+        "dest_num": 137
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 39,
+        "dest_num": 283
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.21,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 23
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.36,
+        "id": 46010709,
+        "start_num": 23,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.35,
+        "id": 46010600,
+        "start_num": 140,
+        "dest_num": 726
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.28,
+        "id": 46010606,
+        "start_num": 31,
+        "dest_num": 120
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.53,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 53,
+        "dest_num": 1280
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.31,
+        "id": 46010603,
+        "start_num": 3,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.38,
+        "id": 46010709,
+        "start_num": 3362,
+        "dest_num": 4444
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.32,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.6,
+        "lng": 110.47,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.24,
+        "id": 46010507,
+        "start_num": 19,
+        "dest_num": 5
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.49,
+        "id": 46010809,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.36,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 27
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.48,
+        "id": 46010703,
+        "start_num": 3,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.52,
+        "id": 46010707,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.51,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 23
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.14,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.39,
+        "id": 46010809,
+        "start_num": 17,
+        "dest_num": 164
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.34,
+        "id": 46010709,
+        "start_num": 675,
+        "dest_num": 175
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.33,
+        "id": 46010604,
+        "start_num": 6,
+        "dest_num": 47
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.38,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 18
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.32,
+        "id": 46010600,
+        "start_num": 183,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.35,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 13,
+        "dest_num": 94
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.53,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.35,
+        "id": 46010709,
+        "start_num": 20297,
+        "dest_num": 28529
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.26,
+        "id": 46010606,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 72,
+        "dest_num": 601
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 15,
+        "dest_num": 37
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 12177,
+        "dest_num": 20607
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.52,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.25,
+        "id": 46010606,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 1321,
+        "dest_num": 2380
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.31,
+        "id": 46010505,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.56,
+        "id": 46010810,
+        "start_num": 173,
+        "dest_num": 1240
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.29,
+        "id": 46010505,
+        "start_num": 39,
+        "dest_num": 50
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.36,
+        "id": 46010709,
+        "start_num": 432,
+        "dest_num": 619
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.45,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.08,
+        "lng": 110.2,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 8,
+        "dest_num": 20
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 218,
+        "dest_num": 159
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 10977,
+        "dest_num": 8847
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.46,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.25,
+        "id": 46010504,
+        "start_num": 16,
+        "dest_num": 18
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.35,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.6,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.5,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 19625,
+        "dest_num": 11416
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.24,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.52,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 31,
+        "dest_num": 256
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 71,
+        "dest_num": 169
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 10,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.5,
+        "id": 46010705,
+        "start_num": 2,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 3,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.53,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 51,
+        "dest_num": 40
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 1120,
+        "dest_num": 1518
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.36,
+        "id": 46010808,
+        "start_num": 1484,
+        "dest_num": 2735
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.4,
+        "id": 46010700,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.45,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.65,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 1742,
+        "dest_num": 1203
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 14162,
+        "dest_num": 23971
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.44,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 2,
+        "dest_num": 55
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 76,
+        "dest_num": 30
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 1984,
+        "dest_num": 2556
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.48,
+        "id": 46010809,
+        "start_num": 65,
+        "dest_num": 241
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.35,
+        "id": 46010709,
+        "start_num": 18,
+        "dest_num": 105
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.27,
+        "id": 46010606,
+        "start_num": 3,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.52,
+        "id": 46010705,
+        "start_num": 9,
+        "dest_num": 43
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.38,
+        "id": 46010708,
+        "start_num": 1,
+        "dest_num": 87634
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.13,
+        "id": 46010501,
+        "start_num": 0,
+        "dest_num": 128
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.3,
+        "id": 46010505,
+        "start_num": 7,
+        "dest_num": 496
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.55,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 1550,
+        "dest_num": 741
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 0,
+        "dest_num": 36
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.6,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.4,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.22,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.47,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.37,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.62,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.49,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 3,
+        "dest_num": 35
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.5,
+        "id": 46010703,
+        "start_num": 10,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 220,
+        "dest_num": 551
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.48,
+        "id": 46010809,
+        "start_num": 748,
+        "dest_num": 584
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 23,
+        "dest_num": 87
+    },
+    {
+        "lat": 19.71,
+        "lng": 110.39,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.58,
+        "lng": 110.44,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 14
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.34,
+        "id": 46010806,
+        "start_num": 118564,
+        "dest_num": 108139
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.43,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.33,
+        "id": 46010701,
+        "start_num": 29550,
+        "dest_num": 20940
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.58,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.45,
+        "id": 46010703,
+        "start_num": 24,
+        "dest_num": 385
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 4,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 13,
+        "dest_num": 16
+    },
+    {
+        "lat": 19.54,
+        "lng": 110.62,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 842,
+        "dest_num": 3916
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.25,
+        "id": 46010505,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.5,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.3,
+        "id": 46010604,
+        "start_num": 9,
+        "dest_num": 14
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.55,
+        "id": 46010810,
+        "start_num": 72,
+        "dest_num": 93
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.28,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.35,
+        "id": 46010709,
+        "start_num": 5269,
+        "dest_num": 7343
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.44,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 9,
+        "dest_num": 95
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 2791,
+        "dest_num": 2407
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 202,
+        "dest_num": 825
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.22,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.47,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.24,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.46,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 2,
+        "dest_num": 182
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 11656,
+        "dest_num": 21540
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.31,
+        "id": 46010607,
+        "start_num": 109260,
+        "dest_num": 104233
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.43,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.7,
+        "lng": 110.59,
+        "id": 46010707,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.32,
+        "id": 46010604,
+        "start_num": 21668,
+        "dest_num": 18388
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 6
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.38,
+        "id": 46010809,
+        "start_num": 4671,
+        "dest_num": 2218
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 31,
+        "dest_num": 279
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 536,
+        "dest_num": 1646
+    },
+    {
+        "lat": 19.67,
+        "lng": 110.38,
+        "id": 46010706,
+        "start_num": 10,
+        "dest_num": 53
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 24,
+        "dest_num": 17
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.49,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.4,
+        "id": 46010709,
+        "start_num": 24,
+        "dest_num": 509
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.7,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.15,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 771,
+        "dest_num": 2238
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 291,
+        "dest_num": 709
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 6532,
+        "dest_num": 8402
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.35,
+        "id": 46010806,
+        "start_num": 181974,
+        "dest_num": 201079
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.14,
+        "id": 46010506,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.44,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 129,
+        "dest_num": 668
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 6801,
+        "dest_num": 7921
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 4134,
+        "dest_num": 3161
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.34,
+        "id": 46010603,
+        "start_num": 8,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.59,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.18,
+        "id": 46010506,
+        "start_num": 2,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 12947,
+        "dest_num": 26090
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.37,
+        "id": 46010600,
+        "start_num": 6,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 19828,
+        "dest_num": 12647
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.46,
+        "id": 46010703,
+        "start_num": 1,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.24,
+        "id": 46010506,
+        "start_num": 43,
+        "dest_num": 84
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.33,
+        "id": 46010806,
+        "start_num": 57724,
+        "dest_num": 76913
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.42,
+        "id": 46010702,
+        "start_num": 14,
+        "dest_num": 13
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.38,
+        "id": 46010802,
+        "start_num": 8994,
+        "dest_num": 8664
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.32,
+        "id": 46010607,
+        "start_num": 836,
+        "dest_num": 948
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.44,
+        "id": 46010703,
+        "start_num": 13,
+        "dest_num": 18
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 12639,
+        "dest_num": 22388
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 2,
+        "dest_num": 10
+    },
+    {
+        "lat": 19.85,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.65,
+        "lng": 110.59,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 127,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.59,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 9493,
+        "dest_num": 10495
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.18,
+        "id": 46010501,
+        "start_num": 75,
+        "dest_num": 166
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.43,
+        "id": 46010809,
+        "start_num": 249,
+        "dest_num": 673
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 10406,
+        "dest_num": 10488
+    },
+    {
+        "lat": 19.62,
+        "lng": 110.51,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.27,
+        "id": 46010505,
+        "start_num": 68,
+        "dest_num": 56
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.17,
+        "id": 46010506,
+        "start_num": 18,
+        "dest_num": 147
+    },
+    {
+        "lat": 19.96,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 9,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 9,
+        "dest_num": 6
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.16,
+        "id": 46010506,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.63,
+        "lng": 110.46,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.82,
+        "lng": 110.59,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 188,
+        "dest_num": 211
+    },
+    {
+        "lat": 19.99,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 150,
+        "dest_num": 205
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.37,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.88,
+        "lng": 110.62,
+        "id": 46010801,
+        "start_num": 17,
+        "dest_num": 28
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 47,
+        "dest_num": 119
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 34167,
+        "dest_num": 20919
+    },
+    {
+        "lat": 19.78,
+        "lng": 110.38,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.6,
+        "lng": 110.53,
+        "id": 46010706,
+        "start_num": 2,
+        "dest_num": 0
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.3,
+        "id": 46010607,
+        "start_num": 139582,
+        "dest_num": 94684
+    },
+    {
+        "lat": 19.77,
+        "lng": 110.39,
+        "id": 46010605,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.64,
+        "lng": 110.55,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.42,
+        "id": 46010703,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.83,
+        "lng": 110.67,
+        "id": 46010811,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.05,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 12001,
+        "dest_num": 12178
+    },
+    {
+        "lat": 19.58,
+        "lng": 110.51,
+        "id": 46010706,
+        "start_num": 0,
+        "dest_num": 4
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.15,
+        "id": 46010501,
+        "start_num": 4,
+        "dest_num": 17
+    },
+    {
+        "lat": 20.0,
+        "lng": 110.4,
+        "id": 46010809,
+        "start_num": 4470,
+        "dest_num": 4628
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.27,
+        "id": 46010604,
+        "start_num": 158,
+        "dest_num": 97
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.52,
+        "id": 46010810,
+        "start_num": 2,
+        "dest_num": 51
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.24,
+        "id": 46010505,
+        "start_num": 1,
+        "dest_num": 5
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.49,
+        "id": 46010703,
+        "start_num": 2,
+        "dest_num": 8
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 2,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.94,
+        "lng": 110.64,
+        "id": 46010801,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.69,
+        "id": 46010811,
+        "start_num": 4,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.72,
+        "lng": 110.41,
+        "id": 46010702,
+        "start_num": 1,
+        "dest_num": 4
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 4,
+        "dest_num": 9
+    },
+    {
+        "lat": 19.89,
+        "lng": 110.59,
+        "id": 46010801,
+        "start_num": 4,
+        "dest_num": 24
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.16,
+        "id": 46010501,
+        "start_num": 12,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.41,
+        "id": 46010809,
+        "start_num": 185,
+        "dest_num": 82
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 54,
+        "dest_num": 134
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.58,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 7
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.33,
+        "id": 46010603,
+        "start_num": 0,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.8,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.95,
+        "lng": 110.37,
+        "id": 46010709,
+        "start_num": 6,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 1,
+        "dest_num": 174
+    },
+    {
+        "lat": 19.97,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 3723,
+        "dest_num": 1927
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.34,
+        "id": 46010603,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.86,
+        "lng": 110.59,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.75,
+        "lng": 110.51,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 498
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.29,
+        "id": 46010606,
+        "start_num": 15,
+        "dest_num": 15
+    },
+    {
+        "lat": 19.81,
+        "lng": 110.54,
+        "id": 46010705,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.61,
+        "lng": 110.53,
+        "id": 46010706,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 19.73,
+        "lng": 110.38,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.32,
+        "id": 46010609,
+        "start_num": 86489,
+        "dest_num": 121019
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.57,
+        "id": 46010810,
+        "start_num": 1,
+        "dest_num": 11
+    },
+    {
+        "lat": 19.92,
+        "lng": 110.36,
+        "id": 46010600,
+        "start_num": 999,
+        "dest_num": 549
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.14,
+        "id": 46010501,
+        "start_num": 4,
+        "dest_num": 197
+    },
+    {
+        "lat": 19.98,
+        "lng": 110.39,
+        "id": 46010708,
+        "start_num": 16472,
+        "dest_num": 12788
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.2,
+        "id": 46010503,
+        "start_num": 32,
+        "dest_num": 85
+    },
+    {
+        "lat": 19.87,
+        "lng": 110.56,
+        "id": 46010801,
+        "start_num": 1,
+        "dest_num": 3
+    },
+    {
+        "lat": 20.03,
+        "lng": 110.45,
+        "id": 46010809,
+        "start_num": 90,
+        "dest_num": 487
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.23,
+        "id": 46010504,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.76,
+        "lng": 110.48,
+        "id": 46010702,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.19,
+        "id": 46010503,
+        "start_num": 283,
+        "dest_num": 170
+    },
+    {
+        "lat": 20.01,
+        "lng": 110.44,
+        "id": 46010809,
+        "start_num": 8,
+        "dest_num": 157
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 170,
+        "dest_num": 352
+    },
+    {
+        "lat": 19.93,
+        "lng": 110.59,
+        "id": 46010801,
+        "start_num": 2,
+        "dest_num": 6
+    },
+    {
+        "lat": 20.07,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 1,
+        "dest_num": 0
+    },
+    {
+        "lat": 19.91,
+        "lng": 110.33,
+        "id": 46010600,
+        "start_num": 1050,
+        "dest_num": 2739
+    },
+    {
+        "lat": 19.84,
+        "lng": 110.31,
+        "id": 46010606,
+        "start_num": 1,
+        "dest_num": 2
+    },
+    {
+        "lat": 19.54,
+        "lng": 110.6,
+        "id": 46010704,
+        "start_num": 0,
+        "dest_num": 2
+    },
+    {
+        "lat": 20.06,
+        "lng": 110.23,
+        "id": 46010503,
+        "start_num": 1,
+        "dest_num": 1
+    },
+    {
+        "lat": 19.9,
+        "lng": 110.34,
+        "id": 46010600,
+        "start_num": 7,
+        "dest_num": 62
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.17,
+        "id": 46010501,
+        "start_num": 33,
+        "dest_num": 85
+    },
+    {
+        "lat": 20.02,
+        "lng": 110.42,
+        "id": 46010809,
+        "start_num": 1114,
+        "dest_num": 6219
+    },
+    {
+        "lat": 19.79,
+        "lng": 110.26,
+        "id": 46010606,
+        "start_num": 0,
+        "dest_num": 1
+    },
+    {
+        "lat": 20.04,
+        "lng": 110.22,
+        "id": 46010503,
+        "start_num": 464,
+        "dest_num": 679
+    }
+]
