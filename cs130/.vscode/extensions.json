@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "aaron-bond.better-comments",
+        "Gruntfuggly.todo-tree",
+    ]
+}

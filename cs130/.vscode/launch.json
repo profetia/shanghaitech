@@ -1,0 +1,399 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[P1] Debug a Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/threads/build/kernel.o",
+            "preLaunchTask": "[P1] Run Test in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P2] Debug a Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/userprog/build/kernel.o",
+            "preLaunchTask": "[P2] Run Test in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/userprog/build/tests/userprog/${input:test_name}",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P2] Debug exec-arg",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/userprog/build/kernel.o",
+            "preLaunchTask": "[P2] Run exec-arg",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/userprog/build/tests/userprog/exec-arg",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/userprog/build/tests/userprog/child-args",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P2] Debug syn-read",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/userprog/build/kernel.o",
+            "preLaunchTask": "[P2] Run syn-read",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/userprog/build/tests/filesys/base/syn-read",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/userprog/build/tests/filesys/base/child-syn-read",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P3] Debug a User Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/vm/build/kernel.o",
+            "preLaunchTask": "[P3] Run User Program in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/userprog/${input:test_name}",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },    
+        {
+            "name": "[P3] Debug a Test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/vm/build/kernel.o",
+            "preLaunchTask": "[P3] Run Test in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/vm/${input:test_name}",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },  
+        {
+            "name": "[P3] Debug pt-write-code2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/vm/build/kernel.o",
+            "preLaunchTask": "[P3] Run pt-write-code2",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/vm/pt-write-code2",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },   
+        {
+            "name": "[P3] Debug page-merge-mm",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/vm/build/kernel.o",
+            "preLaunchTask": "[P3] Run page-merge-mm",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/vm/page-merge-mm",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },                               
+        {
+            "name": "[P3] Debug page-parallel",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/vm/build/kernel.o",
+            "preLaunchTask": "[P3] Run child-linear",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/vm/child-linear",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/vm/build/tests/vm/page-parallel",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P4] Debug a User Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/filesys/build/kernel.o",
+            "preLaunchTask": "[P4] Run User Program in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/filesys/build/tests/userprog/${input:test_name}",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },
+        {
+            "name": "[P4] Debug a filesys test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/filesys/build/kernel.o",
+            "preLaunchTask": "[P4] Run filesys test in GDB mode",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "source -v ${workspaceFolder}/src/misc/gdb-macros",
+                    "description": "Import Pintos GDB macros file",
+                    "ignoreFailures": false
+                },
+                {
+                    "text": "loadusersymbols ${workspaceFolder}/src/filesys/build/tests/userprog/${input:test_name}",
+                    "description": "Import user program",
+                    "ignoreFailures": false
+                }
+            ],
+            "symbolLoadInfo": {
+                "loadAll": true,
+                "exceptionList": ""
+            }
+        },   
+    ],
+    "inputs": [
+        {
+            "id": "test_name",
+            "type": "promptString",
+            "description": "Name of the program containing the symbols (e.g., args-multiple)"
+        }
+    ]
+}

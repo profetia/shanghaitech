@@ -1,0 +1,51 @@
+name: pintos-test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test-thread:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make utils
+      run: cd src/utils && make clean && make
+      # install qemu
+    - name: install qemu and other dependencies
+      run: sudo apt-get install qemu-system-i386 libx11-dev xorg-dev
+    - name: install pintos
+      run: sudo cp ./bin/* /usr/local/bin/; wget https://nchc.dl.sourceforge.net/project/bochs/bochs/2.6.2/bochs-2.6.2.tar.gz; export MAKEFLAG=`-j$(expr $(nproc))` ;PINTOSDIR=`pwd -P`;SRCDIR=`pwd -P`; DSTDIR=/usr/local; sudo env SRCDIR=$SRCDIR PINTOSDIR=$PINTOSDIR DSTDIR=$DSTDIR sh $PINTOSDIR/src/misc/bochs-2.6.2-build.sh
+      # run tests
+    - name: test threads
+      run: cd src/threads && make && make check 
+  test-userprog:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make utils
+      run: cd src/utils && make clean && make
+      # install qemu
+    - name: install qemu and other dependencies
+      run: sudo apt-get install qemu-system-i386
+    - name: install pintos
+      run: sudo cp ./bin/* /usr/local/bin/;
+      # run tests. git fetch --all --tags && git checkout v0.3.0 is disabled
+    - name: test userprog
+      run: cd src/userprog && make && make check
+  test-vm:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make utils
+      run: cd src/utils && make clean && make
+      # install qemu
+    - name: install qemu and other dependencies
+      run: sudo apt-get install qemu-system-i386
+    - name: install pintos
+      run: sudo cp ./bin/* /usr/local/bin/;
+      # run tests
+    - name: test vm
+      run: cd src/vm && make && make check
