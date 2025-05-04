@@ -1,0 +1,36 @@
+// database
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// generator
+generator client {
+  provider             = "prisma-client-py"
+  interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+model Horras {
+  id                  Int   @id @default(autoincrement())
+  county              Int
+  traffic_type        Int
+  start_dest_distance Int
+  departure_time      Int
+  arrive_time         Int
+  normal_time         Float
+  product_1level      Int
+  dest_lng            Float
+  dest_lat            Float
+  starting_lng        Float
+  starting_lat        Float
+  starting_district   Int
+  dest_district       Int
+  departure_date      Int
+  arrive_date         Int
+  dest_lng_group      Float
+  dest_lat_group      Float
+  starting_lng_group  Float
+  starting_lat_group  Float
+  @@index([departure_date, arrive_date, departure_time, arrive_time, starting_district, dest_district])
+}

@@ -37,6 +37,35 @@ Documentation for Horras can be found in the [docs](/docs) directory.
 
 Posters and slides for Horras can be found in the [media](/media) directory.
 
+## Backend
+
+### Dependencies
+Horras Backend is built on top of the following dependencies:
+- [Fastapi](https://fastapi.tiangolo.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Prisma](https://www.prisma.io/)
+- [Docker](https://www.docker.com/)
+
+### Installation
+Horras Backend runs its database in a Docker container. To install the database, run the following command:
+```bash
+docker-compose up -d
+```
+
+To install the backend, run the following commands:
+```bash
+pip install -r requirements.txt
+
+prisma db push
+
+uvicorn horras_backend.main:app --host 0.0.0.0
+```
+
+For compatibility reasons, running the backend in a Docker container is not recommended.
+
+### Usage
+The backend is a Fastapi project. To access the API documentation, go to `http://localhost:8000/docs`.
+
 ## References
 
 Horras preprocesses its data from the [SARROH](https://github.com/xsjk/ARTS1422-Project).
