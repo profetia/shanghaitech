@@ -1,0 +1,21 @@
+{
+  "agents": [
+    {
+      "agent": "ql",
+      "name": "QLearningAgent",
+      "args": {
+        "num_actions":4,
+        "q_table_path": "experiments\\qlearning\\q_table.npy"
+      }
+    },
+    {
+      "agent": "random",
+      "name": "RandomAgent",
+      "args": { "num_actions": 4 }
+    }
+  ],
+  "settings": {
+    "total_rounds": 1000,
+    "seed": 3407
+  }
+}

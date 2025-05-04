@@ -1,0 +1,25 @@
+{
+  "agents": [
+    {
+      "agent": "rulebased",
+      "name": "RuleBasedAgent-200iter",
+      "args": { "num_actions": 4, "iter_num": 200 }
+    },
+    {
+      "agent": "rulebased",
+      "name": "RuleBasedAgent-1000iter",
+      "args": { "num_actions": 4, "iter_num": 1000 }
+    },
+    {
+      "agent": "dqn",
+      "name": "DQNAgent",
+      "args": {
+        "checkpoint": "experiments\\limit_holdem_dqn\\checkpoint_dqn.pt"
+      }
+    }
+  ],
+  "settings": {
+    "total_rounds": 1000,
+    "seed": 3407
+  }
+}

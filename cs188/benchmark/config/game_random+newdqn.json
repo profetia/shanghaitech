@@ -1,0 +1,25 @@
+{
+  "agents": [
+    {
+      "agent": "dqn",
+      "name": "DQNAgent",
+      "args": {
+        "num_actions": 4,
+        "state_shape": [72],
+        "mlp_layers": [64, 64],
+        "device": "cpu",
+        "save_path": "examples\\limit_holdem_dqn_bench\\",
+        "save_every": 100
+      }
+    },
+    {
+      "agent": "random",
+      "name": "RandomAgent",
+      "args": { "num_actions": 4 }
+    }
+  ],
+  "settings": {
+    "total_rounds": 1000,
+    "seed": 3407
+  }
+}

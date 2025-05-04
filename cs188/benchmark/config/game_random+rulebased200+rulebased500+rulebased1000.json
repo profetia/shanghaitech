@@ -1,0 +1,28 @@
+{
+  "agents": [
+    {
+      "agent": "random",
+      "name": "RandomAgent",
+      "args": { "num_actions": 4 }
+    },
+    {
+      "agent": "rulebased",
+      "name": "RuleBasedAgent-200iter",
+      "args": { "num_actions": 4, "iter_num": 200 }
+    },
+    {
+      "agent": "rulebased",
+      "name": "RuleBasedAgent-500iter",
+      "args": { "num_actions": 4, "iter_num": 500 }
+    },
+    {
+      "agent": "rulebased",
+      "name": "RuleBasedAgent-1000iter",
+      "args": { "num_actions": 4, "iter_num": 1000 }
+    }
+  ],
+  "settings": {
+    "total_rounds": 1000,
+    "seed": 3407
+  }
+}

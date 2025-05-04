@@ -1,0 +1,23 @@
+{
+    "agents": [
+        {
+            "agent": "dqn",
+            "name": "DQNAgent",
+            "args": {
+                "checkpoint": "experiments\\limit_holdem_dqn\\checkpoint_dqn.pt"
+            }
+        },
+        {
+            "agent": "random",
+            "name": "RandomAgent",
+            "args": {
+                "num_actions": 4
+            }
+        }
+    ],
+    "settings": {
+        "total_rounds": 1000,
+        "seed": 3407
+    },
+    "save_dir": "experiments\\random+dqn"
+}
