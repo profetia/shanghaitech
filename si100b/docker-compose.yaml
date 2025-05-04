@@ -1,0 +1,8 @@
+version: '3'
+services:
+  covid: 
+    build: ./
+    container_name: "covid"
+    restart: on-failure
+    ports:
+      - "12345:12345"

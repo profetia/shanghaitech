@@ -1,0 +1,72 @@
+policy_state:https://github.com/govex/COVID-19/tree/govex_data/data_tables/policy_data/table_data/Current
+
+vac_state:https://github.com/govex/COVID-19/tree/master/data_tables/vaccine_data/us_data/time_series
+
+hispanic_county:https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-County-and-Race-and/k8wy-p9cg
+
+vac2_county:https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh
+
+world:https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+
+case_state:https://raw.githubusercontent.com/govex/COVID-19/master/data_tables/testing_data/time_series_covid19_US.csv
+
+case_couty:https://raw.githubusercontent.com/govex/COVID-19/master/data_tables/testing_data/county_time_series_covid19_US.csv
+
+death_age_sex_state:https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
+
+
+pop:https://api.census.gov/data/2019/acs/acs5?get=NAME,B01003_001E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+
+pop_white:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_002E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_black:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_003E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_amerindia:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_004E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_asia:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_005E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_pacific:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_006E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_other:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_007E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_2m:https://api.census.gov/data/2019/acs/acs5?get=NAME,B02001_008E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+
+pop_nothispain:https://api.census.gov/data/2019/acs/acs5?get=NAME,B03001_002E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_hispain:https://api.census.gov/data/2019/acs/acs5?get=NAME,B03001_003E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+pop_age:
+	Male		Female
+<5	B01001_003E	B01001_027E
+5-9	B01001_004E
+10-14	B01001_005E
+15-17	B01001_006E
+18-19	B01001_007E
+20	B01001_008E
+21	B01001_009E
+22-24	B01001_010E
+25-29	B01001_011E
+30-34	B01001_012E
+35-39	B01001_013E
+40-44
+45-49
+50-54
+55-59
+60-61
+62-64
+65-66
+67-69
+70-74
+75-79
+80-84
+>=85	25		49
+
+
+
+pov:https://api.census.gov/data/2019/acs/acs5?get=NAME,B17001_002E,GEO_ID&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+
+
+pop_ins:
+		Employee		Direct		Medicare		Meidcaid		VA
+<19 Male		C27004_004E	C27005_004E	C27006_004E	C27007_004E	C27008_004E
+19-64 Male	C27004_007E	C27005_007E
+>=65 Male	C27004_010E	C27005_010E
+<19 Female	C27004_014E	C27005_014E
+19-64 Female	C27004_017E	C27005_017E
+>=65 Female	C27004_020E	C27005_020E	20		20		20
+
+!important:https://api.census.gov/data/2019/acs/acs5?get=NAME,C27001A_010E,C27001B_010E,C27001C_010E,C27001D_010E,C27001E_010E,C27001F_010E,C27001G_010E&for=county:*&key=94f3d84901525123fc72dbdfcd68dc553d0bbd56
+
+

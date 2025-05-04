@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" width="80" height="80" viewBox="4 4 52 52" style="position:absolute;left:0;top:0;">
+  <defs></defs>
+  <g>
+    <circle fill="rgb(242, 196, 19)" fill-opacity="1" stroke="rgb(242, 196, 19)" stroke-opacity="0" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" cx="26.9994" cy="15" r="5.15" name="circle" fill-rule="evenodd">
+    </circle>
+    <path fill="rgb(242, 196, 19)" fill-opacity="1" stroke="rgb(242, 196, 19)" stroke-opacity="0" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" name="path" d="M 37.2365 30.2339L 37.2188 30h 0.0053c-0.4922-6.5055-1.0926-8-10.5058-8-8.8426 0.0062-9.4701 1.6575-9.95 8h 0.0056l-0.1557 2.059-0.6187 8.1811c-0.083 1.1893 0.5918 1.4699 2 1.7599v 6.5033c 0 1.1415 0.9253 1.4967 2.067 1.4967H 32V 37c 0-3.2493 2.2295-5.9811 5.2365-6.7661z" fill-rule="evenodd">
+    </path>
+    <path fill="rgb(242, 196, 19)" fill-opacity="1" stroke="rgb(242, 196, 19)" stroke-opacity="0" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" name="path" d="M 39 32c-2.75 0-5 2.25-5 5v 19h 2V 37c 0-1.6543 1.3457-3 3-3s 3 1.3457 3 3v 1h 2v-1c 0-2.75-2.25-5-5-5z" fill-rule="evenodd">
+    </path>
+  </g>
+</svg>

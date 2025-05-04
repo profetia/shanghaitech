@@ -1,0 +1,2199 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ShanghaiTech Covid Dashboard Main Page">
+  <meta name="keywords" content="COVID-19, Dashboard, ShanghaiTech">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% load static %}
+  <link rel="icon" href={% static "favicon.ico" %} type="image/x-icon">
+  <style id="frameset">
+
+    .clearfix {
+        display: block;
+        *zoom: 1;
+    }
+
+    .clearfix:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+
+    html {
+      height: 226.659%;
+    }
+
+    body {
+      height: 100%;
+      overflow-y: hidden!important;
+    }
+
+    html, body {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+      font-size: 13px;
+      font-family: "gentona", Tahoma, sans-serif, -apple-system, 'Lucida Sans';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    div {
+      padding: 0;
+      margin: 0;
+      display: block;
+    }
+
+    a {
+      color: #3b3b3b;
+      text-decoration: none;
+      transition: all 0.4s ease-in-out;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .wrapper {
+      height: 100%;
+      width: 100%;
+    }
+
+    .wrapper::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media screen and (max-width:1269px) {
+      .wrapper {
+        width: 1270px;
+      }
+    }
+
+    .homepage {
+      width: 100%;
+      height: 43.148%;
+    }
+
+    .postpage {
+      width: 100%;
+      height: 55.1396%;
+      margin-top: 1.9869%; 
+    }
+
+  </style>
+  <style id="mainpage-headerset">
+
+    .homepage .header {
+      width: 100%;
+      z-index: 100;
+      margin: 0;
+      background-color: #a30b19; 
+    }
+
+    .homepage .header .inner {
+      width: 1600px;
+      height: 110px;
+      padding-top: 20px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .header .inner {
+          width: 98%;
+      }
+    }
+
+    .homepage .header .inner .main-menu {
+      display: block;
+    }
+
+    .homepage .header .inner .main-menu .sitelogo {
+      float:left
+    }
+
+    .homepage .header .inner .main-menu .sitelogo img {
+      width: 300px;
+      height: 100px;
+      margin-top: -8px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta {
+      float: right;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav {
+      vertical-align: middle;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav ul {
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 40px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav ul .item {
+      float: left;
+      margin-left: 42px;
+      position: relative;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav ul a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.39em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav ul a:hover {
+      color: #f1c400;
+    }
+    
+    .homepage .header .inner .main-menu .site-meta .main-nav ul #academics a:hover {
+      color: #fff;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav .sub-menu {
+      visibility: hidden;
+      opacity: 0;
+      padding: 30px 0;
+      position: absolute;
+      top: 100%;
+      left: -30px;
+      z-index: 99;
+      background: rgba(0,0,0,.7);
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item {
+      line-height: 1.1;
+      padding: 0 30px;
+      margin-top: 15px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item:first-child {
+      margin-top: 0px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .main-nav .sub-menu .sub-item a {
+      line-height: 1.1;
+      padding: 0;
+      font-size: 1.05em;
+      white-space: nowrap;
+      color: #fff;
+      display: inline-block;
+      font-weight: normal;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav {
+      padding-top: 10px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav ul {
+      float: right;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav ul .item {
+      float: left;
+      padding: 0px 21px;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav ul .item a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.231em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav ul .item a:hover {
+      color: #f1c400;
+    }
+
+    .homepage .header .inner .main-menu .site-meta .sub-nav ul .item:last-child {
+      padding-right: 0;
+    }
+
+  </style>
+  <style id="mainpage-sub-headerset">
+
+    .homepage .sub-header {
+      width: 100%;
+      z-index: 100;
+      margin: 0;
+      background-color: #B22222; 
+    }
+
+    .homepage .sub-header .inner {
+      width: 1600px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .sub-header .inner {
+          width: 98%;
+          margin: 0 auto;
+      }
+    }
+
+    .homepage .sub-header .inner .sub-menu {
+      display: block;
+    }
+
+    .homepage .sub-header .inner .sub-menu .menu-nav {
+      height: 50px;
+      font-size: 1.231em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      float: left;
+    }
+
+    .homepage .sub-header .inner .sub-menu .menu-nav div {
+      margin: 0 0 0 42px;
+      height: 100%;
+    }
+
+    .homepage .sub-header .inner .sub-menu .menu-nav div:first-child {
+      margin: 0 0 0 0;
+    }
+
+    .homepage .sub-header .inner .sub-menu .menu-nav div a {
+      color: #fff;
+      font-weight: normal;
+      line-height: 50px;
+    }
+
+    .homepage .sub-header .inner .sub-menu .menu-nav .slash {
+      color: #fff;
+      font-size: 1.5em;
+      margin-bottom: 5px;
+      line-height: 50px;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type {
+      height: 50px;
+      font-size: 1.231em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      float: right;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type div {
+      margin: 0 12px 0 20px;
+      height: 100%;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type .slash {
+      color: #fff;
+      font-size: 1.5em;
+      margin-bottom: 5px;
+      line-height: 50px;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type .databy {
+      color: #fff;
+      font-weight: normal;
+      line-height: 50px;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type .active {
+      box-shadow: inset 0 -4px 0 0 #ffa500;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type p {
+      margin: 0;
+      color: #fff;
+      line-height: 50px;
+      cursor: pointer;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type .active >* {
+      font-weight: bold;
+    }
+
+    .homepage .sub-header .inner .sub-menu .map-type div:not(.active) p {
+      font-weight: normal;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar {
+      display: block;
+    }
+
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete {
+      height: 50px;
+      font-size: 1.231em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      float: right;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .search {
+      height: 20px;
+      width: 20px;
+      border: none;
+      background: url({% static "search_btn.png" %}) no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .input {
+      height: 24px;
+      width: 200px;
+      margin-right: 10px;
+      outline: none;
+      border: 1px solid #8b98a6;
+      border-radius: 0;
+      transition: border-color .3s;
+      color: #3b3b3b;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .autocomplete-items {
+      width: 204.5px;
+      position: absolute;
+      border: 1px solid #d4d4d4;
+      border-bottom: none;
+      border-top: none;
+      z-index: 99;
+      top: 100%;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .input {
+        width: 180px;
+      }
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .autocomplete-items div {
+      padding: 10px;
+      cursor: pointer;
+      background-color: #fff;
+      border-bottom: 1px solid #d4d4d4;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #3b3b3b;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .autocomplete-items div:hover {
+      background-color: #e9e9e9;
+    }
+
+    .homepage .sub-header .inner .sub-menu .search-bar .autocomplete .autocomplete-active {
+      background-color: #e9e9e9 !important;
+    }
+
+  </style>
+  <style id="mainpage-mainset">
+
+    .homepage .main {
+      width: 100%;
+      height: 83.25%;
+    }
+
+    .homepage .main .map-section {
+      width: 55.9%;
+      height: 100%;
+      margin-top: .13%;
+      float: left;
+    }
+
+    .homepage .main .map-section .covid-map {
+      height: 96.4%;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .homepage .main .map-section .covid-map {
+        height: 95.8%;
+      }
+    }
+
+    .homepage .main .map-section .covid-map embed {
+      height: 100%;
+      width: 100%;
+    }
+
+    .homepage .main .map-section .select {
+      display: block;
+      background-color: #252424;
+      opacity: 0.4;
+    }
+
+    .homepage .main .map-section .select ul {
+      height: 5%;
+      font-size: 1.2em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: .2% 0 0 0;
+      padding: 0;
+      border: solid 1px #3b3b3b;
+      border-bottom: none;
+      border-top: none;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .map-section .select ul {
+        font-size: 1.04em;
+      }
+    }
+
+    .homepage .main .map-section .select ul .item {
+      width: 10%;
+      border-right: solid 1px #3b3b3b;
+      padding: .2% 1% .6% 1%;
+      text-align: center;
+      cursor: pointer;
+      color: #fff;
+    }
+    @media screen and (max-width: 1599px) {
+      .homepage .main .map-section .select ul .item:last-child {
+        width: 15%;
+      }
+    }
+
+    .homepage .main .map-section .select ul .active {
+      background-color: #000;
+      box-shadow: inset 0 -3px 0 0 #ffa500;
+    }
+
+    .homepage .main .map-section .select ul :not(.active) {
+      box-shadow: inset 0 -3px 0 0 #3b3b3b;
+    }
+
+    .homepage .main .confirmed {
+      width: 14.7%;
+      height: 100%;
+      display: block;
+      float: left;
+    }
+
+    .homepage .main .confirmed .inner {
+      height: 100%;
+      margin: 0 1% 0 1%;
+    }
+
+    .homepage .main .confirmed .inner .keydata {
+      height: 12%;
+      margin: 1% .25% 3% .25%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+    }
+
+    .homepage .main .confirmed .inner .keydata .value {
+      margin: 0;
+      font-size: 3em;
+      color: #B22222;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    .homepage .main .confirmed .inner .keydata .name {
+      margin: 0;
+      font-size: 1.25em;
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+
+      .homepage .main .confirmed .inner .keydata .value {
+        font-size: 2.4em;
+      }
+
+      .homepage .main .confirmed .inner .keydata .name {
+        font-size: 1em;
+      }
+
+    }
+
+    .homepage .main .confirmed .inner .rank {
+      height: 75%;
+      margin: 0 .25% .25% .25%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+    }
+
+    .homepage .main .confirmed .inner .rank .data-name {
+      font-size: 1.2em;
+      margin: .1%;
+      height: 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+
+      .homepage .main .confirmed .inner .rank .data-name {
+        margin-top: 1%;
+        font-size: .9em;
+      }
+
+    }
+
+    .homepage .main .confirmed .inner .rank .data-name p {
+      margin: 2% .1% 1% .5%;
+      text-align: left;
+      color: #3b3b3b;
+    }
+
+    .homepage .main .confirmed .inner .rank .item {
+      border-bottom: solid .5px rgba(221, 221, 221, .7);
+      height: 9.2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .homepage .main .confirmed .inner .rank .item p {
+      margin: 1%;
+      text-align: left;
+      font-size: 1.14em;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .confirmed .inner .rank .item p {
+        font-size: .8em;
+      }
+    }
+
+    .homepage .main .confirmed .inner .rank .item .value {
+      color: #B22222;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: .4% .1% 0 2.5%;
+    }
+
+    .homepage .main .confirmed .inner .rank .item .name {
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: 0 .1% 0 2.5%;
+    }
+
+    .homepage .main .confirmed .inner .detail {
+      height: 10.3%;
+      margin: 3% .25% 0 .25%;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .homepage .main .confirmed .inner .detail p {
+      font-size: 1em;
+      margin: 0 0 1.5% 0;
+    }
+
+    .homepage .main .confirmed .inner .detail p:last-child {
+      margin-bottom: 0;
+    }
+
+    .homepage .main .confirmed .inner .detail .name {
+      font-size: 1em;
+    }
+
+    .homepage .main .confirmed .inner .detail .value {
+      font-size: 1.1em;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    .homepage .main .confirmed .inner .detail .description {
+      color: #3b3b3b;
+    }
+
+    @media screen and (max-width: 1599px) {
+
+      .homepage .main .confirmed .inner .detail .name {
+        font-size: 0.9em;
+      }
+
+      .homepage .main .confirmed .inner .detail .value {
+        font-size: 0.99em;
+        font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      }
+
+      .homepage .main .confirmed .inner .detail .description {
+        display: none;
+      }
+
+    }
+
+    .homepage .main .main-content {
+      width: 29.4%;
+      height: 100%;
+      display: block;
+      float: left;
+    }
+
+    .homepage .main .main-content .inner {
+      height: 100%;
+      margin: 0 .5% 0 .5%;
+    }
+
+    .homepage .main .main-content .inner .graph {
+      height: 25%;
+      margin: .5% 0 0 .25%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #ebebeb;
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+    }
+
+    .homepage .main .main-content .inner .graph embed {
+      width: 100%;
+      height: 100%;
+      margin-top: 1%;
+    }
+
+    .homepage .main .main-content .inner .data-section {
+      width: 100%;
+      height: 74%;
+      margin: .5% 0 0 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .homepage .main .main-content .inner .data-section {
+        height: 73.9%;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths {
+      width: 49%;
+      height: 99.22%;
+      margin: 1% .5% 0 .25%;
+      text-align: center;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .keydata {
+      width: 100%;
+      height: 10%;
+      padding: 1% 0 0 0;
+      margin: 0;
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .keydata .value {
+      margin: 0;
+      font-size: 2.8em;
+      color: #5b69ab;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .deaths .keydata .value {
+        font-size: 2em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .keydata .name {
+      margin: 3.5% 0 0 0;
+      font-size: 1.2em;
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .deaths .keydata .name {
+        font-size: .6em;
+      }
+    }
+
+    @media screen and (max-width: 1920px) {
+      .homepage .main .main-content .inner .data-section .deaths .keydata .name {
+        margin-top: 1%;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank {
+      width: 100%;
+      height: 88%;
+      margin: 2.5% 0 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .data-name {
+      font-size: 1.14em;
+      margin: .1%;
+      height: 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .deaths .rank .data-name {
+        margin-top: 1%;
+        font-size: .9em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .data-name p {
+      margin: 2% .1% 0 .5%;
+      text-align: left;
+      color: #3b3b3b;
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .item {
+      height: 9.2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: solid .5px rgba(221, 221, 221, .7);
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .item:last-child {
+      border-bottom: none;
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .item p {
+      margin: 1%;
+      text-align: left;
+      font-size: 1.1em;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .deaths .rank .item p {
+        font-size: .8em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .item .value {
+      color: #5b69ab;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: .4% .1% 0 2.5%;
+    }
+
+    .homepage .main .main-content .inner .data-section .deaths .rank .item .name {
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: 0 .1% 0 2.5%;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases {
+      width: 49%;
+      height: 99.22%;
+      margin: 1% .25% 0 .5%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .keydata {
+      width: 100%;
+      height: 10%;
+      padding: 1% 0 0 0;
+      margin: 0;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .keydata .value {
+      margin: 0;
+      font-size: 2.8em;
+      color: #de844d;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .new-cases .keydata .value {
+        font-size: 2em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .keydata .name {
+      margin: 3.5% 0 0 0;
+      font-size: 1.2em;
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .new-cases .keydata .name {
+        font-size: .6em;
+      }
+    }
+
+    @media screen and (max-width: 1920px) {
+      .homepage .main .main-content .inner .data-section .new-cases .keydata .name {
+        margin-top: 1%;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank {
+      width: 100%;
+      height: 88%;
+      margin: 2.5% 0 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .data-name {
+      font-size: 1.14em;
+      margin: .1%;
+      height: 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .new-cases .rank .data-name {
+        margin-top: 1%;
+        font-size: .9em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .data-name p {
+      margin: 2% .1% 0 .5%;
+      text-align: left;
+      color: #3b3b3b;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .item {
+      height: 9.2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: solid .5px rgba(221, 221, 221, .7);
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .item:last-child {
+      border-bottom: none;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .item p {
+      margin: 1%;
+      text-align: left;
+      font-size: 1.1em;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .homepage .main .main-content .inner .data-section .new-cases .rank .item p {
+        font-size: .8em;
+      }
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .item .value {
+      color: #de844d;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: .4% .1% 0 2.5%;
+    }
+
+    .homepage .main .main-content .inner .data-section .new-cases .rank .item .name {
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+      margin: 0 .1% 0 2.5%;
+    }
+
+  </style>
+  <style id="postpage-mainset">
+
+    .postpage .main {
+      width: 100%;
+      height: 83%;
+      padding-top: 1%;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .postpage .main {
+        padding-top: 1.8%;
+      }
+    }
+
+    @media screen and (max-width:1269px) {
+      .postpage .main {
+        padding-top: 50px;
+      }
+    }
+
+    .postpage .main .inner {
+      width: 90%;
+      height: 99%;
+      margin: 1% auto 0 auto;
+    }
+
+    .postpage .main .inner>div {
+      width: 100%;
+      height: 24.75%;
+      margin: .5% 0 0 0;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .postpage .main .inner .container {
+      height: 100%;
+      width: 49.5%;
+      margin: 0 .5% 0 0;
+      background-color: rgba(221, 221, 221, .3);
+      box-shadow: 0px 0px 3px rgba(152, 138, 138, .75);
+      display: flex;
+      justify-content: center;
+      align-items:center;
+    }
+
+    .postpage .main .inner .container:last-child {
+      margin-right: 0;
+    }
+
+    .postpage .main .inner .container .keydata {
+      width: 23.72%;
+      height: 60%;
+      margin-right: 0.28%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+    }
+
+    .postpage .main .inner .container .keydata p {
+      text-align: left;
+      margin: 0 0 5% 2.5%;
+    }
+
+    .postpage .main .inner .container .keydata p:last-child {
+      margin-bottom: 0;
+    }
+
+    .postpage .main .inner .container .keydata .value {
+      font-size: 3.75em;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    .postpage .main .inner .container .keydata .name {
+      font-size: 1.2em;
+      color: #3b3b3b;
+      font-family: "Avenir Next W01", "Avenir Next W00", "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .postpage .main .inner .container .keydata .value {
+        font-size: 2.4em;
+      }
+
+      .postpage .main .inner .container .keydata .name {
+        font-size: .8em;
+      }
+    }
+
+    .postpage .main .inner .container .graph {
+      width: 75.8%;
+      height: 100%;
+      margin-right: -1.5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .postpage .main .inner .container .graph embed {
+      width: 100%;
+      height: 85%;
+    }
+
+  </style>
+  <style id="postpage-footerset">
+
+    .postpage .footer {
+      width: 100%;
+      height: 13.05%;
+      margin-top: 2.95%;
+      background-color: #a30b19;
+    }
+
+    .postpage .footer .inner {
+      width: 1600px;
+      padding: 30px 0 0 0;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .postpage .footer {
+        margin-top: 2.82%;
+      }
+
+      .postpage .footer .inner {
+        padding-top: 8.04px;
+      }
+    }
+
+    @media screen and (max-width: 1599px) {
+      .postpage .footer {
+        height: 13%;
+        margin-top: 2%;
+      }
+
+      .postpage .footer .inner {
+        width: 98%;
+        padding-top: 10.25px;
+      }
+    }
+
+    @media screen and (max-width:1269px) {
+      .postpage .footer {
+        margin-top: 2.82%;
+      }
+    }
+
+    .postpage .footer .inner .foot-left {
+      height: 109.2px;
+      float: left;
+    }
+
+    .postpage .footer .inner .foot-left .sitelogo {
+      display: block;
+    }
+
+    .postpage .footer .inner .foot-left .sitelogo img {
+      width: 232px;
+      height: 62.2px;
+    }
+
+    .postpage .footer .inner .foot-left .share {
+      width: 100%;
+      padding-top: 12px;
+    }
+
+    @media screen and (max-width: 1920px) {
+
+      .postpage .footer .inner .foot-left .sitelogo {
+        margin-top: 8px;
+      }
+
+      .postpage .footer .inner .foot-left .sitelogo img {
+        width: 220.4px;
+        height: 59.09px;
+      }
+
+      .postpage .footer .inner .foot-left .share {
+        padding-top: 7px;
+      }
+
+    }
+
+    .postpage .footer .inner .foot-left .share ul {
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item {
+      list-style: none;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item {
+      float: left;
+      margin-left: 8px;
+      position: relative;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item:first-child {
+      margin-left: 0;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item a {
+      opacity: .8;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item a:hover {
+      opacity: 1;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item a .icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      vertical-align: middle;
+      background: url({% static "share_icon.png" %})
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item .con {
+      display: none;
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      z-index: 100;
+      margin-left: -40px;
+    }
+
+    .postpage .footer .inner .foot-left .share ul .item .con img {
+      width: 80px;
+      height: auto;
+    }
+
+    .postpage .footer .inner .foot-navi {
+      height: 109.8px;
+      float: right;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .postpage .footer .inner .foot-navi {
+        height: 100px;
+      }
+    }
+
+    .postpage .footer .inner .foot-navi .row {
+      height: 50%;
+      width: 600px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+      .postpage .footer .inner .foot-navi .row {
+        justify-content: right;
+      }
+    }
+
+    .postpage .footer .inner .foot-navi .row ul {
+      margin: 0;
+      list-style: none;
+    }
+
+    .postpage .footer .inner .foot-navi .row ul .item {
+      float: left;
+      margin-left: 42px;
+    }
+
+    .postpage .footer .inner .foot-navi .row ul .item a {
+      display: inline-block;
+      padding: 0;
+      font-size: 1.39em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .postpage .footer .inner .foot-navi .row ul .item a:hover {
+      color: #f1c400;
+    }
+
+  </style>
+<title>ShanghaiTech Covid Dashboard</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="homepage">
+      <div class="header">
+        <div class="inner">
+          <div class="main-menu clearfix">
+            <div class="sitelogo">
+              <a href="https://www.shanghaitech.edu.cn/eng/#" target="_self">
+                <img src={% static "logo_white.svg" %} alt="ShanghaiTech University">
+              </a>
+            </div>
+            <div class="site-meta">
+              <div class="main-nav">
+                <ul class="clearfix">
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/997/main.htm" target="_self">About</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1001/list.htm" target="_self">News</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/Admission/list.htm" target="_self">Admission</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1000/main.htm" target="_self">Faculty</a>
+                  </li>
+                  <li class="item" id="academics">
+                    <a href="#" target="_self" id="academics-text">Academics</a>
+                    <ul class="sub-menu" style="visibility: hidden; opacity: 0;" id="sub-menu">
+                      <li class="sub-item">
+                        <a href="http://spst.shanghaitech.edu.cn/spst_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Physical Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://slst.shanghaitech.edu.cn/english/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Life Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sist.shanghaitech.edu.cn/sist_en" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Information Science and Technology
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sem.shanghaitech.edu.cn/sem_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Entrepreneurship and Management
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://sca.shanghaitech.edu.cn/sca_en" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            School of Creativity and Art
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://siais.shanghaitech.edu.cn/siais_eng/main.htm" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Shanghai Institute for Advanced Immunochemical Studies
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://ihuman.shanghaitech.edu.cn/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            iHuman Institute
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="http://ims.shanghaitech.edu.cn/ims_en/" target="_blank" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Institute of Mathematical Sciences
+                        </a>
+                      </li>
+                      <li class="sub-item">
+                        <a href="#" target="_self" 
+                          style="transform: matrix(1, 0, 0, 1, 0, 20); opacity: 0;">
+                            Institute of Humanities
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/global/main.htm" target="_self">Global</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1002/list.htm" target="_self">Campus Life</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sub-nav clearfix">
+                <ul class="clearfix">
+                  <li class="item">
+                    <a href="http://egate.shanghaitech.edu.cn/" target="_blank">Egate</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://mail.shanghaitech.edu.cn/" target="_blank">Email</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1024/list.htm" target="_self">Calendar</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://library.shanghaitech.edu.cn/lib_en/" target="_blank">Library</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://jobs.shanghaitech.edu.cn/Jobs_english/list.htm" target="_blank">Career</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/1003/list.htm" target="_self">Contact</a>
+                  </li>
+                  <li class="item">
+                    <a href="http://www.shanghaitech.edu.cn/eng/1005/list.htm" target="_self">Events</a>
+                  </li>
+                  <li class="item">
+                    <a href="https://www.shanghaitech.edu.cn/eng/Notice/list.htm" target="_self">Notice</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-header">
+        <div class="inner">
+          <div class="sub-menu clearfix">
+            <div class="menu-nav">
+              <div class="tracking-home">
+                <a href="#">Tracking Home</a>
+              </div>
+              <div class="data-visualization">
+                <a href="#">Data Visualization</a>
+              </div>
+              <div class="slash">
+                |
+              </div>
+              <div class="title">
+                <a href="#">COVID-19 Dashboard</a>
+              </div>
+              <div class="slash">
+                |
+              </div>
+              <div class="nation">
+                <a href="#">United States</a>
+              </div>
+            </div>
+            <div class="map-type" id="map-type">
+              <div class="slash">
+                |
+              </div>
+              <div class="databy">
+                Data By :
+              </div>
+              <div class="bycounty active" onclick="changeStatus()">
+                <p>County</p>
+              </div>
+              <div class="bystate" onclick="changeStatus()">
+                <p>State</p>
+              </div>
+            </div>
+            <div class="search-bar clearfix">
+              <div class="autocomplete">
+                <div>
+                  <input type="text" aria-label="Search Data by Region" id="inputbox"
+                  class="input" value placeholder="Search Data by Region...">
+                </div>
+                <input type="submit" class="search" alt="Search" value="" onclick="handin(this)" id="handin">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main clearfix">
+        <div class="confirmed">
+          <div class="inner">
+            <div class="keydata" id="confirms">
+              <p class="name">Total Confirmed</p>
+              <p class="value">555,555,555</p>
+            </div>
+            <div class="rank" id="confirms-rank">
+              <div class="data-name">
+                <p>Top 10 Confirmed Cases by County</p>
+              </div>
+              <div class="item">
+                <p class="value">1,504,843</p>
+                <p class="name">Los Angeles</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+              <div class="item">
+                <p class="value">114514</p>
+                <p class="name">tiansuohaoer</p>
+              </div>
+            </div>
+            <div class="detail">
+              <p class="name">Last Updated at</p>
+              <p class="value" id="update-time">11/13/2021, 7:00 PM</p>
+              <p class="description">Data is updated every four hours from JHU-CSSE, New York Times and CDC.</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-section">
+          <div class="covid-map">
+            <embed src="/images/casesbycounty" type="text/html" id="covid-map">
+          </div>
+          <div class="select">
+            <ul id="select-form">
+              <li class="item active" onclick="chanegMap(this)" id="Confirmed">
+                Confirmed
+              </li>
+              <li class="item" onclick="chanegMap(this)" id="Deaths">
+                Deaths
+              </li>
+              <li class="item" onclick="chanegMap(this)" id="Death Rate">
+                Death Rate
+              </li>
+              <li class="item" onclick="chanegMap(this)" id="New Cases">
+                New Cases
+              </li>
+              <li class="item" onclick="chanegMap(this)" id="Vaccined">
+                Vaccined
+              </li>
+              <li class="item" onclick="chanegMap(this)" id="Vaccine Rate">
+                Vaccine Rate
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="inner">
+            <div class="graph">
+              <embed src={% static "general_statics.svg" %} type="text/svg">
+            </div>
+            <div class="data-section">
+              <div class="deaths">
+                <div class="keydata" id="deaths">
+                  <p class="name">Total Deaths</p>
+                  <p class="value">5,555,555</p>
+                </div>
+                <div class="rank" id="deaths-rank">
+                  <div class="data-name">
+                    <p>Top 10 Deaths by County</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">1,504,843</p>
+                    <p class="name">Los Angeles</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="new-cases">
+                <div class="keydata" id="new-cases">
+                  <p class="name">New Cases</p>
+                  <p class="value">55,555</p>
+                </div>
+                <div class="rank" id="new-cases-rank">
+                  <div class="data-name">
+                    <p>Top 10 New Cases by County</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">1,504,843</p>
+                    <p class="name">Los Angeles</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                  <div class="item">
+                    <p class="value">114514</p>
+                    <p class="name">tiansuohaoer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="postpage">
+      <div class="main clearfix">
+        <div class="inner">
+          <div class="d14">
+            <div class="container">
+              <div class="keydata" id="d14c">
+                <p class="value" style="color: #B22222;">555,555</p>
+                <p class="name">New Cases in 14 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d14_cases.svg" %} type="text/svg">
+              </div>
+            </div>
+            <div class="container">
+              <div class="keydata" id="d14d">
+                <p class="value" style="color: #5b69ab;">55,555</p>
+                <p class="name">New Deaths in 14 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d14_deaths.svg" %} type="text/svg">
+              </div>
+            </div>
+          </div>
+          <div class="d30">
+            <div class="container">
+              <div class="keydata" id="d30c">
+                <p class="value" style="color: #B22222;">555,555</p>
+                <p class="name">New Cases in 30 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d30_cases.svg" %} type="text/svg">
+              </div>
+            </div>
+            <div class="container">
+              <div class="keydata" id="d30d">
+                <p class="value" style="color: #5b69ab;">55,555</p>
+                <p class="name">New Deaths in 30 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d30_deaths.svg" %} type="text/svg">
+              </div>
+            </div>
+          </div>
+          <div class="d90">
+            <div class="container">
+              <div class="keydata" id="d90c">
+                <p class="value" style="color: #B22222;">555,555</p>
+                <p class="name">Cumulative Cases in 90 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d90_cases.svg" %} type="text/svg">
+              </div>
+            </div>
+            <div class="container">
+              <div class="keydata" id="d90d">
+                <p class="value" style="color: #5b69ab;">55,555</p>
+                <p class="name">Cumulative Deaths in 90 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "d90_deaths.svg" %} type="text/svg">
+              </div>
+            </div>
+          </div>
+          <div class="prediction">
+            <div class="container">
+              <div class="keydata" id="dpc">
+                <p class="value" style="color: #B22222;">555,555</p>
+                <p class="name">Predicted New Cases in 7 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "predic_cases.svg" %} type="text/svg">
+              </div>
+            </div>
+            <div class="container">
+              <div class="keydata" id="dpd">
+                <p class="value" style="color: #5b69ab;">55,555</p>
+                <p class="name">Predicted New Deaths in 7 Days</p>
+              </div>
+              <div class="graph">
+                <embed src={% static "predic_deaths.svg" %} type="text/svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="inner clearfix">
+          <div class="foot-left">
+            <div class="sitelogo">
+              <img src={% static "logo_white.svg" %} alt="ShanghaiTech University">
+            </div>
+            <div class="share">
+              <ul class="clearfix">
+                <li class="item">
+                  <a href="https://www.instagram.com/shanghaitechuniversity/" target="_blank">
+                    <div class="icon" style="background-position: -8px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="https://twitter.com/ShanghaiTechUni" target="_blank">
+                    <div class="icon" style="background-position: -50px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="https://www.linkedin.com/company/9372195" target="_blank">
+                    <div class="icon" style="background-position: -91px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="http://www.facebook.com/shanghaitech" target="_blank">
+                    <div class="icon" style="background-position: -128px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item" id="weixin">
+                  <div class="con" id="con">
+                    <img src={% static "wx.png" %} alt="QR Code" style="width: 100; height: 100;">
+                  </div>
+                  <a href="javascript:;" target="_blank">
+                    <div class="icon" style="background-position: -168px -5px;"></div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="http://www.facebook.com/shanghaitech" target="_blank">
+                    <div class="icon" style="background-position: -204px -5px;"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="foot-navi">
+            <div class="row clearfix">
+              <ul>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1005/list.htm" target="_self">Events</a>
+                </li>
+                <li class="item">
+                  <a href="https://jobs.shanghaitech.edu.cn/main.psp" target="_self">Career</a>
+                </li>
+                <li class="item">
+                  <a href="https://www.shanghaitech.edu.cn/eng/1000/main.htm" target="_self">Faculty</a>
+                </li>
+                <li class="item">
+                  <a href="https://www.shanghaitech.edu.cn/eng/administrative/list.htm" target="_self">Organizations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="clearfix">
+                <li class="item">
+                  <a href="http://egate.shanghaitech.edu.cn/" target="_self">Egate</a>
+                </li>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1024/list.htm" target="_blank">Calendar</a>
+                </li>
+                <li class="item">
+                  <a href="https://map.shanghaitech.edu.cn/" target="_blank">Campus Map</a>
+                </li>
+                <li class="item">
+                  <a href="http://www.shanghaitech.edu.cn/eng/1059/list.htm" target="_blank">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+
+    var status_code = 0;
+    var codemap = ['County', 'State'];
+    var urls = [
+      {
+        'Confirmed': "{{casesbycounty|safe}}",
+        'New Cases': "{{newcasesbycounty|safe}}",
+        'Deaths': "{{deathsbycounty|safe}}", 
+        'Death Rate': "{{deathratebycounty|safe}}", 
+        'Vaccined': "{{vactotalbycounty|safe}}", 
+        'Vaccine Rate': "{{vacratebycounty|safe}}"
+      }, 
+
+      {
+        'Confirmed': "{{casesbystate|safe}}",
+        'New Cases': "{{newcasesbystate|safe}}",
+        'Deaths': "{{deathsbystate|safe}}", 
+        'Death Rate': "{{deathratebystate|safe}}", 
+        'Vaccined': "{{vactotalbystate|safe}}", 
+        'Vaccine Rate': "https://cpc.people.com.cn"
+      }
+    ];
+    
+    var dataset = [ 
+      [
+        [
+          "{{casesbycountyname0|safe}}", "{{casesbycountyvalue0|safe}}", 
+          "{{casesbycountyname1|safe}}", "{{casesbycountyvalue1|safe}}", 
+          "{{casesbycountyname2|safe}}", "{{casesbycountyvalue2|safe}}", 
+          "{{casesbycountyname3|safe}}", "{{casesbycountyvalue3|safe}}", 
+          "{{casesbycountyname4|safe}}", "{{casesbycountyvalue4|safe}}", 
+          "{{casesbycountyname5|safe}}", "{{casesbycountyvalue5|safe}}", 
+          "{{casesbycountyname6|safe}}", "{{casesbycountyvalue6|safe}}", 
+          "{{casesbycountyname7|safe}}", "{{casesbycountyvalue7|safe}}", 
+          "{{casesbycountyname8|safe}}", "{{casesbycountyvalue8|safe}}", 
+          "{{casesbycountyname9|safe}}", "{{casesbycountyvalue9|safe}}", 
+        ],
+        [
+          "{{deathsbycountyname0|safe}}", "{{deathsbycountyvalue0|safe}}", 
+          "{{deathsbycountyname1|safe}}", "{{deathsbycountyvalue1|safe}}", 
+          "{{deathsbycountyname2|safe}}", "{{deathsbycountyvalue2|safe}}", 
+          "{{deathsbycountyname3|safe}}", "{{deathsbycountyvalue3|safe}}", 
+          "{{deathsbycountyname4|safe}}", "{{deathsbycountyvalue4|safe}}", 
+          "{{deathsbycountyname5|safe}}", "{{deathsbycountyvalue5|safe}}", 
+          "{{deathsbycountyname6|safe}}", "{{deathsbycountyvalue6|safe}}", 
+          "{{deathsbycountyname7|safe}}", "{{deathsbycountyvalue7|safe}}", 
+          "{{deathsbycountyname8|safe}}", "{{deathsbycountyvalue8|safe}}", 
+          "{{deathsbycountyname9|safe}}", "{{deathsbycountyvalue9|safe}}", 
+        ], 
+        [
+          "{{newcasesbycountyname0|safe}}", "{{newcasesbycountyvalue0|safe}}", 
+          "{{newcasesbycountyname1|safe}}", "{{newcasesbycountyvalue1|safe}}", 
+          "{{newcasesbycountyname2|safe}}", "{{newcasesbycountyvalue2|safe}}", 
+          "{{newcasesbycountyname3|safe}}", "{{newcasesbycountyvalue3|safe}}", 
+          "{{newcasesbycountyname4|safe}}", "{{newcasesbycountyvalue4|safe}}", 
+          "{{newcasesbycountyname5|safe}}", "{{newcasesbycountyvalue5|safe}}", 
+          "{{newcasesbycountyname6|safe}}", "{{newcasesbycountyvalue6|safe}}", 
+          "{{newcasesbycountyname7|safe}}", "{{newcasesbycountyvalue7|safe}}", 
+          "{{newcasesbycountyname8|safe}}", "{{newcasesbycountyvalue8|safe}}", 
+          "{{newcasesbycountyname9|safe}}", "{{newcasesbycountyvalue9|safe}}", 
+        ]
+      ], 
+
+      [
+        [
+          "{{casesbystatename0|safe}}", "{{casesbystatevalue0|safe}}", 
+          "{{casesbystatename1|safe}}", "{{casesbystatevalue1|safe}}", 
+          "{{casesbystatename2|safe}}", "{{casesbystatevalue2|safe}}", 
+          "{{casesbystatename3|safe}}", "{{casesbystatevalue3|safe}}", 
+          "{{casesbystatename4|safe}}", "{{casesbystatevalue4|safe}}", 
+          "{{casesbystatename5|safe}}", "{{casesbystatevalue5|safe}}", 
+          "{{casesbystatename6|safe}}", "{{casesbystatevalue6|safe}}", 
+          "{{casesbystatename7|safe}}", "{{casesbystatevalue7|safe}}", 
+          "{{casesbystatename8|safe}}", "{{casesbystatevalue8|safe}}", 
+          "{{casesbystatename9|safe}}", "{{casesbystatevalue9|safe}}", 
+        ], 
+        [
+          "{{deathsbystatename0|safe}}", "{{deathsbystatevalue0|safe}}", 
+          "{{deathsbystatename1|safe}}", "{{deathsbystatevalue1|safe}}", 
+          "{{deathsbystatename2|safe}}", "{{deathsbystatevalue2|safe}}", 
+          "{{deathsbystatename3|safe}}", "{{deathsbystatevalue3|safe}}", 
+          "{{deathsbystatename4|safe}}", "{{deathsbystatevalue4|safe}}", 
+          "{{deathsbystatename5|safe}}", "{{deathsbystatevalue5|safe}}", 
+          "{{deathsbystatename6|safe}}", "{{deathsbystatevalue6|safe}}", 
+          "{{deathsbystatename7|safe}}", "{{deathsbystatevalue7|safe}}", 
+          "{{deathsbystatename8|safe}}", "{{deathsbystatevalue8|safe}}", 
+          "{{deathsbystatename9|safe}}", "{{deathsbystatevalue9|safe}}", 
+        ], 
+        [
+          "{{newcasesbystatename0|safe}}", "{{newcasesbystatevalue0|safe}}", 
+          "{{newcasesbystatename1|safe}}", "{{newcasesbystatevalue1|safe}}", 
+          "{{newcasesbystatename2|safe}}", "{{newcasesbystatevalue2|safe}}", 
+          "{{newcasesbystatename3|safe}}", "{{newcasesbystatevalue3|safe}}", 
+          "{{newcasesbystatename4|safe}}", "{{newcasesbystatevalue4|safe}}", 
+          "{{newcasesbystatename5|safe}}", "{{newcasesbystatevalue5|safe}}", 
+          "{{newcasesbystatename6|safe}}", "{{newcasesbystatevalue6|safe}}", 
+          "{{newcasesbystatename7|safe}}", "{{newcasesbystatevalue7|safe}}", 
+          "{{newcasesbystatename8|safe}}", "{{newcasesbystatevalue8|safe}}", 
+          "{{newcasesbystatename9|safe}}", "{{newcasesbystatevalue9|safe}}",
+        ]
+      ], 
+
+      "{{updtime|safe}}"
+    ];
+    
+    var global_data = [
+      "{{totalcases|safe}}", "{{totaldeaths|safe}}", "{{totalnewcases|safe}}", 
+      "{{d14cases|safe}}", "{{d14deaths|safe}}", "{{d30cases|safe}}", "{{d30deaths|safe}}", "{{d90cases|safe}}", "{{d90deaths|safe}}", "{{prediccases|safe}}", "{{predicdeaths|safe}}"
+    ];
+
+    var global_map = [
+      "confirms", "deaths", "new-cases", 
+      "d14c", "d14d", "d30c", "d30d", "d90c", "d90d", "dpc", "dpd"
+    ];
+
+    var searchlist = [
+      [{{countynames|safe}}], 
+      [{{statenames|safe}}]
+    ];
+
+    var map_name = {
+      'Confirmed': "../infect map/display/infect map county case.html",
+      'New Cases': "../infect map/display/infect map county new case.html",
+      'Deaths': "../infect map/display/infect map county death.html", 
+      'Death Rate': "../infect map/display/infect map county death rate.html", 
+      'Vaccined': "../infect map/display/infect map county vac total.html", 
+      'Vaccine Rate': "../infect map/display/infect map county vac rate.html"
+    };
+
+    var datalist = ["Los Angeles", "San Diago", "San Francisco", "S1", "S2", "S3", 
+      "S4", "S5", "S6", "S7", "S8", "S9", "S10", "S11"];
+    
+    function getMousePos(event) {
+      var e = event || window.event;
+      var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+      var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+      var x = e.pageX || e.clientX + scrollX;
+      var y = e.pageY || e.clientY + scrollY;
+      return {"left": x, "top": y};
+    }
+
+    function getElementPos(elementId) {
+      var element = document.getElementById(elementId);
+      var scrollX = document.documentElement.scrollLeft || document.body.scrollLeft;
+      var scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+      var x = element.getBoundingClientRect().left + scrollX;
+      var y = element.getBoundingClientRect().top + scrollY;
+      return {"left": x, "top": y, "height": element.clientHeight, "width": element.clientWidth};
+    }
+
+    function academicsOn(event) {
+      sub_menu = document.getElementById("sub-menu");
+      academics_text = document.getElementById("academics-text");
+      children = sub_menu.children;
+      if (sub_menu.style.visibility != "visible") {
+        sub_menu.style.visibility = "visible";
+        sub_menu.style.opacity = "1";
+        academics_text.style.color = "#f1c400";
+        for (i = 0; i < children.length; i++) {
+          children[i].children[0].style.transform = "matrix(1, 0, 0, 1, 0, 0)";
+          children[i].children[0].style.opacity = "1";
+        }
+      }
+    }
+
+    function inElement(mouse_pos, element_pos) {
+      inX = ((element_pos['left'] <= mouse_pos['left']) && (mouse_pos['left'] <= element_pos['left'] + element_pos['width']));
+      inY = ((element_pos['top'] <= mouse_pos['top']) && (mouse_pos['top'] <= element_pos['top'] + element_pos['height']));
+      return inX && inY;
+    }
+
+    function turnOff() {
+      sub_menu = document.getElementById("sub-menu");
+      academics_text = document.getElementById("academics-text");
+      children = sub_menu.children;
+      sub_menu.style.visibility = "hidden";
+      sub_menu.style.opacity = "0";
+      academics_text.style.color = "#fff";
+      for (i = 0; i < children.length; i++) {
+        children[i].children[0].style.transform = "matrix(1, 0, 0, 1, 0, 20)";
+        children[i].children[0].style.opacity = "0";
+      }
+    }
+
+    function academicsOff(event) {
+      menu_pos = getElementPos("academics");
+      sub_menu_pos = getElementPos("sub-menu");
+      mouse_pos = getMousePos(event);
+      rect = {};
+      rect['top'] = menu_pos['top'] + menu_pos['height'];
+      rect['left'] = sub_menu_pos['left'];
+      rect['height'] = 13 + sub_menu_pos['height'];
+      rect['width'] = sub_menu_pos['width'];
+      if (!(inElement(mouse_pos, rect))) {
+        turnOff();
+      }
+    }
+
+    function subMenuOff(event) {
+      menu_pos = getElementPos("academics");
+      sub_menu_pos = getElementPos("sub-menu");
+      mouse_pos = getMousePos(event);
+      if (!(inElement(mouse_pos, menu_pos) && inElement(mouse_pos, sub_menu_pos))) {
+        turnOff();
+      }
+    }
+
+    var academics = document.getElementById("academics");
+    academics.addEventListener("mouseover", academicsOn);
+    academics.addEventListener("mouseout", academicsOff)
+    var sub_menu = document.getElementById("sub-menu");
+    sub_menu.addEventListener("mouseout", subMenuOff);
+
+    var share_wx = document.getElementById("weixin");
+    share_wx.addEventListener("mouseover", function(event) {
+      document.getElementById("con").style.display = "block";});
+    share_wx.addEventListener("mouseout", function(event) {
+      document.getElementById("con").style.display = "none";});
+
+    function chanegMap(element) {
+      var demo = document.getElementById("covid-map");
+      demo.src = map_name[element.id];
+      var select_form = document.getElementById("select-form");
+      var children = select_form.childNodes;
+      for (var i = 0; i < children.length; i++) {
+        var classlist = children[i].className;
+        if (typeof(classlist) != "undefined") {
+          if (classlist.indexOf(" active") >= 0) {
+            classlist = classlist.replace(" active", "");
+            children[i].className = classlist;
+          }
+        }
+      }element.className += " active";
+    }
+
+    function autocomplete(cur) {
+      var current_focus = -1;
+      var headpos = 0;
+      cur.addEventListener("input", function(event) {
+        var val = this.value;
+        closeAllLists();
+        if (!val) {return false;}
+        current_focus = -1;
+        var div = document.createElement("div");
+        div.setAttribute("id", "autocomplete-list");
+        div.setAttribute("class", "autocomplete-items");
+        this.parentNode.appendChild(div);
+        for (var i = 0; i < datalist.length; i++) {
+          if (datalist[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+            var new_div = document.createElement("div");
+            new_div.innerHTML = "<strong>" + datalist[i].substr(0, val.length) + "</strong>";
+            new_div.innerHTML += datalist[i].substr(val.length);
+            new_div.innerHTML += "<input type='hidden' value='" + datalist[i] + "'>";
+            new_div.addEventListener("click", function(event) {
+              cur.value = this.getElementsByTagName("input")[0].value;
+              closeAllLists();
+            });
+            div.appendChild(new_div);
+          }
+        }if (div.childElementCount > 5) {
+          div.style.height = "195px";
+          div.style.overflowY = "scroll";
+          div.style.overflowX = "hidden";
+        }
+      });
+      cur.addEventListener("keydown", function(event) {
+        var father = document.getElementById("autocomplete-list");
+        if (father == null) {
+          if (event.keyCode == 13) {
+            btn = document.getElementById("handin");
+            handin(btn);
+          }return false;
+        }var divlist = father.getElementsByTagName("div");
+        if (event.keyCode == 40) {
+          current_focus++;
+          if (current_focus >= headpos + 5) {
+            if (father.scrollTop + 39 < father.scrollHeight) {
+              father.scrollTop += 39;
+              headpos++;
+            }
+          } addActive(divlist);
+        } else if (event.keyCode == 38) {
+          current_focus--;
+          if (current_focus < headpos) {
+            if (father.scrollTop - 39 >= 0) {
+              father.scrollTop -= 39;
+              headpos--;
+            }
+          } addActive(divlist);
+        } else if (event.keyCode == 13) {
+          event.preventDefault();
+          if (current_focus > -1) {
+            if (divlist) {divlist[current_focus].click();}
+          }else {
+            btn = document.getElementById("handin");
+            handin(btn);
+          }
+        }
+      });
+      function addActive(divlist) {
+        father = document.getElementById("autocomplete-list");
+        if (!divlist) {return false;}
+        removeActive(divlist);
+        if (current_focus >= divlist.length) {
+          current_focus = 0;
+          headpos = 0;
+          father.scrollTop = 0;
+        }else if (current_focus < 0) {
+          current_focus = (divlist.length - 1);
+          headpos = father.childElementCount -5;
+          father.scrollTop = father.scrollHeight;
+        }divlist[current_focus].classList.add("autocomplete-active");
+      }
+      function removeActive(divlist) {
+        for (var i = 0; i < divlist.length; i++) {
+          divlist[i].classList.remove("autocomplete-active");
+        }
+      }
+      function closeAllLists(elem) {
+        var children = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < children.length; i++) {
+          if (elem != children[i] && elem !=cur) {
+            children[i].parentNode.removeChild(children[i]);
+          }
+        }
+      }
+      document.addEventListener("click", function(event) {
+        closeAllLists(event.target);
+      });
+    }
+
+    autocomplete(document.getElementById("inputbox"));
+
+    function isexist(s) {
+      for (var i = 0; i < datalist.length; i++) {
+        if (datalist[i].toUpperCase() == s.toUpperCase()) {
+          return true;
+        }
+      }return false;
+    }
+
+    function handin(element) {
+      input = document.getElementById("inputbox");
+      val = input.value;
+      if (isexist(val)) {
+        window.open("./" + codemap[status_code].toLowerCase() + "/" + val);
+      }else {
+        if (status_code) {
+          alert("No such region in the United States!");
+        } else {
+          var last, cnt = 0;
+          for (var i = 0; i < datalist.length; i++) {
+            s = datalist[i].split(", ");
+            s = s[0];
+            if (s.toUpperCase() == val.toUpperCase()) {
+              cnt++;
+              last = datalist[i];
+            }
+          } if (cnt > 1) {
+            last = last.split(", ");
+            last = last[0];
+            alert("There are " + String(cnt) + " counties named " + last + ".\nPlease type in the state it belongs to");
+          } else if (cnt == 1) {
+            window.open("./" + codemap[status_code].toLowerCase() + "/" + last);
+          } else {
+            alert("No such region in the United States!");
+          }
+        }
+      }
+    }
+
+    function modify(name, data) {
+      var rank = document.getElementById(name + "-rank");
+      rank = rank.getElementsByTagName("div");
+      var title = rank[0].getElementsByTagName("p");
+      title[0].innerHTML = title[0].innerHTML.replace(codemap[status_code ^ 1], codemap[status_code]);
+      for (var i = 1; i < rank.length; i++) {
+        children = rank[i].getElementsByTagName("p");
+        children[0].innerHTML = data[(i - 1) * 2 + 1];
+        children[1].innerHTML = data[(i - 1) * 2];
+      }
+    }
+
+    function update() {
+      var now_data = dataset[status_code];
+      document.getElementById("update-time").innerHTML = dataset[2];
+      for (var i = 0; i <= 2; i++) {
+        modify(global_map[i], now_data[i]);
+      }
+    }
+
+    function setup(id, loc) {
+      var head = document.getElementById(global_map[id]);
+      head = head.getElementsByTagName("p");
+      head[loc].innerHTML = global_data[id];
+    }
+
+    function init() {
+      for (var i = 0; i <= 10; i++) {
+        var loc = 1;
+        if (i >= 3) {loc = 0;}
+        setup(i, loc);
+      }map_name = urls[status_code];
+      datalist = searchlist[status_code];
+      update();
+      resetMap();
+    }
+
+    document.onload = init();
+
+    function findActive(divlist) {
+      for (var i = 0; i < divlist.length; i++) {
+        var classlist = divlist[i].className;
+        if (typeof(classlist) != "undefined") {
+          if (classlist.indexOf(" active") >= 0) {
+            return divlist[i];
+          }
+        }
+      }
+    }
+
+    function resetMap() {
+      var demo = document.getElementById("covid-map");
+      var select_form = document.getElementById("select-form");
+      var obj = findActive(select_form.childNodes);
+      demo.src = map_name[obj.id];
+    }
+
+    function changeStatus() {
+      status_code ^= 1;
+      map_type = document.getElementById("map-type");
+      map_type = map_type.getElementsByTagName("div");
+      map_type[2].className = map_type[2].className.replace(" active", "");
+      map_type[3].className = map_type[3].className.replace(" active", "");
+      map_type[2 + status_code].className += " active";
+      map_name = urls[status_code];
+      datalist = searchlist[status_code];
+      update();
+      resetMap();
+      if (status_code) {
+        document.getElementById("Vaccine Rate").style.display = "none";
+        if (document.getElementById("Vaccine Rate").className.indexOf(" active") > -1) {
+          document.getElementById("Vaccine Rate").className = document.getElementById("Vaccine Rate").className.replace(" active", "");
+          document.getElementById("Confirmed").className += " active";
+          resetMap();
+        } map_type = document.getElementById("map-type");
+        map_type.style.marginRight = "1.5px";
+      } else {
+        document.getElementById("Vaccine Rate").style.display = "block";
+        map_type = document.getElementById("map-type");
+        map_type.style.marginRight = "0";
+      }
+    }
+
+  </script>
+</body>
+</html>
